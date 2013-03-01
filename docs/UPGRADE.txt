@@ -1,0 +1,240 @@
++--------------------------------------------------------
+| 	CubeCart v5 Upgrade Guide
++--------------------------------------------------------
+
+Requirements:
+
+	PHP 5.2.3 ³ (Scripting Language)
+	MySQL 4.1 ³ (Database Server)
+	Linux / Unix with Apache Web Server (or compatible)
+	Zend Optimizer and/or Ioncube - One or both of these are normally included 
+	with your web hosting account. Please check with your hosting provider. 
+	
+Recommended:
+	
+	Curl with SSL support required for some shipping/payment modules.
+	
++--------------------------------------------------------
+| 	Contents
++--------------------------------------------------------
+
+1. Upgrading from Version 3.0.x
+2. Upgrading from Version 4.x.x
+3. Upgrading Version 5.x to the latest version
+
+For support, please visit http://www.cubecart.com
+
++--------------------------------------------------------
+| 	1. Upgrading from Version 3.0.x
++--------------------------------------------------------
+
+a.  Take a FULL backup of your existing files and database and check that 
+	it is complete. This is critical in case the upgrade process fails or
+	there is an error. 
+	
+b.	Please delete the following folders and files:
+
+	Folders:
+	
+		admin/
+		classes/
+		docs/
+		extra/
+		images/general
+		images/logos
+		images/random
+		includes/boxes
+		includes/content
+		js/
+		modules/
+		pear/ (If it exists)
+		skins/
+	
+	Files:
+	
+		cart.php
+		confirmed.php
+		download.php
+		index.php
+		includes/currencyVars.inc.php
+		includes/functions.inc.php
+		includes/orderSuccess.inc.php
+		includes/session.inc.php
+		includes/sessionStart.inc.php
+		includes/sslSwith.inc.php
+		offLine.php
+		switch.php
+	
+	This should just leave the following folders:
+	
+		images/
+		includes/
+		language/
+	
+c.	Upload the entire contents of this folder over the remaining files 
+	replacing all existing ones.
+	
+d.	Please make sure the following folders are writable by the web browser. 
+
+		cache/
+		files/
+		images/
+		images/cache/
+		images/logos/
+		images/source/
+		images/uploads/
+		includes/
+		includes/extra/
+	
+	If you have a Windows Server you may be able to ignore this step. If you have a Linux/Unix 
+	environment please make sure these have a chmod value of 0777. Please use 0755 if Suhosin is
+	operating on the server. 
+	
+e. 	Once that has completed in full please browse to the setup folder of your store. 
+
+	Examples:
+	
+		http://www.example.com/setup/
+		http://store.example.com/setup/
+		http://www.example.com/shop/setup/
+	
+	Note: FTP can time out so please check the FTP log if available to make sure it
+	completed successfully. 
+	
+f.	If all files have uploaded successfully the setup page should load. Please select 
+	"Upgrade CubeCart" and follow the on screen instructions.
+	
+g. 	Once complete please delete the setup/ folder to keep your store secure.
+	
+For support please visit http://www.cubecart.com
+
++--------------------------------------------------------
+| 	Upgrading from Version 4.x.x
++--------------------------------------------------------
+
+a.  Take a FULL backup of your existing files and database and check that 
+	it is complete. This is critical in case the upgrade process fails or
+	there is an error. 
+	
+b.	Please delete the following folders and files, if they exist:
+
+	Folders:
+	
+		admin/
+		classes/
+		docs/
+		images/admin/
+		images/general/
+		images/icons/
+		images/lightbox/
+		images/random/
+		includes/boxes/
+		includes/content/
+		includes/global/
+		includes/remote/
+		js/
+		modules/
+		skins/
+		
+	Files:
+	
+		admin.php
+		admin_enc_ion.php
+		admin_enc_zend.php
+		Changelog.txt
+		compat-test.php
+		Credits.txt
+		images/getLogo.php
+		includes/currencyVars.inc.php
+		includes/functions.inc.php
+		includes/sef_urls.inc.php
+		includes/sslSwitch.inc.php
+		index.php
+		index_enc_ion.php
+		index_enc_zend.php
+		Read Me.txt
+		spiders.txt
+		Updated-files.txt
+		xml.php
+		
+	This should just leave the following folders and files aside from those which are not 
+	related to CubeCart which you may wish to keep:
+	
+		cache/
+		images/
+		includes/
+		language/
+		ini.inc.php
+		ioncube/
+	
+c.	Upload the entire contents of this folder over the remaining files 
+	replacing all existing ones.
+	
+d.	Please make sure the following folders are writable by the web browser. 
+
+		backup/
+		cache/
+		files/
+		images/
+		images/cache/
+		images/logos/
+		images/source/
+		images/uploads/
+		includes/
+		includes/extra/
+		language/
+	
+	If you have a Windows Server please you may be able to ignore this step. Some web servers 
+	will need to be granted permission. If you have a Linux/Unix  environment please make sure 
+	these have a chmod value of 0777. Please use 0755 if Suhosin is operating on the server. 
+	
+e. 	Once that has completed in full please browse to the setup folder of your store. 
+
+	Examples:
+	
+		http://www.example.com/setup/
+		http://store.example.com/setup/
+		http://www.example.com/shop/setup/
+	
+	Note: FTP can time out so please check the FTP log if available to make sure it
+	completed successfully. 
+	
+f.	If all files have uploaded successfully the setup page should load. Please select 
+	"Upgrade CubeCart" and follow the on screen instructions.
+	
+g. 	Once complete please delete the /setup folder to keep your store
+	secure.
+
++--------------------------------------------------------
+| 	Upgrading Version 5.x to the latest version
++--------------------------------------------------------
+
+a.  Take a FULL backup of your existing files and database and check that 
+	it is complete. This is critical in case the upgrade process fails or
+	there is an error. 
+	
+b.	Upload the entire contents of this folder over your existing files 
+	replacing all existing ones.
+	
+	IMPORTANT: If you renamed your admin folder or admin.php file you must do this prior 
+	to uploading the new files and your store will work as before.  
+	
+c. 	Once that has completed in full please browse to the setup/ folder of your store. 
+
+	Examples:
+	
+		http://www.example.com/setup/
+		http://store.example.com/setup/
+		http://www.example.com/shop/setup/
+	
+	Note: FTP can time out so please check the FTP log if available to make sure it
+	completed successfully. 
+	
+d.	If all files have uploaded successfully the setup page should load. Please select 
+	"Upgrade CubeCart" and follow the on screen instructions.
+	
+e. 	Once complete please delete the setup/ folder to keep your store secure.
+
++--------------------------------------------------------
+
+For support please visit http://www.cubecart.com

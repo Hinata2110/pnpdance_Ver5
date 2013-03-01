@@ -1,0 +1,1 @@
+{include scope=parent file="skins/{$SKIN_FOLDER}/templates/modules/gateway/Common/form.tpl"}

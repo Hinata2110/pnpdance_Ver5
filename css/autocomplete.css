@@ -1,0 +1,88 @@
+/*-----------------------------------------------------------------------------
+ * autocomplete.css
+ *-----------------------------------------------------------------------------
+ * Author:   Estelle Winterflood
+ * Email:    cubecart@expandingbrain.com
+ * Store:    http://cubecart.expandingbrain.com
+ *-----------------------------------------------------------------------------
+ * Date:     January 29, 2008
+ *-----------------------------------------------------------------------------
+ */
+
+div.autocomplete {
+    position:absolute;
+    width:250px;
+    background-color:white;
+    border:1px solid #888;
+    margin:0px;
+    padding:0px;
+}
+ul.autocomplete  {
+    list-style-type: none;
+    margin:0px;
+    padding:0px;
+}
+/* sizing, layout */
+ul.autocomplete li {
+    list-style-type: none;
+    display:block;
+    margin:0;
+    padding:2px;
+    list-style-position: outside;
+    clear:left;
+    cursor:hand;
+    cursor:pointer;
+    overflow:hidden;
+}
+/* double line display, with images */
+ul.autocomplete li div.image {
+    float:left;
+    width:32px;
+    height:32px;
+}
+ul.autocomplete li div.first-line {
+    font-weight:normal;
+    font-size:11px;
+    line-height:1.2em;
+    margin-left:40px;
+    margin-bottom:4px;
+}
+ul.autocomplete li div.first-line div.right {
+    text-align:right;
+    height:13px;
+    padding-top:4px;
+    padding-right:2px;
+}
+ul.autocomplete li div.second-line {
+    font-size:9px;
+    color:#888;
+    margin-left:40px;
+}
+/* single line display, no images */
+ul.autocomplete li div.single-line {
+    font-weight:normal;
+    font-size:12px;
+    margin-left:2px;
+}
+ul.autocomplete li div.right {
+    font-size:11px;
+    float: right;
+    text-align:right;
+    margin-right:2px;
+}
+/* selected entry */
+ul.autocomplete li.selected {
+    background-color: #444;
+    color: #fff;
+}
+ul.autocomplete li.selected .second-line {
+    color:#ccc;
+}
+/* highlighted parts */
+ul.autocomplete li .queried {
+    font-weight: bold;
+}
+ul.autocomplete li.selected .queried {
+    color: #9FCFFF;
+}
+

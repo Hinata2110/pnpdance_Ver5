@@ -1,0 +1,1703 @@
+AWSTATS DATA FILE 6.9 (build 1.925)
+# If you remove this file, all statistics for date 201109 will be lost/reset.
+
+# Position (offset in bytes) in this file of beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1864                
+POS_TIME 2559                
+POS_VISITOR 24412               
+POS_DAY 50146               
+POS_DOMAIN 3542                
+POS_LOGIN 3778                
+POS_ROBOT 3972                
+POS_WORMS 4847                
+POS_EMAILSENDER 4978                
+POS_EMAILRECEIVER 5121                
+POS_SESSION 51073               
+POS_SIDER 51289               
+POS_FILETYPES 5256                
+POS_OS 5539                
+POS_BROWSER 5765                
+POS_SCREENSIZE 6364                
+POS_UNKNOWNREFERER 6438                
+POS_UNKNOWNREFERERBROWSER 7255                
+POS_ORIGIN 7739                
+POS_SEREFERRALS 7891                
+POS_PAGEREFS 8102                
+POS_SEARCHWORDS 11802               
+POS_KEYWORDS 12426               
+POS_MISC 2221                
+POS_ERRORS 12830               
+POS_CLUSTER 3634                
+POS_SIDER_404 13010               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20111001000807 370309 113669332 51692883287
+FirstTime 20110901042351
+LastTime 20110930235922
+LastUpdate 20111014231704 370309 370240 64 0 4
+TotalVisits 1715                
+TotalUnique 410                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 775                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 102 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 100 376 4938768 121 187 2229127
+1 70 387 3526474 103 132 1633346
+2 112 543 5475589 135 185 2445897
+3 300 1246 64724290 136 278 4125335
+4 669 3020 19030953 271 363 3828770
+5 480 3097 16189649 119 264 3136588
+6 353 2371 17118648 238 370 3328432
+7 176 1447 20144639 127 265 3235596
+8 1267 5813 50162912 258 484 3889800
+9 2752 8456 50986294 755 878 7343482
+10 1953 6875 47716746 311 556 4554500
+11 236 1654 18371774 92 169 2936433
+12 378 2605 22777884 111 198 2868567
+13 462 1909 24045765 168 228 2287070
+14 513 2932 25085344 114 222 3255432
+15 1082 7019 28172893 170 256 2865137
+16 235 1001 13890437 113 225 3049637
+17 162 487 9071244 80 194 3361805
+18 163 466 8170964 125 199 2274838
+19 204 809 12953969 131 252 2588277
+20 92 255 2739810 109 205 3410148
+21 74 164 1593601 82 169 3025302
+22 115 265 3230611 96 204 3951523
+23 106 313 3123206 217 268 2025654
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 12054 53510 473242464
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 1
+pnpdancecom 3 139 97508 20110926033415
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 20
+googlebot 2046 28298397 20110930220003 100
+baiduspider 977 24514786 20110930224129 0
+bot[+:,\.\;\/\\-] 376 8299831 20110930153917 5
+cfnetwork 310 2220617 20110926070935 0
+yandex 202 3915797 20110930204635 14
+slurp 158 2819561 20110930134919 0
+internetseer 105 106116 20110930190402 0
+powermarks 63 638609 20110909073704 0
+java 59 3228753 20110926054647 0
+no_user_agent 38 148089 20110916103925 0
+spider 27 34506 20110930043258 0
+msnbot 1 3465 20110905102252 0
+unknown 11 4460 20110924080813 11
+[+:,\.\;\/\\-]bot 3 1461 20110909151242 2
+robot 4 2028 20110920234739 2
+surveybot 12 227422 20110924210629 3
+larbin 4 109653 20110910094359 1
+mj12bot 14 7145 20110928155956 7
+msnbot\-media 4 9331 20110928213514 0
+netcraft 2 108592 20110926184926 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 11
+css 8982 8427493 0 0
+png 15488 46813296 0 0
+pl 44 2773734 0 0
+php 10036 123505562 0 0
+zip 1 45048682 0 0
+html 1752 4230515 0 0
+xml 134 527612 0 0
+js 4574 19377702 0 0
+jpg 3780 218333932 0 0
+Unknown 221 999798 0 0
+gif 8498 3204138 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 16
+winxp 12220
+winlong 6872
+win2000 884
+winnt 495
+linuxubuntu 1
+win98 146
+linux 206
+linuxfedora 23
+macosx 27308
+winme 187
+win16 114
+win95 231
+wince 102
+win2003 530
+Unknown 505
+win2008 3686
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 38
+msie6.0 3771
+firefox5.0 187
+firefox3.8 1
+firefox3.6 35
+chrome 26269
+firefox3.0.14 24
+msie4.01 80
+msie3.02 102
+firefox3.5.3 64
+applesyndication 121
+netscape4.76 24
+msie8.0 2434
+firefox6.0.2 5415
+netscape0.91 22
+firefox6.0.1 75
+msie7.0 6741
+msie2.0 41
+msie5.0 207
+wget 22
+msie9.0 1326
+Unknown 259
+firefox3.5.6 1
+firefox2.0.0.20 2
+opera 1610
+firefox3.0 1
+firefox3.6.21 26
+firefox3.6.16 53
+firefox3.5.2 1
+msie5.5 341
+netscape4.79 39
+firefox1.0 4
+mozilla 350
+netscape5.0 2
+firefox5.0.1 1013
+firefox3.0.10 168
+safari 2587
+firefox3.6.8 91
+firefox3.6.13 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 11
+Mozilla/0.91_Beta_(Windows) 20110927010806
+Mozilla/4.0_(compatible;_http://search.thunderstone.com/texis/websearch/about.html) 20110913163027
+Mozilla/5.0_(compatible;_AboutUsBot_Johnny5/2.0;__http://www.AboutUs.org/) 20110925014630
+facebookexternalhit/1.1_(_http://www.facebook.com/externalhit_uatext.php) 20110924135754
+Gootkit_auto-rooter_scanner 20110923234937
+facebookexternalhit/1.0_(_http://www.facebook.com/externalhit_uatext.php) 20110930125511
+Mozilla/4.0_(compatible;) 20110930190635
+Wget/1.9_cvs-stable_(Red_Hat_modified) 20110906230201
+BlackBerry9000/4.6.0.167_Profile/MIDP-2.0_Configuration/CLDC-1.1_VendorID/102_ips-agent 20110912091641
+Drupal_(_http://drupal.org/) 20110929044349
+Apple-PubSub/65.28 20110930235922
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 6
+facebookexternalhit/1.1_(_http://www.facebook.com/externalhit_uatext.php) 20110924135754
+Gootkit_auto-rooter_scanner 20110923234937
+facebookexternalhit/1.0_(_http://www.facebook.com/externalhit_uatext.php) 20110930125511
+BlackBerry9000/4.6.0.167_Profile/MIDP-2.0_Configuration/CLDC-1.1_VendorID/102_ips-agent 20110912091641
+Drupal_(_http://drupal.org/) 20110929044349
+Apple-PubSub/65.28 20110930235922
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 1431 7684
+From1 0 0
+From2 82 82
+From3 6941 32337
+From4 3600 13407
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 6
+google 64 64
+search 4 4
+mywebsearch 2 2
+aol 3 3
+yandex 4 4
+ask 5 5
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 68
+http://mflphotos.com/gallery2/main.php 6467 26265
+http://www.mflphotos.com/Home.html 80 925
+http://www.mflphotos.com/Secure_Galleries.html 60 864
+http://www.mflphotos.com 40 40
+http://www.ebay.co.uk/sch/i.html 35 35
+http://www.mflphotos.com/Portfolio/Portfolio.html 26 261
+http://www.blingkinikids.com/admin.php 25 220
+http://www.mflphotos.com/schedule/edit_users.php 14 65
+http://www.mflphotos.com/MFL_Photos/Secure_Galleries.html 13 112
+http://www.mflphotos.com/schedule/week.php 11 38
+http://blingkinikids.com 3 9
+http://www.blingkinikids.com/setup/index.php 6 45
+http://www.mflphotos.com/MFL_Photos/schedule/blackouts.php 1 9
+http://www.blingkinikids.com/js/common.js 0 4
+http://www.blingkinikids.com/skins/mican/js/script.js 0 4
+http://www.amazon.co.uk/s/ref=nb_sb_noss 1 1
+http://www.mflphotos.com/Contact_Me.html 3 19
+http://www.mflphotos.com/MFL_Photos/Contact_Me.html 6 42
+http://www.ebay.co.uk/sch/Dresses-/63861/i.html 1 1
+http://www.mflphotos.com//Home_files/widget1_markup.html 0 289
+http://searcht2.aol.co.uk/aol/search 1 1
+http://www.mflphotos.com/About_Me.html 7 71
+http://www.cleaningserviceslasvegas.net 1 1
+http://www.mflphotos.com/MFL_Photos/schedule/install/index.php 4 74
+http://www.ebay.co.uk/sch/Girls-Clothing-/11462/i.html 1 1
+http://www.mflphotos.com/MFL_Photos/schedule/ 2 18
+http://www.facebook.com/l.php 9 9
+http://www.polandse.unixstorm.org 1 1
+http://mflphotos.com/gallery2/themes/carbon/theme.css 0 1098
+http://www.supaprice.co.uk/p/result.jsp 1 1
+http://www.mflphotos.com/Portfolio/Pages/People.html 4 297
+http://mflphotos.com/gallery2/modules/icons/iconpacks/silk/icons.css 0 547
+http://www.mflphotos.com/Portfolio/Pages/Places_etc.html 0 67
+http://www.mflphotos.com/MFL_Photos/schedule/register.php 5 39
+http://www.mflphotos.com/MFL_Photos/schedule/schedule.php 5 41
+http://www.mflphotos.com/MFL_Photos/schedule/ctrlpnl.php 10 99
+http://www.ebay.co.uk/sch/Fancy-Dress-/19254/i.html 1 1
+http://www.blingkinikids.com/index.php 10 108
+http://www.karkonosze.karpacz.karpacz.pl 1 1
+http://www.mflphotos.com/Info_%26_Prices.html 9 142
+http://www.talktalk.co.uk/search/results.html 1 1
+http://www.mflphotos.com/MFL_Photos/schedule/install/ 7 54
+http://heritagemp.com 1 1
+http://www.polandtourism.pl 3 3
+http://www.polandtourism.pl/przemysl-i-produkcja-k268.html 1 1
+http://biznesowy.nit84.net84.net 1 1
+http://www.mflphotos.com/MFL_Photos/Info_%26_Prices.html 3 23
+http://www.mflphotos.com/Media/slideshow.html 0 17
+http://www.ebay.co.uk/sch/Clothes-Shoes-Accessories-/11450/i.html 2 2
+http://www.mflphotos.com/Printing_Offers.html 4 43
+http://www.mflphotos.com/MFL_Photos/Home.html 7 55
+http://www.fabian-lovely.co.uk/Mark_and_Kerrys_Little_Space/Wedding_Photos/Wedding_Photos.html 0 10
+http://www.blingkinikids.com 4 4
+http://www.mflphotos.com/MFL_Photos/schedule/forgot_pwd.php 3 17
+http://www.ebay.co.uk/sch/Dancewear-Accessories-/112425/i.html 4 4
+http://www.ebay.co.uk/sch/Childrens-Dancewear-/112426/i.html 2 2
+http://www.mflphotos.com/MFL_Photos/schedule/mycalendar.php 2 22
+http://www.bing.com/search 8 8
+http://www.blingkinikids.com/js/plugins.php 4 4
+http://www.mflphotos.com/Portfolio/streamloader.html 0 100
+http://www.gumtree.com/cgi-bin/list_postings.pl 3 3
+http://members.ipage.com/webControl/VisitorStats.bml 1 1
+http://wroclaw.super.jgora.pl 1 1
+http://prezi.com/bin/loader-4151.swf/[[DYNAMIC]]/1 0 1
+http://www.mflphotos.com/MFL_Photos/schedule/index.php 11 74
+http://superanskie.koparki.pomorskie.pl 1 1
+http://britomartis.php.rzeszow.pl 1 1
+http://www.mflphotos.com/MFL_Photos/schedule/admin.php 2 18
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 21
+pnpdance.com 4
+dance+costumes 2
+dance+wear 2
+freestyle+dance+costumes 2
+dance+costumes+for+competition 2
+princess+and+pickle 2
+search 1
+tap+dance+costumes 1
+forum.pnpdance.com 1
+i.s.t.d.+dance+costumes+for+sale 1
+acrobatic+dance+costumes 1
+we+will+rock+you+dance+costume 1
+live+by+memories+images 1
+mfl+pics 1
+princess+pickle+dance+costumes 1
+photos+memory+of+life 1
+dance+tops 1
+ballet+costumes 1
+memories+by+flea+life+pictures 1
+mfl+photos 1
+2008-03-22t16+09+00+0000 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 39
+dance 14
+costumes 11
+pnpdance.com 4
+for 3
+princess 3
+pickle 3
+mfl 2
+by 2
+and 2
+life 2
+search 1
+you 1
+ballet 1
+tap 1
+rock 1
+images 1
+acrobatic 1
+memory 1
+00 1
+photos 2
+sale 1
+of 1
+forum.pnpdance.com 1
+we 1
+2008-03-22t16 1
+pics 1
+0000 1
+will 1
+memories 2
+competition 2
+tops 1
+flea 1
+i.s.t.d. 1
+costume 1
+wear 2
+live 1
+freestyle 2
+pictures 1
+09 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 8
+403 32 26474
+503 19 39601
+206 35 931260
+307 8 2050
+302 473 159952
+500 2 0
+404 1124 1732139
+301 642 60601
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 273
+/mysql/admin/ 1 -
+/db/phpmyadmin/ 1 -
+/MFL_D 1 -
+/mysql/dbadmin/ 1 -
+/Mark_and_Kerrys_Little_Space/Scripts/iWebMediaGrid.js 1 http://www.fabian-lovely.co.uk/Mark_and_Kerrys_Little_Space/Wedding_Photos/Wedding_Photos.html
+/mysqladmin/ 1 -
+/forum/buysell/chat/flashchat.php 1 http://www.pnpdance.com/forum/buysell/index.php
+/web/ 1 -
+/~/admin/ 1 -
+/arch 1 -
+/MacintoshHD/Users/Mark/Desktop/Working%20Directory/PnP%20Dance/pnpdance_LIVE/MFL_Gallery/images/Portfolio-2.jpg 1 -
+/MacintoshHD/Users/Mark/Desktop/Working%20Directory/PnP%20Dance/pnpdance_LIVE/MFL_Gallery/nivo/images/Portfolio-7.jpg 5 -
+/archive 1 -
+/database/database/ 1 -
+/Nivo//js/jquery-1.4.3.min.js 1 -
+/Nivo/c 1 -
+/MacintoshHD/Users/Mark/Desktop/Working%20Directory/PnP%20Dance/pnpdance_LIVE/MFL_Gallery/images/slider_images/Portfolio-3.jpg 4 -
+/g 1 -
+/Nivo/images/01.jpg 1 -
+/3rdparty/phpMyAdmin/ 1 -
+/PHPMYADMIN/ 1 -
+/schedule/index.php 2 -
+/cpadmin/ 1 -
+/schedule/index.p 1 -
+/th1s_1s_a_4o4.html 27 http://www.google.com
+/MFL_allery 1 -
+/Mark_and_Kerrys_Little_Space/Photo_Albums/Photo_Albums.html 2 -
+/MFL_Photography/Home.html 2 -
+/Mark_and_Kerrys_Little_Space/About_Us.html 1 -
+/administrator/web/ 1 -
+/database/phpMyAdmin2/ 1 -
+/sql/phpMyAdmin/ 1 -
+/MFL_Gallery/images/slider_images/portfolio-7.jpg 6 http://pnpdance.com/MFL_Gallery/
+/forum/buysell/images/spacer.gif 7 http://www.pnpdance.com/forum/buysell/single_ad.php
+/schedule/index. 1 -
+/3rdparty/pma2005/ 1 -
+/myadmin/ 1 -
+/db/db-admin/ 1 -
+/db/phpmyadmin2/ 1 -
+/db/phpMyAdmin-2/ 1 -
+/administrator/ 1 -
+/j 1 -
+/Marks_Photography/Nivo/css/nivo-slider.css 22 http://www.mflphotos.com//Home_files/widget1_markup.html
+/sql/phpmyadmin2/ 1 -
+/sql/sqladmin/ 1 -
+/Marks_Photography/Nivo/images/loading.gif 17 http://www.mflphotos.com//Home_files/widget1_markup.html
+/MFL_Gallery/images/slider_images/portfolio-2.jpg 6 http://pnpdance.com/MFL_Gallery/
+/phpmy/ 1 -
+/schedule/inde 1 -
+/db/phpMyAdmin2/ 1 -
+/sqlweb/ 1 -
+/Nivo/js/jquery-1.4.3.min.js 9 -
+/phppma/ 1 -
+/MacintoshHD/Users/Mark/Desktop/Working%20Directory/PnP%20Dance/pnpdance_LIVE/MFL_Gallery/images/slider_images/Portfolio-1.jpg 3 -
+/archive.zi 1 -
+/index.html 2 -
+/sql/webadmin/ 1 -
+/db/webdb/ 1 -
+/sql/sqlweb/ 1 -
+/cpdbadmin/ 1 -
+/forum/ucp.php 1 http://www.pnpdance.com/forum/ucp.php
+/MFL_Drupal/themes/fusion_core/logo.png 19 -
+/MFL_Gallery/nivo/nivo-slider.css 3 http://pnpdance.com/MFL_Gallery/
+/mysql/pMA/ 1 -
+/PMA/ 1 -
+/offLine.php 1 -
+/mysql/db/ 1 -
+/MFL_Gallery/stylesheets/images/top.jpg 5 http://pnpdance.com/MFL_Gallery/
+/archive.zip 2 -
+/scheduld 1 -
+/database/phpMyAdmin/ 1 -
+/MFL_Gallery/images/slider_images/portfolio-3.jpg 6 http://pnpdance.com/MFL_Gallery/
+/db/dbweb/ 1 -
+/Marks_Photography/Nivo/js/jquery-1.4.3.min.js 22 http://www.mflphotos.com//Home_files/widget1_markup.html
+/~/phpadmin/ 1 -
+/forum/louise-u67/ 2 -
+/cpphpmyadmin/ 1 -
+/M 2 -
+/recaptcha/api/forum/ 1 http://www.pnpdance.com/forum/ucp.php
+/robots.txt 342 -
+/SQL/ 1 -
+/sql/sql/ 1 -
+/ar 1 -
+/Nivo/js/jquery.nivo.slider.pack.js 9 -
+/images/photographer_taking_pictures_flash_hg_clr.gif 4 -
+/ga 3 -
+/db/ 1 -
+/MyAdmin/ 1 -
+/MFL_ 2 -
+/sql/phpMyAdmin2/ 1 -
+/Nivo/css/nivo-slider.css 11 -
+/sql/webdb/ 1 -
+/f 2 -
+/mysql/mysqlmanager/ 1 -
+/websql/ 1 -
+/forum/b 1 -
+/forum/calendar.php 21 -
+/MacintoshHD/Users/Mark/Desktop/Working%20Directory/PnP%20Dance/pnpdance_LIVE/MFL_Gallery/images/slider_images/Portfolio-6.jpg 2 -
+/forum/buysell/scripts/jquery.nivo.slider.js 55 -
+/phpmyadmin2/ 1 -
+/3rdparty/ 1 -
+/sql/php-myadmin/ 1 -
+/sql/sql-admin/ 1 -
+/forum/misc.php 2 http://www.pnpdance.com/forum/misc.php
+/admin/sqladmin/ 1 -
+/3rdparty/myadmin/ 1 -
+/forum/forum.php 5 http://www.pnpdance.com/forum/forum.php
+/N 1 -
+/forum/clientscript/yui/history/assets/blank.html 1 -
+/mysql/pma/ 1 -
+/php-my-admin/ 1 -
+/schedule/index.ph 1 -
+/Nivo/ 4 -
+/MFL_Gallery/nivo/jquery.nivo.slider.pack.js 3 http://pnpdance.com/MFL_Gallery/
+/MFL_Gallery/images/slider_images/portfolio-6.jpg 6 http://pnpdance.com/MFL_Gallery/
+/Nivo/images/04.jpg 1 -
+/schedule/index 1 -
+/phpmyadmin1/ 1 -
+/forum/forumdisplay.php 1 http://www.pnpdance.com/forum/forumdisplay.php
+/forum/adm/scripts/jquery.nivo.slider.js 20 -
+/gallery 1 -
+/justi 1 -
+/schedule/i 3 -
+/popup_image.php 1 -
+/db/myadmin/ 1 -
+/forum/styles/prosilver/imageset/en/icon_user_online.png 2 http://www.pnpdance.com/forum/topic10.html
+/db/websql/ 1 -
+/Marks_Photography/Nivo/images/01.jpg 19 http://www.mflphotos.com//Home_files/widget1_markup.html
+/3rdparty/pma/ 1 -
+/reviews.php 1 -
+/sql/myadmin/ 1 -
+/forum/member/niclamb/ 4 http://www.pnpdance.com/forum/index.php
+//mflphotos.com/Nivo 1 -
+/administrator/db/ 1 -
+/MFL_Gallery/images/slider_images/portfolio-1.jpg 7 http://pnpdance.com/MFL_Gallery/
+/mysql/web/ 1 -
+/MacintoshHD/Users/Mark/Desktop/Working%20Directory/PnP%20Dance/pnpdance_LIVE/MFL_Gallery/images/slider_images/Portfolio-5.jpg 4 -
+/Marks_Photography/Nivo/images/03.jpg 19 http://www.mflphotos.com//Home_files/widget1_markup.html
+/sql/phpmy-admin/ 1 -
+/phpMyAdmin/ 1 -
+/~/phpmanager/ 1 -
+/mysql-admin/ 1 -
+/3rdparty/admin/ 1 -
+/admin/db/ 1 -
+/+++++++++++++++++++++++++++++++++++++++++++++++++++++++Result:+tryb+PM_REGISTER 1 http://forum.pnpdance.com/+++++++++++++++++++++++++++++++++++++++++++++++++++++++Result:+tryb+PM_REGISTER
+/phpmanager/ 1 -
+/db/webadmin/ 1 -
+/Nivo//css/nivo-slider.css 1 -
+/qql/ 1 -
+/Marks_Photography/Nivo/images/06.jpg 19 http://www.mflphotos.com//Home_files/widget1_markup.html
+/forum/register.php 1 -
+/MacintoshHD/Users/Mark/Desktop/Working%20Directory/PnP%20Dance/pnpdance_LIVE/MFL_Gallery/stylesheets/images/bg.png 2 -
+/MFL 2 -
+/admin/phpMyAdmin/ 1 -
+/phpmya/ 1 -
+/Nivo/css/ 2 -
+/MacintoshHD/Users/Mark/Desktop/Working%20Directory/PnP%20Dance/pnpdance_LIVE/MFL_Gallery/images/Portfolio-5.jpg 1 -
+/MacintoshHD/Users/Mark/Desktop/Working%20Directory/PnP%20Dance/pnpdance_LIVE/MFL_Gallery/images/twitter.gif 1 -
+/sl2/data/ 1 -
+/forum/member.php 2 -
+/MacintoshHD/Users/Mark/Desktop/Working%20Directory/PnP%20Dance/pnpdance_LIVE/MFL_Gallery/nivo/nivo-slider.css 3 -
+/webadmin/ 1 -
+/forum/member95/ 1 http://www.pnpdance.com/forum/index.php
+/schedul 1 -
+/admin/pMA/ 1 -
+/administrator/pma/ 1 -
+/http:/www.pnpdance.com/forum/ucp.php 3 -
+/pma/ 1 -
+/web/phpMyAdmin/ 1 -
+/phpMyAdmin2/ 1 -
+/administrator/admin/ 1 -
+/sql/websql/ 1 -
+/program/ 1 -
+/admin/pma/ 1 -
+/forum/elizarose-u82/ 2 -
+/database/phpmyadmin2/ 1 -
+/MacintoshHD/Users/Mark/Desktop/Working%20Directory/PnP%20Dance/pnpdance_LIVE/MFL_Gallery/images/slider_images/Portfolio-4.jpg 3 -
+/cat_.html 1 -
+/forum/styles/id_provalentina/theme/images/bg_tabs2.png 1 http://www.pnpdance.com/forum/ucp.php
+/roundcube/ 1 -
+/autodiscover/autodiscover.xml 3 -
+/3rdparty/dbadmin/ 1 -
+/pma2005/ 1 -
+/database/phpmyadmin/ 1 -
+/admin/phpmyadmin/ 1 -
+/MFL_gallery 1 -
+/MFL_Gallery/images/twitter.png 3 http://pnpdance.com/MFL_Gallery/index.html
+/crossdomain.xml 1 -
+/Nivo//js/jquery.nivo.slider.pack.js 1 -
+/MacintoshHD/Users/Mark/Desktop/Working%20Directory/PnP%20Dance/pnpdance_LIVE/MFL_Gallery/images/slider_images/Portfolio-2.jpg 3 -
+/product_info.php 1 -
+/php-myadmin/ 1 -
+/phpadmin/ 1 -
+/forum/images/editor/separator.gif 1 -
+/buysell/scripts/jquery.nivo.slider.js 11 http://forum.pnpdance.com/buysell/index.php
+/admin/web/ 1 -
+/Ni 1 -
+/mysqladminconfig/ 1 -
+/Mark_and_Kerrys_Little_Space/Welcome.html 6 -
+/forum.php 2 http://www.pnpdance.com/forum.php
+/admin/sysadmin/ 1 -
+/MacintoshHD/Users/Mark/Desktop/Working%20Directory/PnP%20Dance/pnpdance_LIVE/MFL_Gallery/nivo/jquery.nivo.slider.pack.js 6 -
+/MacintoshHD/Users/Mark/Desktop/Working%20Directory/PnP%20Dance/pnpdance_LIVE/MFL_Gallery/images/Portfolio-6.jpg 1 -
+/ucp.php 1 -
+/forum/jazzy-u94/ 1 http://www.pnpdance.com/forum/index.php
+/MacintoshHD/Users/Mark/Desktop/Working%20Directory/PnP%20Dance/pnpdance_LIVE/MFL_Gallery/images/Portfolio-4.jpg 1 -
+/Mark_and_Kerrys_Little_Space/Scripts/iWebImage.js 1 http://www.fabian-lovely.co.uk/Mark_and_Kerrys_Little_Space/Wedding_Photos/Wedding_Photos.html
+/MFL_Gallery/contact.html 4 http://pnpdance.com/MFL_Gallery/information.html
+/mflphotos.com/Nivo 3 -
+/cart.php 3 -
+/PMA2005/ 1 -
+/MFL_Gallery/images/slider_images/portfolio-4.jpg 6 http://pnpdance.com/MFL_Gallery/
+/Marks_Photography/Nivo/images/04.jpg 19 http://www.mflphotos.com//Home_files/widget1_markup.html
+/MacintoshHD/Users/Mark/Desktop/Working%20Directory/PnP%20Dance/pnpdance_LIVE/MFL_Gallery/images/Portfolio-1.jpg 1 -
+/conditions.php 1 -
+/phpmy-admin/ 1 -
+/administrator/phpmyadmin/ 1 -
+/MacintoshHD/Users/Mark/Desktop/Working%20Directory/PnP%20Dance/pnpdance_LIVE/MFL_Gallery/nivo/images/Portfolio-.jpg 4 -
+/Marks_Photography/Nivo/js/jquery.nivo.slider.pack.js 24 http://www.mflphotos.com//Home_files/widget1_markup.html
+/mysqlmanager/ 1 -
+/phpmyadmin/ 1 -
+/forum/index.php++++++++++++++++++++++++++++++++++++++++++Result:+used+self-learning+system+data 1 http://www.pnpdance.com/forum/index.php++++++++++++++++++++++++++++++++++++++++++Result:+used+self-learning+system+data
+/mysql/ 1 -
+/S 1 -
+/Nivo/images/06.jpg 2 -
+/MacintoshHD/Users/Mark/Desktop/Working%20Directory/PnP%20Dance/pnpdance_LIVE/MFL_Gallery/style.css 2 -
+/db/dbadmin/ 1 -
+/MacintoshHD/Users/Mark/Desktop/Working%20Directory/PnP%20Dance/pnpdance_LIVE/MFL_Gallery/stylesheets/images/top.jpg 1 -
+/function.mysql-connect 1 -
+/Nivo/images/03.jpg 1 -
+/schedule/ 6 -
+/just 1 -
+/admin/configuration.php/login.php 1 http://pnpdance.com/admin/configuration.php
+/Mark_and_Kerrys_Little_Space/Blog.html 2 -
+/administrator/PMA/ 1 -
+/sql/phpmanager/ 1 -
+/phpMyAdmin-2/ 1 -
+/cpadmindb/ 1 -
+/setup/images/alert-overlay.png 1 http://www.blingkinikids.com/setup/index.php
+/forum/list.php 2 -
+/Mark_and_Kerrys_Little_Space/Scripts/iWebSite.js 1 http://www.fabian-lovely.co.uk/Mark_and_Kerrys_Little_Space/Wedding_Photos/Wedding_Photos.html
+/Marks_Photography/Nivo/images/02.jpg 19 http://www.mflphotos.com//Home_files/widget1_markup.html
+/MacintoshHD/Users/Mark/Desktop/Working%20Directory/PnP%20Dance/pnpdance_LIVE/MFL_Gallery/images/slider_images/Portfolio-7.jpg 5 -
+/contact.html/ 1 http://pnpdance.com/MFL_Gallery/
+/Marks_Photography/Nivo/images/05.jpg 18 http://www.mflphotos.com//Home_files/widget1_markup.html
+/bbs/data/ 1 -
+/3rdparty/setup.php 1 -
+/database/ 1 -
+/webdb/ 1 -
+/www.pnpdance.com/recaptcha/api/forum/ 1 http://www.pnpdance.com/forum/ucp.php
+/MFL_Dr 1 -
+/MFL_Gallery/stylesheets/images/bg.png 3 http://pnpdance.com/MFL_Gallery/
+/typo3/phpmyadmin/ 1 -
+/mysql/sqlmanager/ 1 -
+/db/phpMyAdmin/ 1 -
+/privacy.php 1 -
+/MacintoshHD/Users/Mark/Desktop/Working%20Directory/PnP%20Dance/pnpdance_LIVE/MFL_Gallery/images/Portfolio-3.jpg 1 -
+/Nivo/images/05.jpg 1 -
+/sqlmanager/ 1 -
+/administrator/phpMyAdmin/ 1 -
+/sqladmin/ 1 -
+/Nivo/images/02.jpg 1 -
+/archive. 1 -
+/gall 1 -
+/p/m/a/ 1 -
+/Social/Social_files/www.mflphotos.com 1 -
+/~/myadmin/ 1 -
+/MFL_Gallery/images/slider_images/portfolio-5.jpg 6 http://pnpdance.com/MFL_Gallery/
+/MFL_Gallery/style.css 3 http://pnpdance.com/MFL_Gallery/
+/MFL_Gallery/images/info.jpg 4 http://pnpdance.com/MFL_Gallery/information.html
+/skins/mauris/images/background_gradient.png 1 http://www.blingkinikids.com/index.php
+/dbadmin/ 1 -
+/Nivo/images/loading.gif 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 775
+195.212.29.73 2815 5319 31142234 20110922103503
+82.27.226.223 2025 12313 44307747 20110930131305
+195.212.29.79 1278 7583 26206439 20110916105538
+206.57.29.183 478 478 6855248 20110930235922
+90.200.80.233 433 3886 13432523 20110914160203
+195.212.29.74 417 1671 11746266 20110930190635
+206.57.29.191 376 376 5606409 20110930233901
+24.143.199.166 376 376 5671516 20110930233900
+216.246.75.188 210 210 3699701 20110929021512
+195.212.29.77 178 1404 10250865 20110921115201
+81.151.255.142 8 8 4112 20110926083533
+77.67.98.76 0 20 125821 
+89.241.197.216 1 1 709 20110902111812
+204.0.3.110 0 2 51437 
+69.63.181.249 0 1 126306 
+91.224.160.45 1 1 12626 20110914030515
+69.22.162.44 0 2 5910 
+63.141.193.12 0 8 353551 
+195.59.150.37 0 469 4074044 
+218.29.97.183 1 1 12771 20110930131712
+63.150.131.63 0 14 178326 
+195.59.44.85 6 6 104272 20110919174905
+72.246.94.98 17 17 199664 20110917095528
+63.148.78.15 1 1 72507 20110904200249
+109.199.235.25 48 806 15360994 20110930140837
+24.143.199.151 2 2 4520 20110929125730
+77.67.41.157 0 7 6910 
+195.59.150.63 0 106 776586 
+71.53.175.115 8 8 97266 20110927095859
+206.57.29.22 0 2 4296 
+209.85.224.91 1 1 4110 20110914111238
+146.82.152.126 0 3 57583 
+81.151.246.171 2 2 1028 20110901054004
+50.16.136.239 4 4 2456 20110919145746
+80.156.248.98 2 2 39158 20110920034956
+78.151.59.16 4 61 1031972 20110905034915
+63.217.184.46 0 9 8000 
+2.102.67.223 0 6 274650 
+80.157.149.23 0 6 3381 
+207.204.238.215 1 1 10474 20110910133609
+63.141.200.213 0 1 1649 
+90.200.80.150 121 1229 3503359 20110915125824
+63.141.192.206 0 18 713117 
+95.221.83.220 1 1 1278 20110918234220
+80.150.133.190 25 25 78648 20110929063825
+195.59.150.44 0 17 128080 
+96.7.251.101 5 5 48420 20110930202804
+178.137.16.203 3 3 38304 20110929190928
+92.12.51.17 1 24 1013931 20110902162444
+165.254.127.128 58 58 1225318 20110928035514
+64.212.198.71 0 4 52648 
+63.141.200.165 0 1 1092 
+63.235.37.9 3 3 145057 20110917191325
+90.84.51.21 0 16 229271 
+77.67.98.133 0 181 1212412 
+69.171.224.249 0 2 236555 
+208.49.52.53 0 12 175464 
+123.139.173.179 1 1 2948 20110911010255
+208.46.163.186 6 6 140452 20110921171651
+184.73.89.106 1 1 379 20110913201519
+80.15.233.28 0 3 54828 
+77.67.0.157 0 123 1068415 
+195.212.29.78 152 466 2432526 20110916044929
+86.147.105.2 5 5 2570 20110913070021
+217.243.192.102 0 89 518066 
+82.4.102.241 2 35 1025117 20110902143635
+217.243.192.133 0 5 54619 
+208.49.52.23 0 22 720454 
+95.100.249.224 2 2 86 20110925003131
+63.217.184.14 0 6 6692 
+92.123.75.119 29 29 588341 20110930222915
+46.4.95.200 2 2 2556 20110927010434
+195.59.150.6 0 278 2059955 
+208.50.20.201 1 1 526 20110928155613
+69.63.181.245 0 1 126306 
+86.147.106.239 16 16 8224 20110905025434
+2.219.100.229 1 26 1019884 20110904115643
+86.132.170.65 1 26 1019842 20110902150201
+92.123.155.233 36 36 638467 20110930035700
+195.59.150.70 0 268 2036911 
+195.59.150.31 0 10 21847 
+195.93.21.41 0 1 119195 
+63.150.131.219 3 3 24472 20110925052925
+204.246.230.172 12 12 226514 20110920183423
+63.141.192.239 0 1 1092 
+23.15.245.163 3 3 15405 20110930131723
+107.20.23.163 1 1 614 20110925131949
+77.67.98.132 0 92 645847 
+63.233.61.61 1 1 12216 20110927095901
+69.22.162.68 0 2 1533 
+204.0.3.126 0 2 108293 
+69.31.77.29 20 20 310486 20110927030458
+80.157.149.36 0 4 2081 
+90.84.51.15 0 2 1930 
+62.24.181.134 7 15 171694 20110904142558
+193.108.94.135 12 12 235163 20110917105531
+65.52.7.30 1 1 4068 20110905102054
+216.104.15.138 1 1 1278 20110920224443
+63.217.184.62 0 3 13197 
+64.211.104.206 20 20 194026 20110929145740
+206.57.28.22 0 5 53808 
+195.206.197.87 1 24 1013971 20110902062508
+80.15.236.226 0 7 14285 
+204.246.230.165 14 14 253146 20110920183335
+86.27.92.200 1 24 1013970 20110903125837
+217.243.192.151 0 3 6308 
+195.59.150.69 0 32 293058 
+69.171.228.246 0 1 126306 
+2.20.182.143 1 1 43 20110924022135
+208.49.52.13 0 6 20593 
+217.243.192.125 0 2 3899 
+66.249.17.106 1 1 2812 20110909052154
+81.151.242.13 3 3 1542 20110913084244
+69.171.229.244 0 1 126306 
+77.67.98.124 0 307 2839062 
+62.208.171.9 9 9 107345 20110930085355
+77.67.98.100 0 108 701588 
+206.57.29.174 18 18 216518 20110929055636
+109.230.216.40 12 12 72009 20110930065801
+199.239.182.198 0 7 58518 
+31.3.225.189 1 1 12626 20110918134036
+184.84.220.235 3 3 5141 20110906122155
+199.239.182.213 0 32 590983 
+63.226.34.183 2 2 29727 20110901143853
+86.145.136.35 3 62 1038199 20110909023426
+208.50.20.208 4 4 41764 20110930122847
+92.22.166.89 1 24 1013972 20110904142526
+195.93.21.1 0 4 182566 
+46.33.67.19 1 1 19677 20110901195059
+69.22.162.60 0 3 5413 
+81.52.160.151 0 6 12354 
+69.22.162.213 0 2 1279 
+180.243.249.3 1 1 11195 20110904063331
+146.82.3.31 8 8 40024 20110929161513
+195.59.150.38 0 35 203611 
+195.93.21.67 0 1 441 
+38.99.82.215 2 2 1480 20110905103557
+92.123.155.240 37 37 644628 20110930035702
+82.96.58.74 4 4 45780 20110919204709
+80.15.236.186 0 8 59778 
+206.57.29.31 0 9 61386 
+195.59.44.86 8 8 204648 20110919174959
+204.2.187.52 0 13 590621 
+64.212.114.61 1 1 3993 20110912110433
+81.52.160.167 0 9 19984 
+80.15.236.154 0 43 689123 
+80.15.236.193 0 3 52529 
+217.243.192.142 0 21 483875 
+61.213.189.14 0 67 657744 
+81.52.160.132 0 2 3899 
+206.57.29.78 0 20 314315 
+195.59.150.7 0 328 2650323 
+217.243.192.108 0 191 1337691 
+91.224.160.129 1 1 12626 20110912035058
+217.243.192.95 0 97 587012 
+94.8.194.114 1 24 1013972 20110903193734
+66.220.149.246 0 1 144619 
+199.239.182.181 0 10 564553 
+63.141.200.159 0 1 1649 
+80.149.149.39 0 17 148001 
+81.52.160.149 0 3 3182 
+63.217.184.53 0 9 62459 
+27.159.233.112 1 1 12768 20110926155410
+182.252.3.197 1 1 12626 20110913135411
+207.46.12.60 1 9 22443 20110909230408
+195.93.21.40 0 2 111075 
+50.17.37.12 2 2 1228 20110913201533
+63.150.131.215 2 2 11250 20110925052917
+199.15.234.224 5 5 63137 20110913234708
+80.156.248.85 3 3 43294 20110920035057
+77.67.41.126 0 14 179829 
+64.213.110.183 0 1 107852 
+109.230.213.131 4 4 50646 20110929142223
+208.49.52.22 0 13 148741 
+206.57.28.21 0 12 432068 
+90.192.209.21 62 493 5500642 20110924142315
+80.15.236.220 0 2 5107 
+64.214.226.236 31 31 365854 20110930222442
+193.105.210.127 1 1 12626 20110910053917
+206.132.241.224 1 1 10677 20110911192204
+216.246.75.184 11 11 128383 20110908082201
+208.49.52.39 0 7 170416 
+80.15.236.227 0 1 441 
+80.157.149.70 0 5 2854 
+82.19.129.5 1 24 1013932 20110902113719
+64.212.114.59 1 1 11986 20110912110442
+209.170.105.185 1 1 9583 20110904211752
+80.157.149.20 0 2 1100 
+195.93.21.36 0 1 96728 
+86.30.9.165 1 22 1012286 20110902191303
+89.168.125.29 1 26 1019881 20110901155545
+204.0.3.118 0 8 17658 
+89.242.110.190 1 24 1013974 20110901183018
+77.67.98.87 0 170 1929182 
+195.59.150.39 0 220 1881975 
+80.149.149.12 0 15 249502 
+64.212.198.95 0 2 2090 
+94.9.25.77 2 47 1026119 20110903132953
+208.80.194.33 1 1 661 20110915064015
+77.67.0.142 0 1 5208 
+61.213.189.28 0 19 350399 
+63.141.193.7 0 1 1379 
+199.239.182.158 0 1 1379 
+31.192.104.159 11 11 136244 20110926234852
+77.67.0.174 0 2 2217 
+69.171.228.245 0 3 378918 
+80.15.236.147 0 4 7469 
+69.162.74.82 1 1 12768 20110928192015
+95.100.242.14 1 1 404 20110914133527
+80.15.236.233 0 5 62014 
+64.212.198.142 0 5 54095 
+86.147.106.149 4 4 2056 20110923041510
+77.67.98.127 0 8 385014 
+202.65.171.190 3 3 4919 20110923234937
+81.98.178.78 1 26 1019886 20110904114451
+86.144.26.251 3 47 1035726 20110903080356
+92.122.210.196 3 3 40174 20110905103918
+80.15.236.132 0 1 1649 
+80.157.149.7 0 4 2905 
+64.214.226.233 21 21 248908 20110930222420
+213.155.156.213 5 5 65020 20110929141239
+61.213.189.6 0 3 7949 
+80.15.236.170 0 1 5208 
+92.3.159.218 2 36 1024438 20110903105943
+81.52.160.143 0 14 79742 
+207.46.195.208 1 9 77596 20110920003241
+67.217.35.25 1 1 614 20110906120613
+199.239.182.223 0 18 207041 
+208.80.194.37 2 2 1322 20110927121258
+206.57.28.4 0 18 70474 
+77.67.98.101 0 19 504465 
+80.157.149.13 0 6 3433 
+208.115.217.18 1 1 12626 20110920183223
+69.22.162.63 0 5 56174 
+199.239.182.165 0 33 248845 
+63.141.192.237 0 1 5208 
+80.149.149.44 0 22 387299 
+209.170.118.173 1 1 526 20110928135608
+208.80.194.30 1 1 661 20110928203802
+199.239.182.212 0 5 14851 
+86.131.242.202 1 24 1013932 20110903110545
+63.141.192.220 0 1 441 
+80.149.149.53 0 137 1563118 
+80.15.236.187 0 3 6199 
+75.101.228.25 1 1 379 20110916181416
+77.67.98.125 0 15 92519 
+90.84.51.5 0 5 11848 
+94.4.255.192 3 49 1041695 20110905055158
+204.188.136.7 109 109 3162407 20110928232637
+92.40.254.44 2 9 22422 20110903112640
+199.239.182.196 0 39 840766 
+80.149.149.20 0 11 375295 
+150.70.64.193 3 3 26530 20110920215557
+69.171.224.246 0 2 202056 
+69.171.228.248 0 5 574533 
+107.20.90.45 1 1 379 20110920180902
+195.93.21.7 0 1 2089 
+208.49.52.12 0 19 353296 
+96.17.145.44 1 1 740 20110919012848
+209.170.116.120 1 1 19686 20110913234720
+80.149.149.63 0 9 9038 
+113.64.41.203 1 1 4110 20110906174047
+207.46.204.214 1 1 682 20110921044005
+77.67.0.156 0 1 623 
+77.67.0.172 0 3 1315 
+208.80.194.27 1 1 661 20110907104241
+81.52.160.158 0 10 21382 
+63.141.200.158 0 1 441 
+66.220.149.249 1 1 4109 20110919174904
+60.254.142.52 16 16 240305 20110929024704
+107.20.2.154 1 1 614 20110925201433
+50.19.146.131 2 2 758 20110919145746
+82.30.9.183 2 44 1025257 20110920122446
+89.127.250.116 23 384 5931199 20110927101222
+63.217.184.44 0 3 7028 
+68.59.74.27 1 1 12626 20110906122152
+80.239.205.14 4 4 45143 20110918134240
+69.31.77.59 19 19 277697 20110927030501
+61.213.189.31 0 1 441 
+195.190.13.62 1 1 12626 20110909184639
+195.59.150.68 0 2 5527 
+63.235.21.159 4 4 52198 20110917095437
+117.26.119.116 1 1 12626 20110917104643
+63.217.184.47 0 3 5945 
+86.170.55.43 1 24 1013932 20110902071305
+63.217.184.20 0 1 441 
+217.212.227.17 26 26 418950 20110923143817
+81.151.247.215 64 64 32896 20110915052450
+69.171.224.250 0 1 126306 
+64.38.3.50 1 1 12768 20110929072525
+62.49.227.145 2 50 1017665 20110902101543
+195.93.21.6 0 2 52375 
+94.12.7.53 1 24 1013974 20110901182114
+184.106.154.60 2 2 8871 20110909115538
+46.60.252.86 0 1 2935 
+66.87.99.165 3 19 335493 20110911034556
+80.149.149.15 0 7 83061 
+208.49.52.45 0 2 1820 
+92.23.219.96 1 24 1013971 20110902170812
+117.204.168.47 3 19 335493 20110912145417
+92.122.210.230 2 2 30482 20110913162352
+81.101.223.83 1 24 1013975 20110902113348
+81.151.251.38 1 1 514 20110915172713
+60.254.175.199 2 2 23248 20110919073509
+63.141.200.180 0 1 5208 
+66.220.149.251 1 2 130417 20110905120209
+221.202.112.98 1 1 2812 20110908223334
+166.205.138.243 2 2 3040 20110928151650
+69.58.178.57 4 4 36804 20110908082204
+211.33.164.194 2 2 25536 20110930210129
+94.116.160.38 163 887 789001 20110923044922
+77.67.0.150 0 1 1649 
+92.12.250.114 3 60 1028281 20110905140416
+86.152.219.87 1 24 1013972 20110902131140
+80.149.149.21 0 188 1597850 
+81.52.170.81 3 3 50050 20110918134304
+199.239.182.222 0 4 8771 
+208.80.194.31 1 1 661 20110920144154
+77.67.98.102 0 2 1279 
+69.22.162.12 0 2 2090 
+80.15.235.164 4 4 104226 20110924221620
+221.194.136.25 1 3 84167 20110913063727
+63.141.200.214 0 4 134542 
+69.171.229.249 0 4 539528 
+195.93.18.2 1 4 15818 20110902053241
+86.159.164.19 1 24 1013972 20110901162242
+61.213.189.29 0 4 54465 
+80.243.174.25 1 1 52589 20110928153315
+77.67.98.92 0 99 926990 
+77.67.98.108 0 75 501818 
+74.52.245.146 2 2 7805 20110912192203
+195.93.21.73 0 1 1649 
+198.173.2.179 1 1 20013 20110901111325
+81.52.170.82 3 3 59276 20110918134154
+208.49.52.20 0 20 237193 
+77.67.98.111 0 216 1736478 
+206.57.28.37 0 7 65042 
+64.212.198.149 0 1 567 
+195.59.150.46 0 26 36679 
+209.8.112.115 2 2 30610 20110928192015
+80.149.149.62 0 19 503040 
+195.93.21.65 0 1 860 
+80.149.149.36 0 1 4531 
+86.185.138.28 1 24 1013973 20110901131415
+69.171.228.247 0 1 126306 
+107.20.34.169 1 1 379 20110918131614
+216.139.245.172 2 2 8871 20110917054507
+38.99.82.213 12 12 36471 20110905141451
+80.93.126.22 1 1 12626 20110924221611
+80.149.149.54 0 10 57553 
+81.158.136.4 1 24 4066 20110905095332
+125.252.225.23 0 8 64664 
+69.171.224.244 0 1 126306 
+80.15.236.228 0 3 6748 
+92.28.170.142 1 24 1013972 20110901042417
+92.19.146.217 1 24 1013974 20110903035730
+204.188.136.25 127 127 3239822 20110928235638
+2.98.129.217 3 63 1028279 20110903130153
+77.67.0.165 0 2 5623 
+204.2.166.149 2 2 22157 20110910104359
+146.82.3.21 47 47 716829 20110930202805
+109.73.78.114 1 1 12626 20110911192203
+24.143.194.193 114 114 2782214 20110928112603
+216.246.75.186 143 143 2614903 20110929021531
+96.7.251.97 5 5 57677 20110930210132
+96.126.120.254 1 1 1278 20110909164513
+199.239.182.204 0 4 12226 
+46.33.67.15 2 2 30969 20110910180517
+77.67.98.135 0 3 109133 
+199.239.182.215 0 4 5829 
+173.200.242.14 14 268 4120189 20110928150525
+195.59.150.23 0 215 852978 
+195.93.21.38 0 1 75750 
+64.213.110.156 0 1 110249 
+66.220.147.249 0 1 144619 
+81.52.160.175 0 1 441 
+2.216.212.175 5 93 3091082 20110919174904
+128.197.39.215 1 1 12771 20110930094655
+80.149.149.28 0 2 9062 
+81.52.160.172 0 1 625 
+195.59.150.12 0 6 6030 
+92.41.79.130 1 24 1013972 20110904153647
+204.188.136.4 2 2 23456 20110915083908
+213.155.156.207 5 5 57896 20110929141243
+217.212.227.7 35 35 590044 20110923143734
+62.208.171.33 1 1 10677 20110914194137
+209.107.209.31 0 5 55777 
+2.102.85.97 1 24 1013973 20110903065947
+204.2.166.142 1 1 11988 20110910104307
+69.22.162.158 0 2 6587 
+80.149.149.22 0 13 5006 
+207.204.228.110 1 1 10474 20110903071229
+69.22.162.36 0 20 193898 
+217.243.192.156 0 1 1379 
+77.67.99.44 12 12 144071 20110924002746
+184.84.242.11 2 2 30962 20110902232749
+62.24.222.131 1 1 11053 20110905034926
+64.15.129.213 7 7 76279 20110917095356
+173.224.217.246 1 1 12626 20110902232710
+80.149.149.23 0 4 235619 
+80.149.149.55 0 7 200372 
+63.217.184.7 0 5 6657 
+80.149.149.46 0 107 888780 
+92.122.210.239 37 37 1118801 20110928152614
+217.32.28.133 3 3 826 20110904051300
+208.46.163.183 2 2 11867 20110921171607
+63.141.193.23 0 23 1114382 
+69.84.207.147 15 15 52921 20110921171603
+95.71.66.91 1 1 12629 20110917050937
+63.141.192.222 0 1 1092 
+63.217.184.60 0 6 11004 
+188.220.168.223 2 2 45049407 20110915034412
+195.93.21.35 0 1 4531 
+221.194.136.39 1 3 84167 20110918093358
+195.59.150.45 0 6 17421 
+50.17.32.59 2 2 1228 20110924080813
+62.24.252.133 1 4 52810 20110901183050
+174.129.139.124 1 1 379 20110917151459
+77.67.98.93 0 188 1441420 
+212.143.162.161 9 9 151986 20110901042616
+82.96.58.87 3 3 50648 20110907164421
+24.143.199.213 159 159 1928894 20110930222434
+50.16.177.176 2 2 1228 20110925215322
+173.242.116.112 1 1 12626 20110907162456
+62.208.171.20 8 8 142402 20110926065907
+69.22.162.22 0 16 136713 
+90.84.51.30 0 7 13388 
+195.59.150.22 0 193 1827816 
+86.112.14.73 2 36 1024586 20110911083713
+64.213.38.117 0 1 1379 
+86.164.8.74 7 7 3598 20110921031817
+69.171.229.248 0 1 126306 
+220.90.198.117 0 8 66134 
+80.157.149.45 0 1 489 
+72.247.238.76 4 4 21518 20110908082205
+69.31.38.240 2 2 31661 20110905162213
+82.23.206.17 1 24 1013973 20110903191207
+64.211.104.201 7 7 72225 20110930125849
+82.143.218.177 1 26 1019844 20110903133727
+77.67.98.69 0 268 2301017 
+77.67.96.90 66 66 788856 20110930094958
+81.20.72.198 2 2 23687 20110920014205
+64.209.38.217 9 9 141793 20110916213530
+198.173.3.53 0 7 64104 
+195.59.150.52 0 81 1910832 
+193.105.210.64 5 5 49005 20110921162729
+206.57.29.15 0 45 1188734 
+198.173.3.52 0 3 6741 
+63.141.193.4 0 1 4531 
+69.31.38.243 2 2 37614 20110905162236
+80.15.233.21 0 4 54311 
+60.254.142.57 14 14 251781 20110929024706
+90.84.51.54 0 6 58626 
+94.172.117.88 1 24 1013973 20110903193335
+209.8.112.114 1 1 19787 20110920183438
+82.132.210.20 7 71 972090 20110904133321
+195.12.233.221 1 1 18313 20110930222441
+61.213.189.30 0 1 1379 
+124.244.63.89 1 1 12629 20110925052844
+63.141.200.207 0 26 741482 
+109.230.245.28 1 1 12626 20110910044801
+66.171.227.38 1 1 3994 20110916152307
+86.27.204.231 3 60 2038454 20110919143054
+94.172.20.130 6 109 4097763 20110905082721
+87.254.73.124 2 48 1017629 20110905045216
+188.95.54.7 1 1 1278 20110906102103
+63.141.200.189 0 1 4531 
+80.15.233.31 0 3 5218 
+208.49.52.47 0 5 34077 
+80.149.149.6 0 2 143123 
+220.90.198.37 0 11 70474 
+69.171.229.251 0 2 261470 
+77.67.41.116 0 28 347316 
+206.132.243.24 2 2 40026 20110901110205
+112.216.48.34 1 1 12768 20110929161507
+77.73.2.160 1 1 1278 20110907054021
+117.26.116.76 2 2 25256 20110912110430
+95.100.249.227 2 2 145014 20110924061401
+86.162.88.43 11 11 5654 20110920153358
+206.57.28.68 0 6 571804 
+208.49.52.28 0 3 7498 
+69.58.178.59 3 3 8466 20110912091642
+77.67.98.117 0 52 814168 
+146.82.152.141 0 2 3899 
+77.67.98.79 0 57 332782 
+146.82.152.84 0 6 7713 
+195.10.36.7 4 4 15825 20110923195354
+24.143.194.177 8 8 194656 20110901115616
+80.157.149.22 0 1 1437 
+195.59.150.62 0 1 1379 
+63.141.200.196 0 26 525299 
+222.186.55.189 1 1 12629 20110923014153
+211.233.39.69 1 1 12768 20110930200944
+150.70.75.34 2 2 13904 20110919214827
+69.171.224.251 0 2 203871 
+77.67.98.84 0 33 219849 
+38.99.82.224 2 2 4913 20110916200857
+81.52.160.238 2 2 15499 20110912004330
+62.56.69.231 1 17 561182 20110902174857
+69.171.229.247 0 1 144619 
+77.67.47.209 1 1 72507 20110902150330
+199.239.182.206 0 30 425594 
+80.15.236.163 0 2 5910 
+63.150.131.87 0 27 241710 
+90.196.159.128 3 60 1028167 20110902160415
+50.16.19.165 1 1 614 20110925122716
+206.57.29.36 0 19 218289 
+195.59.150.71 0 287 1801902 
+63.141.200.212 0 10 142285 
+82.132.242.144 0 9 21641 
+184.73.141.231 2 2 758 20110917151500
+50.19.3.118 2 2 1228 20110917151500
+77.67.98.86 0 6 5512 
+198.173.3.20 0 6 11899 
+69.63.181.246 0 2 252612 
+60.254.175.204 1 1 9790 20110919073508
+80.243.191.178 2 2 25252 20110913134559
+91.207.142.150 1 1 12052 20110928070505
+80.149.149.38 0 16 194200 
+62.24.222.132 0 3 40330 
+59.53.87.76 1 1 2948 20110918093350
+61.213.189.23 0 8 13126 
+69.171.228.251 0 4 498113 
+81.52.160.150 0 74 757157 
+80.15.235.158 6 6 75697 20110924221621
+206.57.29.61 0 2 3028 
+204.2.187.86 0 1 441 
+109.230.217.246 10 10 126260 20110923221501
+208.80.194.36 2 2 1322 20110924180447
+115.141.61.138 1 1 12626 20110914163802
+63.217.184.12 0 1 1092 
+81.52.160.206 5 5 35170 20110912004325
+72.247.238.242 2 2 22662 20110914062411
+92.28.139.232 1 26 1019882 20110902075645
+199.239.182.191 0 2 9739 
+221.194.136.16 1 3 84167 20110911010300
+63.141.200.222 0 8 415070 
+95.24.35.154 1 1 1278 20110910055548
+77.67.98.70 0 2 5649 
+194.112.100.154 4 4 47576 20110926234902
+63.141.200.188 0 2 51437 
+199.239.182.172 0 13 614723 
+63.233.112.201 3 3 31752 20110925074727
+212.140.124.115 1 24 1013933 20110904152407
+63.141.200.197 0 1 1379 
+63.141.200.166 0 6 118826 
+69.171.229.250 0 3 197702 
+195.245.125.109 14 14 405055 20110928042515
+184.73.30.110 1 1 740 20110925014630
+69.28.58.2 3 5 73346 20110902053859
+69.171.228.244 0 5 668156 
+77.67.96.96 72 72 900339 20110930094848
+195.59.150.4 0 15 38252 
+95.221.96.97 1 1 1278 20110928151536
+72.246.184.80 3 3 40758 20110917104658
+77.67.98.119 0 2 882 
+199.239.182.188 0 1 107852 
+207.46.199.34 1 11 21963 20110930160504
+69.63.190.246 1 1 5920 20110924135754
+38.99.82.226 6 14 197662 20110915223842
+82.41.4.55 1 24 1013973 20110903100905
+69.171.224.247 0 2 252612 
+194.112.100.149 9 9 124522 20110928070503
+80.15.236.194 0 2 6857 
+92.11.102.128 5 105 3329246 20110904162044
+77.67.98.110 0 47 409760 
+195.93.21.4 0 1 1092 
+109.230.216.114 1 1 12626 20110906120741
+198.232.70.10 21 403 5854833 20110912095530
+38.99.82.217 1 7 11999 20110904175056
+24.143.194.178 86 86 2156505 20110904193030
+174.142.75.208 2 2 25252 20110908222729
+188.92.75.115 1 1 12626 20110919111345
+77.67.98.109 0 6 60641 
+63.141.192.221 0 1 3458 
+80.15.236.137 0 8 67292 
+204.2.187.109 0 3 58985 
+92.123.72.180 13 13 145667 20110926090510
+69.22.162.206 0 1 4531 
+77.99.24.188 2 36 1024473 20110904150907
+50.19.40.47 2 2 1228 20110920180902
+108.62.76.192 1 1 12626 20110918222001
+72.246.94.100 25 25 383426 20110917095630
+64.212.198.85 0 9 7719 
+50.16.135.243 1 1 614 20110925215322
+195.59.150.61 0 2 9739 
+31.214.169.126 1 1 12626 20110923195345
+64.209.38.229 21 21 356948 20110916213529
+69.31.17.47 1 1 19781 20110917095658
+80.15.233.85 0 11 70474 
+78.159.102.190 1 1 12768 20110928013914
+80.15.236.225 0 27 200826 
+90.84.51.63 0 14 119832 
+195.245.125.118 15 15 303130 20110904160459
+204.236.195.231 1 1 379 20110916191701
+94.142.133.190 1 1 12768 20110929141231
+63.217.184.68 0 9 118161 
+61.213.189.39 0 6 6397 
+81.154.95.185 2 35 1024968 20110901170730
+77.67.98.85 0 1 4531 
+90.203.216.188 1 33 1023366 20110922082627
+109.230.246.73 11 11 126781 20110925103315
+95.71.16.16 1 1 12768 20110929232445
+2.97.56.245 2 37 1025970 20110901111611
+198.173.3.69 0 4 5829 
+77.67.98.94 0 23 109441 
+80.67.74.224 18 18 322290 20110925134455
+206.57.29.68 0 1 4531 
+206.57.28.14 0 2 4972 
+165.254.127.143 51 51 1153753 20110928135442
+61.213.189.15 0 2 9739 
+208.50.20.216 11 11 136299 20110929122727
+217.243.192.23 2 2 145014 20110904090413
+91.207.4.150 1 1 12629 20110908134839
+63.234.249.13 9 9 89998 20110919212708
+94.10.91.154 2 36 1024475 20110903105524
+80.15.236.234 0 62 1730874 
+82.25.14.56 10 82 4114830 20110930124555
+50.16.44.253 2 2 1228 20110917024630
+109.230.246.194 2 2 25255 20110903170813
+212.143.162.168 6 6 94419 20110901042638
+146.82.3.19 27 27 512716 20110912135440
+80.149.149.31 0 66 582694 
+63.141.200.199 0 4 55336 
+188.143.232.166 1 1 12626 20110910064036
+66.220.149.248 0 1 126306 
+195.93.21.68 0 1 142297 
+204.0.3.127 0 6 63393 
+92.123.75.118 33 33 508799 20110930205913
+109.195.24.79 1 1 12768 20110927010754
+92.30.173.11 2 36 1024640 20110901164019
+63.217.184.15 0 1 50996 
+61.213.189.12 0 58 750733 
+79.172.11.158 1 1 12626 20110910175327
+38.99.82.227 11 11 34593 20110916020234
+206.57.29.63 0 12 29212 
+195.59.150.21 0 39 67915 
+77.67.98.118 0 10 264383 
+63.217.184.38 0 7 62474 
+77.67.98.78 0 27 349294 
+72.246.184.89 4 4 53126 20110917225812
+86.146.111.69 11 93 1272866 20110917053427
+195.93.21.42 0 1 135164 
+195.93.21.37 0 2 78403 
+61.213.189.21 0 2 5910 
+77.67.21.113 28 28 303996 20110930012811
+195.59.150.36 0 6 5444 
+69.171.224.248 0 1 96728 
+204.2.187.79 0 7 393525 
+110.85.71.190 1 1 12768 20110929024703
+92.28.128.151 2 35 1025116 20110902103136
+220.165.14.182 1 1 2812 20110913063723
+80.150.133.172 14 14 127670 20110929112727
+86.31.123.154 1 24 1013974 20110905120209
+86.128.122.113 1 24 1013972 20110904051226
+195.59.150.5 0 2 1126 
+64.212.198.141 0 3 4526 
+81.52.160.159 0 3 6461 
+80.15.233.13 0 2 4185 
+195.93.21.69 0 1 441 
+92.238.245.254 4 73 1045746 20110904154628
+208.80.194.61 1 1 661 20110926031638
+92.122.210.240 30 30 877792 20110926033732
+90.84.51.45 0 20 37342 
+69.22.162.47 0 3 5675 
+199.239.182.189 0 3 196751 
+206.57.29.38 0 23 291109 
+80.15.236.169 0 2 2471 
+69.22.162.149 0 4 55733 
+209.170.118.213 1 1 9936 20110928135232
+75.101.214.64 1 1 379 20110919145745
+206.57.29.54 0 12 252719 
+77.67.98.71 0 4 253428 
+63.141.193.14 0 1 441 
+66.220.146.244 0 1 126306 
+184.72.174.233 1 1 614 20110924165256
+80.243.191.114 2 2 25252 20110921041531
+206.57.29.6 0 63 485373 
+23.15.245.158 2 2 14834 20110930131723
+61.213.189.5 0 12 306805 
+80.149.149.4 0 79 594107 
+63.235.29.51 4 4 68937 20110916204040
+63.235.29.59 3 3 103544 20110916204020
+69.171.229.246 0 2 4971 
+63.141.200.173 0 1 1092 
+63.141.193.22 0 3 6351 
+86.136.250.12 1 24 1013973 20110904104633
+204.2.187.63 0 6 186249 
+206.132.241.238 3 3 43128 20110911192223
+95.100.242.16 75 75 2020495 20110930195911
+74.202.210.158 4 4 3261 20110913203432
+77.67.99.64 11 11 155867 20110926070008
+217.243.192.140 0 1 1649 
+95.100.242.15 63 63 1335594 20110930175905
+77.67.98.126 0 145 1068990 
+208.49.52.37 0 11 49365 
+195.59.150.55 0 172 1189847 
+184.84.242.15 2 2 29657 20110902232750
+94.14.164.143 5 75 1055003 20110904151744
+80.157.149.54 0 1 50996 
+195.59.150.28 0 1 593 
+193.108.94.142 17 17 337905 20110917105600
+195.59.150.13 0 540 2326349 
+94.23.249.32 1 1 4109 20110907194641
+206.57.28.44 0 3 2912 
+69.22.162.166 0 5 56985 
+63.141.193.5 0 7 62414 
+63.141.192.228 0 1 441 
+80.15.236.172 0 3 6351 
+95.26.243.44 1 1 1278 20110901201734
+80.149.149.30 0 66 771042 
+64.212.198.92 0 11 6872 
+82.38.12.182 1 24 1013972 20110901101200
+206.57.29.20 0 17 345464 
+80.149.243.205 1 1 526 20110928165622
+63.141.192.245 0 2 9739 
+61.140.127.106 1 1 10471 20110922000740
+77.67.21.112 21 21 426335 20110930202910
+213.198.95.143 1 1 72507 20110907093451
+81.52.160.133 0 58 588926 
+217.243.192.22 2 2 32539 20110928132608
+86.156.14.160 2 50 1023576 20110904064609
+77.67.98.95 0 1 441 
+195.10.36.96 2 2 4520 20110921041534
+31.214.144.162 1 1 11202 20110924164206
+195.93.21.34 2 2 7802 20110902053224
+80.149.149.14 0 138 1606758 
+50.19.207.194 1 1 379 20110913201531
+90.84.51.46 0 17 132507 
+195.59.150.15 0 43 120806 
+95.83.209.60 1 25 1015312 20110902150332
+2.126.227.156 1 24 1013931 20110902070059
+66.220.147.246 0 1 144619 
+208.80.194.26 6 6 3966 20110923090010
+92.41.20.191 3 60 1028171 20110902195557
+86.185.23.216 1 26 1019881 20110905093350
+206.183.1.74 2 4 87069 20110913163027
+209.170.116.126 2 2 23458 20110913234714
+77.67.98.77 0 12 15481 
+50.17.150.242 1 1 614 20110925131949
+80.67.74.214 21 21 347773 20110925134508
+80.149.149.37 0 1 6561 
+69.22.162.148 0 5 5112 
+165.254.127.123 2 2 15928 20110905124705
+150.70.75.31 2 2 1322 20110908055105
+208.80.194.29 4 4 2644 20110930051850
+195.59.150.20 0 30 180169 
+89.149.175.142 1 1 43 20110908133246
+94.181.159.144 2 2 25252 20110909135540
+61.213.189.4 0 61 388753 
+199.239.182.173 0 1 1379 
+63.141.200.164 0 53 1287793 
+92.122.210.227 1 1 19788 20110913162422
+80.149.149.47 0 18 165870 
+64.213.38.140 0 10 59547 
+63.235.21.164 1 1 19745 20110911031855
+69.8.201.101 1 1 9790 20110904202337
+184.84.220.243 1 1 570 20110906122154
+208.49.52.6 0 3 53737 
+113.252.94.28 1 1 12629 20110923014051
+69.22.162.29 0 2 52375 
+92.123.72.164 9 9 50410 20110927004743
+77.67.41.149 0 12 125643 
+221.194.136.21 1 3 84167 20110908223342
+217.243.192.126 0 3 10154 
+64.212.198.93 0 9 114852 
+92.40.39.223 1 24 1013933 20110903110343
+63.226.34.173 1 1 19744 20110901143824
+125.252.225.63 0 6 14917 
+77.67.0.159 0 111 1157290 
+62.24.181.135 0 5 47192 
+82.12.192.229 0 2 0 
+63.234.249.10 5 5 35279 20110917095447
+81.158.36.61 1 24 1013971 20110903103801
+174.129.185.149 1 1 379 20110920180900
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 30
+20110901 255 1061 21715283 78
+20110902 217 1340 29688610 90
+20110903 124 1017 21562442 67
+20110904 218 1506 28560548 81
+20110905 256 1221 20301704 82
+20110906 73 350 6565572 43
+20110907 127 721 6621505 47
+20110908 177 642 6207317 64
+20110909 113 449 5886545 48
+20110910 195 693 10349343 60
+20110911 82 333 6251972 34
+20110912 183 832 12126964 59
+20110913 182 410 5297044 60
+20110914 1200 8001 28020839 40
+20110915 917 5067 57274647 39
+20110916 1601 8415 32243867 42
+20110917 236 726 9923373 62
+20110918 96 252 4237250 36
+20110919 231 1415 13141165 60
+20110920 224 963 10338266 57
+20110921 204 846 10029241 46
+20110922 3205 6735 38405910 37
+20110923 268 1204 3489833 46
+20110924 396 1682 12630072 46
+20110925 115 410 6420820 55
+20110926 159 610 11044945 49
+20110927 88 327 4259631 56
+20110928 96 500 7700998 66
+20110929 500 2668 15763281 83
+20110930 316 3114 27183477 82
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 60
+5mn-15mn 58
+15mn-30mn 30
+30s-2mn 195
+2mn-5mn 105
+0s-30s 1170
+30mn-1h 97
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 161
+/gallery2/main.php 6582 59014408 20 12
+/forum/ucp.php 1781 30965885 397 472
+/ 998 2498717 399 351
+/forum/feed.php 347 187754 211 212
+/forum/style.php 332 23419770 147 123
+/forum/index.php 304 3731668 160 134
+/forum/cron.php 178 7654 92 92
+/feed.php 144 74700 27 28
+/forum/the-team.html 132 517045 100 36
+/MFL_Gallery/ 92 63203 3 1
+/adm/index.php 2 38768 1 2
+/Portfolio/Portfolio_files/widget7_markup.html 7 4500 0 0
+/MFL_Drupal/user/autocomplete/MFL%20Photos 1 349 0 0
+/MFL_Drupal/js/admin_menu/cache/c3daf13b9a530071d1f98d16e7cf5fdd 6 22476 0 1
+/admin.php 10 135247 0 0
+/Portfolio/Portfolio.html 8 21630 0 0
+/MFL_Drupal/file/ajax/field_image1/und/form-egAqYCjDmVwF3JG9q48wVFdyMjKGsTv_9OPrLTWP5e4 15 57637 0 0
+/MFL_Photos/Contact_Me_files/widget2_markup.html 2 750 0 0
+/MFL_Photos/Info_%26_Prices_files/widget3_markup.html 1 750 0 0
+/MFL_Drupal/admin/structure 6 17798 1 1
+/schedule/edit_users.php 4 36441 0 0
+/stats/ 3 1647 1 1
+/justified/Archive.zip 1 45048682 0 1
+/MFL_Photos/schedule/forgot_pwd.php 2 4153 0 0
+/MFL_Drupal/node/add/panel/choose-layout 1 3367 0 0
+/MFL_Photos/schedule/help.php 1 21797 0 0
+/MFL_Drupal/admin/modules 25 201485 2 0
+/MFL_Drupal/js/admin_menu/cache/10cfd15029a4bb1e2dc2fe3684e8ae79 8 3992 0 0
+//Contact_Me_files/widget1_markup.html 1 826 0 0
+/MFL_Drupal/ 20 87981 1 1
+/MFL_Drupal/ctools/context/ajax/access/add/page_manager_page-page-home_page/context_exists 2 3188 0 1
+/MFL_Photos/schedule/blackouts.php 1 27227 0 0
+/MFL_Drupal/admin/appearance/settings/fusion_core 1 5891 0 0
+/MFL_Drupal/admin/config 1 3559 0 0
+/Portfolio/streamloader.html 14 10476 0 0
+/MFL_Drupal/admin/appearance/list 1 4638 0 0
+/MFL_Drupal/admin/config/media/galleria/edit/default 2 9019 0 0
+//Info_%26_Prices_files/widget1_markup.html 3 2814 0 0
+/MFL_Photos/Home_files/widget1_markup.html 3 1926 0 0
+/MFL_Drupal/node/add/panel/threecol_33_34_33_stacked 1 5534 0 0
+/MFL_Photos/schedule/register.php 6 27395 0 0
+//Home_files/widget1_markup.html 50 49788 0 10
+/forum/memberlist.php 10 163116 2 3
+//Printing_Offers_files/widget4_markup.html 1 666 0 1
+/forum/report.php 1 12227 0 1
+//Printing_Offers_files/widget3_markup.html 1 786 0 0
+/MFL_Drupal/admin/structure/types/manage/gallery-page/fields 2 14047 0 0
+/MFL_Photos/Secure_Galleries_files/widget1_markup.html 5 869 0 0
+/MFL_Drupal/node/2 7 35293 0 2
+/MFL_Drupal/admin/modules/install 2 4188 0 0
+/MFL_Drupal/admin/structure/types/add 2 12104 1 0
+/buysell/index.php 15 170007 5 11
+/MFL_Photos/schedule/install/ 12 18276 1 0
+//Secure_Galleries_files/widget2_markup.html 22 9750 0 2
+/MFL_Drupal/node/add/article 1 6179 0 0
+/forum/global-moderators-g4.html 66 263723 33 29
+/MFL_Drupal/install.php 15 96417 1 0
+/Secure_Galleries.html 24 53115 4 0
+/MFL_Photos/Info_%26_Prices_files/widget2_markup.html 1 869 0 0
+/js/plugins.php 21 1401414 4 6
+/forum/topic10.html 2 11032 0 1
+/MFL_Drupal/filter/tips 1 5988 0 0
+/MFL_Drupal/node/add 7 18541 1 0
+/forum/buysell/manage_ad.php 1 30222 0 0
+/forum/topic8.html 2 11153 0 1
+/buysell/feeds.php 1 8821 0 0
+/MFL_Drupal/admin/structure/pages 11 81595 0 1
+/Portfolio/Pages/People.html 6 21710 0 2
+/MFL_Drupal/admin/content 8 28590 0 0
+/Contact_Me.html 1 2702 0 0
+/forum/administrators-g5.html 28 111908 11 22
+/MFL_Gallery/information.html 13 12802 0 0
+/js/styles/styles.php 16 152816 0 1
+/MFL_Drupal/ctools/context/ajax/add/page_manager_context%3A%3Apage-home_page/context/page_home_page_panel_context/entity%3Afile/form 1 916 0 0
+/MFL_Drupal/admin/structure/block 1 5769 0 0
+/MFL_Drupal/admin/dashboard 2 6979 0 0
+/MFL_Drupal/admin/appearance/settings/fusion_starter 2 11850 0 0
+//Info_%26_Prices_files/widget2_markup.html 3 2607 0 0
+/MFL_Photos/Home.html 4 2424 1 0
+/MFL_Drupal/admin/appearance/settings/bartik 2 11611 0 0
+/MFL_Drupal/js/admin_menu/cache/24845230fa25f2024c01668691fc6d9d 18 66006 1 1
+/ucp.php 3 31419 3 3
+/MFL_Drupal/admin/appearance 12 61730 0 0
+/forum/adm/index.php 76 1160665 14 25
+/MFL_Drupal/js/admin_menu/cache/6b5ce8c2ad4de6f140b4f8f6b90a1d4b 22 78826 0 2
+/MFL_Drupal/admin/config/media/image-styles 1 2862 0 0
+/MFL_Photos/Contact_Me_files/widget1_markup.html 2 826 0 0
+/schedule/mrbs.css.php 8 266192 0 0
+/MFL_Drupal/admin/appearance/settings/danland 1 4341 0 0
+/forum/ 65 258272 20 32
+/MFL_Drupal/admin/structure/pages/add/page-home_page/menu 1 4348 0 0
+/MFL_Drupal/node/1/delete 1 2990 1 0
+/MFL_Photos/Info_%26_Prices_files/widget1_markup.html 1 938 0 0
+/forum/viewforum.php 2 40000 0 1
+/MFL_Photos/schedule/ 4 8380 0 0
+/MFL_Drupal/admin/structure/types/manage/gallery-page/fields/field_image1 1 5804 0 0
+/MFL_Photos/Contact_Me.html 3 2702 0 0
+/MFL_Drupal/js/admin_menu/cache/318e6f0643488e8b703576325c5bd8b7 3 11001 0 0
+/About_Me.html 3 10023 0 0
+/MFL_Drupal/node/add/page 4 17088 0 0
+/MFL_Drupal/node/1/edit 1 5809 0 0
+/forum/buysell/index.php 21 453277 3 7
+/faq.php 1 52589 1 1
+/MFL_Photos/Secure_Galleries.html 6 3541 0 0
+/MFL_Drupal/system/ajax 3 28727 0 0
+/stats/awstats/cgi-bin/awstats.pl 44 2773734 18 19
+/MFL_Drupal/admin/config/search/clean-urls/check 2 726 0 0
+/buysell/single_ad.php 1 11718 1 0
+//Printing_Offers_files/widget2_markup.html 1 726 0 0
+/MFL_Drupal/admin/modules/list/confirm 1 2835 0 0
+/schedule/week.php 3 26549 0 0
+/setup/index.php 6 10684 1 0
+/MFL_Drupal/admin/structure/block/manage/search/form/configure 1 4550 0 0
+/Mark_and_Kerrys_Little_Space/Wedding_Photos/Wedding_Photos.html 1 3387 1 1
+/forum/buysell/single_ad.php 7 150334 1 5
+//Contact_Me_files/widget2_markup.html 1 750 0 0
+/MFL_Drupal/authorize.php 2 7066 0 2
+/MFL_Drupal/admin/appearance/settings 1 4319 0 0
+/Info_%26_Prices.html 3 10815 1 0
+/Mark_and_Kerrys_Little_Space/Blog_files/widget1_markup.html 1 682 1 1
+/MFL_Gallery/portfolio.html 31 10752 0 1
+/MFL_Drupal/admin/structure/pages/add 2 9366 0 0
+//Secure_Galleries_files/widget1_markup.html 22 11297 0 0
+/forum/faq.php 13 682622 3 4
+/MFL_Drupal/overlay-ajax/page_top 5 7748 0 0
+/MFL_Drupal/admin/modules/list 1 9787 0 0
+/schedule/mrbs-js-overrides.css.php 6 1248 0 0
+/MFL_Drupal/admin/structure/types/manage/gallery-page/fields/field_image1/field-settings 1 4211 0 0
+/schedule/mrbs-print.css.php 8 6672 0 0
+/MFL_Drupal/node/add/gallery-page 4 35432 0 0
+/MFL_Photos/schedule/admin.php 2 11538 0 0
+/MFL_Drupal/admin/structure/pages/wizard 1 3054 0 0
+/Media/slideshow.html 2 2130 0 0
+/MFL_Photos/schedule/ctrlpnl.php 10 110368 0 1
+//Info_%26_Prices_files/widget3_markup.html 3 2250 0 2
+/MFL_Photos/schedule/schedule.php 5 141673 0 0
+/MFL_Photos/Secure_Galleries_files/widget2_markup.html 4 750 0 0
+/MFL_Drupal/admin/structure/pages/add/page-home_page/next 1 4026 0 0
+//About_Me_files/widget2_markup.html 3 2250 0 2
+/MFL_Drupal/admin/structure/menu/parents 2 826 0 0
+/MFL_Photos/schedule/mycalendar.php 2 30705 0 0
+/MFL_Drupal/admin/config/media/galleria 4 11359 0 1
+/Portfolio/Pages/Places_etc.html 1 4358 0 1
+/MFL_Drupal/admin/structure/pages/add/page-home_page/criteria 1 4229 0 0
+/MFL_Drupal/ctools/context/ajax/add/page_manager_context%3A%3Apage-home_page/context/page_home_page_panel_context/entity:file 1 1932 0 0
+/MFL_Drupal/admin/structure/types 1 2781 0 0
+/MFL_Photos/Info_%26_Prices.html 1 3605 0 0
+/Printing_Offers.html 1 3248 0 0
+/forum/buysell/feeds.php 3 20259 1 0
+/MFL_Photos/schedule/index.php 12 37712 1 1
+//Printing_Offers_files/widget1_markup.html 1 869 0 0
+/justified/ 2 1450 2 1
+/index.php 61 489017 10 32
+//About_Me_files/widget1_markup.html 3 2607 0 0
+/MFL_Photos/schedule/install/index.php 10 35348 0 2
+/Home.html 60 87030 4 4
+/forum/topic4.html 1 5174 0 1
+/forum/www-pnpdance-com-forum-buysell-index-php-t10.html 1 5258 0 0
+/MFL_Drupal/admin/structure/types/manage/gallery-page/display 2 10310 0 0
+/MFL_Drupal/node/1 2 6190 1 0
+/MFL_Drupal/admin/structure/pages/add/page-home_page/context 1 4002 0 0
+END_SIDER

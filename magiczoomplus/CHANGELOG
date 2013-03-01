@@ -1,0 +1,57 @@
+4.0 (2011-05-24)
+    - Added templates for selectors
+    - Added Magic Scroll for selectors
+    - Add web interface for editing module options in INI file (2011-05-18)
+    - Some module logic changes
+3.13 (2011-01-31)
+    - Added Magic Scroll and Magic Slideshow support for product page.
+3.12 (2011-01-17)
+    - Added Magic Scroll support
+3.11 (2011-01-12)
+    - Fixed: Headers not loaded with "Reviews" view.
+3.10 (2010-08-16)
+    - Fixed: Additional images broken when SEO is enabled
+3.9 (2010-06-08)
+    - Allow multiple sources for the caption-source parameter.
+3.8 (2010-04-23)
+    - MagicToolboxMakeThumb class replaced with MagicToolboxImageHelper class.
+    - Added watermark support.
+    - Code cleanup.
+3.7 (2010-03-01)
+    - Fixed compatibility with CubeCart v 3.x.
+3.6 (2010-02-12)
+    - ID's for selectors now work in Magic Thumb when 'use-selectors' is set to 'No'.
+3.5 (2010-02-03)
+    - Headers now load the tool only when it is needed.
+3.4 (2010-02-01)
+    - Prevents duplicate id's on the same page.
+3.3 (2009-12-16)
+    - New parameter: use_effect_on_products_page.
+    - Magic Zoom Plus now supports different effects on different pages.
+    - Effects now show additional images in some cases (regular expression fix).
+3.2 (2009-11-19)
+    - Fixed error in installer class.
+3.1 (2009-11-06)
+    - Added support for category pages.
+    - Added support for "featured product" block.
+    - Fixed validation error in headers.
+3.0 (2009-11-05)
+    - Added installer.
+    - Added support for Magic Slideshow module (you can now use it instead of featured and popular products modules).
+    - Error fixed when product has no image.
+    - Module works with more templates.
+2.7 (2009-08-31)
+    - Show main image before additional thumbnails.
+2.6 (2009-06-23)
+    - Disable tool when product has no images.
+2.5 (2009-06-15)
+    - New parameter: "Size of thumbnail depends on".
+2.4 (2009-04-03)
+    - Fixes infrequent error with thumbnail size.
+2.3 (2009-04-03)
+    - Options for image size now working.
+    - Code optimisation.
+2.2 (2009-03-17)
+    - Show selectors horizontally.
+2.1 (2009-03-17)
+    - Added CHANGELOG file.

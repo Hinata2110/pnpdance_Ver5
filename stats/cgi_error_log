@@ -1,0 +1,217 @@
+20120926T154535: www.pnpdance.com/index.php
+* About to connect() to www.paypal.com port 80 (#0)
+*   Trying 173.0.88.2... * connected
+* Connected to www.paypal.com (173.0.88.2) port 80 (#0)
+> POST /cgi-bin/webscr HTTP/1.1
+Host: www.paypal.com
+Accept: */*
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 1102
+Expect: 100-continue
+
+< HTTP/1.1 100 Continue
+< HTTP/1.1 200 OK
+< Date: Wed, 26 Sep 2012 19:45:37 GMT
+< Server: Apache
+< X-Frame-Options: SAMEORIGIN
+< Set-Cookie: cwrClyrK4LoCV1fydGbAxiNL6iG=Xe1X9OPWYNp2ZcBC5Tcvvf138EHfz4
+20121004T124110: www.pnpdance.com/images/uploads/index.php
+suexec policy violation: see suexec log for more details
+
+20121010T121609: www.pnpdance.com/index.php
+suexec policy violation: see suexec log for more details
+
+20121015T161833: www.pnpdance.com/index.php
+* About to connect() to www.paypal.com port 80 (#0)
+*   Trying 23.47.114.234... * connected
+* Connected to www.paypal.com (23.47.114.234) port 80 (#0)
+> POST /cgi-bin/webscr HTTP/1.1
+Host: www.paypal.com
+Accept: */*
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 1077
+Expect: 100-continue
+
+< HTTP/1.1 100 Continue
+< Set-Cookie: aksession=1350332610~id=cookieMeGC1AjVyV1z0oH/RwbpPHCZnGRLJwW3CMWTJ15hQ9SFWOM8+Z5PcOrR4fn2mYy6qZPWeE6x5ymLFuYnupbDNJtSvwkczFGR2HbKqf9RFGatHl6E8CRGFoy4rV2XsdIh;
+20121024T122303: www.pnpdance.com/index.php
+* About to connect() to www.paypal.com port 80 (#0)
+*   Trying 23.59.226.234... * connected
+* Connected to www.paypal.com (23.59.226.234) port 80 (#0)
+> POST /cgi-bin/webscr HTTP/1.1
+Host: www.paypal.com
+Accept: */*
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 1062
+Expect: 100-continue
+
+< HTTP/1.1 100 Continue
+< Set-Cookie: aksession=1351096079~id=cookiei+QyeZPLclpi2kf0FlNwa2SfhUu0X4Qu0fLDeSuq6dOQpGDA7Q+yEqtCq60AKb/5bw9ZPu8jJPgD2nW+J8pmfTktE7MoSe5X2cFIYEH6RA4N3kMgtKlxpqL9yLjOPkeY;
+20121025T055629: www.pnpdance.com/index.php
+* About to connect() to api-3t.paypal.com port 443 (#0)
+*   Trying 173.0.84.101... * connected
+* Connected to api-3t.paypal.com (173.0.84.101) port 443 (#0)
+* successfully set certificate verify locations:
+*   CAfile: none
+  CApath: /etc/ssl/certs
+* SSL connection using DES-CBC3-SHA
+* Server certificate:
+* 	 subject: /C=US/ST=California/L=San Jose/O=PayPal, Inc./OU=PayPal Production/CN=api-3t.paypal.com
+* 	 start date: 2012-07-19 00:00:00 GMT
+* 	 expire date: 2013-09-18 23:59:59 GMT
+* 	 issuer: /C=US/O=Veri
+20121025T062742: www.pnpdance.com/index.php
+* About to connect() to api-3t.paypal.com port 443 (#0)
+*   Trying 173.0.88.69... * connected
+* Connected to api-3t.paypal.com (173.0.88.69) port 443 (#0)
+* successfully set certificate verify locations:
+*   CAfile: none
+  CApath: /etc/ssl/certs
+* SSL connection using DES-CBC3-SHA
+* Server certificate:
+* 	 subject: /C=US/ST=California/L=San Jose/O=PayPal, Inc./OU=PayPal Production/CN=api-3t.paypal.com
+* 	 start date: 2012-07-19 00:00:00 GMT
+* 	 expire date: 2013-09-18 23:59:59 GMT
+* 	 issuer: /C=US/O=VeriSi
+20121027T170448: www.pnpdance.com/index.php
+* About to connect() to api-3t.paypal.com port 443 (#0)
+*   Trying 173.0.88.69... * connected
+* Connected to api-3t.paypal.com (173.0.88.69) port 443 (#0)
+* successfully set certificate verify locations:
+*   CAfile: none
+  CApath: /etc/ssl/certs
+* SSL connection using DES-CBC3-SHA
+* Server certificate:
+* 	 subject: /C=US/ST=California/L=San Jose/O=PayPal, Inc./OU=PayPal Production/CN=api-3t.paypal.com
+* 	 start date: 2012-07-19 00:00:00 GMT
+* 	 expire date: 2013-09-18 23:59:59 GMT
+* 	 issuer: /C=US/O=VeriSi
+20121107T055114: www.pnpdance.com/index.php
+suexec policy violation: see suexec log for more details
+
+20121107T055110: www.pnpdance.com/index.php
+suexec policy violation: see suexec log for more details
+
+20121107T055110: www.pnpdance.com/index.php
+suexec policy violation: see suexec log for more details
+
+20121107T055121: www.pnpdance.com/index.php
+suexec policy violation: see suexec log for more details
+
+20121107T055121: www.pnpdance.com/index.php
+suexec policy violation: see suexec log for more details
+
+20121107T055127: www.pnpdance.com/index.php
+suexec policy violation: see suexec log for more details
+
+20121107T055127: www.pnpdance.com/index.php
+suexec policy violation: see suexec log for more details
+
+20121107T055212: www.pnpdance.com/index.php
+suexec policy violation: see suexec log for more details
+
+20121107T055231: www.pnpdance.com/index.php
+suexec policy violation: see suexec log for more details
+
+20121107T055242: www.pnpdance.com/index.php
+suexec policy violation: see suexec log for more details
+
+20121107T055243: www.pnpdance.com/index.php
+suexec policy violation: see suexec log for more details
+
+20121107T055243: www.pnpdance.com/index.php
+suexec policy violation: see suexec log for more details
+
+20121107T055340: www.pnpdance.com/rss2.php
+suexec policy violation: see suexec log for more details
+
+20121115T041031: www.pnpdance.com/index.php
+/opt/users/ipg/p/n/ipg.pnpdancecom/php/php: /usr/lib/libxslt.so.1: no version information available (required by /opt/users/ipg/p/n/ipg.pnpdancecom/php/php)
+/opt/users/ipg/p/n/ipg.pnpdancecom/php/php: /usr/lib/libxslt.so.1: no version information available (required by /opt/users/ipg/p/n/ipg.pnpdancecom/php/php)
+/opt/users/ipg/p/n/ipg.pnpdancecom/php/php: /usr/lib/libxslt.so.1: no version information available (required by /opt/users/ipg/p/n/ipg.pnpdancecom/php/php)
+/opt/users/ipg/p/n/ipg.pnpdancecom/php/ph
+20121115T041044: www.pnpdance.com/index.php
+/opt/users/ipg/p/n/ipg.pnpdancecom/php/php: /usr/lib/libxslt.so.1: no version information available (required by /opt/users/ipg/p/n/ipg.pnpdancecom/php/php)
+/opt/users/ipg/p/n/ipg.pnpdancecom/php/php: /usr/lib/libxslt.so.1: no version information available (required by /opt/users/ipg/p/n/ipg.pnpdancecom/php/php)
+/opt/users/ipg/p/n/ipg.pnpdancecom/php/php: /usr/lib/libxslt.so.1: no version information available (required by /opt/users/ipg/p/n/ipg.pnpdancecom/php/php)
+/opt/users/ipg/p/n/ipg.pnpdancecom/php/ph
+20121115T041101: www.pnpdance.com/debug.php
+/opt/users/ipg/p/n/ipg.pnpdancecom/php/php: /usr/lib/libxslt.so.1: no version information available (required by /opt/users/ipg/p/n/ipg.pnpdancecom/php/php)
+/opt/users/ipg/p/n/ipg.pnpdancecom/php/php: /usr/lib/libxslt.so.1: no version information available (required by /opt/users/ipg/p/n/ipg.pnpdancecom/php/php)
+/opt/users/ipg/p/n/ipg.pnpdancecom/php/php: /usr/lib/libxslt.so.1: no version information available (required by /opt/users/ipg/p/n/ipg.pnpdancecom/php/php)
+/opt/users/ipg/p/n/ipg.pnpdancecom/php/ph
+20121115T041105: www.pnpdance.com/index.php
+/opt/users/ipg/p/n/ipg.pnpdancecom/php/php: /usr/lib/libxslt.so.1: no version information available (required by /opt/users/ipg/p/n/ipg.pnpdancecom/php/php)
+/opt/users/ipg/p/n/ipg.pnpdancecom/php/php: /usr/lib/libxslt.so.1: no version information available (required by /opt/users/ipg/p/n/ipg.pnpdancecom/php/php)
+/opt/users/ipg/p/n/ipg.pnpdancecom/php/php: /usr/lib/libxslt.so.1: no version information available (required by /opt/users/ipg/p/n/ipg.pnpdancecom/php/php)
+/opt/users/ipg/p/n/ipg.pnpdancecom/php/ph
+20121115T041115: www.pnpdance.com/index.php
+/opt/users/ipg/p/n/ipg.pnpdancecom/php/php: /usr/lib/libxslt.so.1: no version information available (required by /opt/users/ipg/p/n/ipg.pnpdancecom/php/php)
+/opt/users/ipg/p/n/ipg.pnpdancecom/php/php: /usr/lib/libxslt.so.1: no version information available (required by /opt/users/ipg/p/n/ipg.pnpdancecom/php/php)
+/opt/users/ipg/p/n/ipg.pnpdancecom/php/php: /usr/lib/libxslt.so.1: no version information available (required by /opt/users/ipg/p/n/ipg.pnpdancecom/php/php)
+/opt/users/ipg/p/n/ipg.pnpdancecom/php/ph
+20121115T041119: www.pnpdance.com/index.php
+/opt/users/ipg/p/n/ipg.pnpdancecom/php/php: /usr/lib/libxslt.so.1: no version information available (required by /opt/users/ipg/p/n/ipg.pnpdancecom/php/php)
+/opt/users/ipg/p/n/ipg.pnpdancecom/php/php: /usr/lib/libxslt.so.1: no version information available (required by /opt/users/ipg/p/n/ipg.pnpdancecom/php/php)
+/opt/users/ipg/p/n/ipg.pnpdancecom/php/php: /usr/lib/libxslt.so.1: no version information available (required by /opt/users/ipg/p/n/ipg.pnpdancecom/php/php)
+/opt/users/ipg/p/n/ipg.pnpdancecom/php/ph
+20121115T041130: www.pnpdance.com/index.php
+/opt/users/ipg/p/n/ipg.pnpdancecom/php/php: /usr/lib/libxslt.so.1: no version information available (required by /opt/users/ipg/p/n/ipg.pnpdancecom/php/php)
+/opt/users/ipg/p/n/ipg.pnpdancecom/php/php: /usr/lib/libxslt.so.1: no version information available (required by /opt/users/ipg/p/n/ipg.pnpdancecom/php/php)
+/opt/users/ipg/p/n/ipg.pnpdancecom/php/php: /usr/lib/libxslt.so.1: no version information available (required by /opt/users/ipg/p/n/ipg.pnpdancecom/php/php)
+/opt/users/ipg/p/n/ipg.pnpdancecom/php/ph
+20121115T041714: www.pnpdance.com/index.php
+/opt/users/ipg/p/n/ipg.pnpdancecom/php/php: /usr/lib/libxslt.so.1: no version information available (required by /opt/users/ipg/p/n/ipg.pnpdancecom/php/php)
+/opt/users/ipg/p/n/ipg.pnpdancecom/php/php: /usr/lib/libxslt.so.1: no version information available (required by /opt/users/ipg/p/n/ipg.pnpdancecom/php/php)
+/opt/users/ipg/p/n/ipg.pnpdancecom/php/php: /usr/lib/libxslt.so.1: no version information available (required by /opt/users/ipg/p/n/ipg.pnpdancecom/php/php)
+/opt/users/ipg/p/n/ipg.pnpdancecom/php/ph
+20121115T041732: www.pnpdance.com/index.php
+/opt/users/ipg/p/n/ipg.pnpdancecom/php/php: /usr/lib/libxslt.so.1: no version information available (required by /opt/users/ipg/p/n/ipg.pnpdancecom/php/php)
+/opt/users/ipg/p/n/ipg.pnpdancecom/php/php: /usr/lib/libxslt.so.1: no version information available (required by /opt/users/ipg/p/n/ipg.pnpdancecom/php/php)
+/opt/users/ipg/p/n/ipg.pnpdancecom/php/php: /usr/lib/libxslt.so.1: no version information available (required by /opt/users/ipg/p/n/ipg.pnpdancecom/php/php)
+/opt/users/ipg/p/n/ipg.pnpdancecom/php/ph
+20121115T041857: www.pnpdance.com/index.php
+/opt/users/ipg/p/n/ipg.pnpdancecom/php/php: /usr/lib/libxslt.so.1: no version information available (required by /opt/users/ipg/p/n/ipg.pnpdancecom/php/php)
+/opt/users/ipg/p/n/ipg.pnpdancecom/php/php: /usr/lib/libxslt.so.1: no version information available (required by /opt/users/ipg/p/n/ipg.pnpdancecom/php/php)
+/opt/users/ipg/p/n/ipg.pnpdancecom/php/php: /usr/lib/libxslt.so.1: no version information available (required by /opt/users/ipg/p/n/ipg.pnpdancecom/php/php)
+/opt/users/ipg/p/n/ipg.pnpdancecom/php/ph
+20121115T041915: www.pnpdance.com/debug.php
+/opt/users/ipg/p/n/ipg.pnpdancecom/php/php: /usr/lib/libxslt.so.1: no version information available (required by /opt/users/ipg/p/n/ipg.pnpdancecom/php/php)
+/opt/users/ipg/p/n/ipg.pnpdancecom/php/php: /usr/lib/libxslt.so.1: no version information available (required by /opt/users/ipg/p/n/ipg.pnpdancecom/php/php)
+/opt/users/ipg/p/n/ipg.pnpdancecom/php/php: /usr/lib/libxslt.so.1: no version information available (required by /opt/users/ipg/p/n/ipg.pnpdancecom/php/php)
+/opt/users/ipg/p/n/ipg.pnpdancecom/php/ph
+20121115T041949: www.pnpdance.com/index.php
+/opt/users/ipg/p/n/ipg.pnpdancecom/php/php: /usr/lib/libxslt.so.1: no version information available (required by /opt/users/ipg/p/n/ipg.pnpdancecom/php/php)
+/opt/users/ipg/p/n/ipg.pnpdancecom/php/php: /usr/lib/libxslt.so.1: no version information available (required by /opt/users/ipg/p/n/ipg.pnpdancecom/php/php)
+/opt/users/ipg/p/n/ipg.pnpdancecom/php/php: /usr/lib/libxslt.so.1: no version information available (required by /opt/users/ipg/p/n/ipg.pnpdancecom/php/php)
+/opt/users/ipg/p/n/ipg.pnpdancecom/php/ph
+20121115T042104: www.pnpdance.com/index.php
+/opt/users/ipg/p/n/ipg.pnpdancecom/php/php: /usr/lib/libxslt.so.1: no version information available (required by /opt/users/ipg/p/n/ipg.pnpdancecom/php/php)
+/opt/users/ipg/p/n/ipg.pnpdancecom/php/php: /usr/lib/libxslt.so.1: no version information available (required by /opt/users/ipg/p/n/ipg.pnpdancecom/php/php)
+/opt/users/ipg/p/n/ipg.pnpdancecom/php/php: /usr/lib/libxslt.so.1: no version information available (required by /opt/users/ipg/p/n/ipg.pnpdancecom/php/php)
+/opt/users/ipg/p/n/ipg.pnpdancecom/php/ph
+20121115T042113: www.pnpdance.com/admin.php
+/opt/users/ipg/p/n/ipg.pnpdancecom/php/php: /usr/lib/libxslt.so.1: no version information available (required by /opt/users/ipg/p/n/ipg.pnpdancecom/php/php)
+/opt/users/ipg/p/n/ipg.pnpdancecom/php/php: /usr/lib/libxslt.so.1: no version information available (required by /opt/users/ipg/p/n/ipg.pnpdancecom/php/php)
+/opt/users/ipg/p/n/ipg.pnpdancecom/php/php: /usr/lib/libxslt.so.1: no version information available (required by /opt/users/ipg/p/n/ipg.pnpdancecom/php/php)
+/opt/users/ipg/p/n/ipg.pnpdancecom/php/ph
+20121115T042119: www.pnpdance.com/admin.php
+/opt/users/ipg/p/n/ipg.pnpdancecom/php/php: /usr/lib/libxslt.so.1: no version information available (required by /opt/users/ipg/p/n/ipg.pnpdancecom/php/php)
+/opt/users/ipg/p/n/ipg.pnpdancecom/php/php: /usr/lib/libxslt.so.1: no version information available (required by /opt/users/ipg/p/n/ipg.pnpdancecom/php/php)
+/opt/users/ipg/p/n/ipg.pnpdancecom/php/php: /usr/lib/libxslt.so.1: no version information available (required by /opt/users/ipg/p/n/ipg.pnpdancecom/php/php)
+/opt/users/ipg/p/n/ipg.pnpdancecom/php/ph
+20121115T042133: www.pnpdance.com/admin.php
+/opt/users/ipg/p/n/ipg.pnpdancecom/php/php: /usr/lib/libxslt.so.1: no version information available (required by /opt/users/ipg/p/n/ipg.pnpdancecom/php/php)
+/opt/users/ipg/p/n/ipg.pnpdancecom/php/php: /usr/lib/libxslt.so.1: no version information available (required by /opt/users/ipg/p/n/ipg.pnpdancecom/php/php)
+/opt/users/ipg/p/n/ipg.pnpdancecom/php/php: /usr/lib/libxslt.so.1: no version information available (required by /opt/users/ipg/p/n/ipg.pnpdancecom/php/php)
+/opt/users/ipg/p/n/ipg.pnpdancecom/php/ph
+20121115T042140: www.pnpdance.com/index.php
+/opt/users/ipg/p/n/ipg.pnpdancecom/php/php: /usr/lib/libxslt.so.1: no version information available (required by /opt/users/ipg/p/n/ipg.pnpdancecom/php/php)
+/opt/users/ipg/p/n/ipg.pnpdancecom/php/php: /usr/lib/libxslt.so.1: no version information available (required by /opt/users/ipg/p/n/ipg.pnpdancecom/php/php)
+/opt/users/ipg/p/n/ipg.pnpdancecom/php/php: /usr/lib/libxslt.so.1: no version information available (required by /opt/users/ipg/p/n/ipg.pnpdancecom/php/php)
+/opt/users/ipg/p/n/ipg.pnpdancecom/php/ph
+20121115T042235: www.pnpdance.com/index.php
+/opt/users/ipg/p/n/ipg.pnpdancecom/php/php: /usr/lib/libxslt.so.1: no version information available (required by /opt/users/ipg/p/n/ipg.pnpdancecom/php/php)
+/opt/users/ipg/p/n/ipg.pnpdancecom/php/php: /usr/lib/libxslt.so.1: no version information available (required by /opt/users/ipg/p/n/ipg.pnpdancecom/php/php)
+/opt/users/ipg/p/n/ipg.pnpdancecom/php/php: /usr/lib/libxslt.so.1: no version information available (required by /opt/users/ipg/p/n/ipg.pnpdancecom/php/php)
+/opt/users/ipg/p/n/ipg.pnpdancecom/php/ph

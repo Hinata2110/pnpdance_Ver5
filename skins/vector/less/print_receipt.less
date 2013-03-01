@@ -1,0 +1,46 @@
+@import "style.less";
+
+.container {
+	width: 500px;
+}
+
+header {
+	.padding;
+}
+
+.receipt {
+	.padding;
+}
+
+.addresses,
+.order-details,
+.order-items {
+	.margin-b;
+}
+
+.order-items {
+	padding: 19px;
+	border: 1px solid #DDD;
+	border-width: 1px 0;
+	color: #999;
+	
+	.item {
+		margin-bottom: 19px;
+		
+		&:last-child {
+			margin: 0;
+		}
+		
+		ul { margin-bottom: 0 }
+	}
+}
+
+footer {
+	.padding;
+	text-align: right;
+	font-size: 1.25em;
+	line-height: 1.5em;
+	background: #F5F5F5;
+	border-top: 1px solid #DDD;
+	color: #999;
+}

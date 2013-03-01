@@ -1,0 +1,76 @@
++--------------------------------------------------------
+| 	CubeCart v5 Install Guide
++--------------------------------------------------------
+
+Requirements:
+
+	PHP 5.2.3 ³ (Scripting Language)
+	MySQL 4.1 ³ (Database Server)
+	Linux / Unix with Apache Web Server (or compatible)
+	Zend Optimizer and/or Ioncube - One or both of these are normally included 
+	with your web hosting account. Please check with your hosting provider. 
+
++--------------------------------------------------------
+| 	Method 1: One click installation
++--------------------------------------------------------
+
+If your web hosting control panel has the "Installatron" or "Softaculous" auto script installer system 
+it is possible to select CubeCart v5 and have it setup instantly.  
+
++--------------------------------------------------------
+| 	Method 2: Use our Professional Installation Service
++--------------------------------------------------------
+
+Why not hire one of our developers to install it for you? For pricing please 
+see: http://cubecart.com/pricing
+
++--------------------------------------------------------
+| 	Method 3: Uploading the files and running the setup wizard
++--------------------------------------------------------
+
+These install instructions assume you have a web hosting account
+meeting CubeCart's requirements with a MySQL database already created. 
+
+a.  Upload the entire contents of the extracted package to the desired 
+	location within the public HTML folder of your hosting account.
+	
+	Examples: 
+	
+	/public_html
+	/www/store
+	/htdocs/shop
+	
+b.	From your browser type in the website address to the setup folder. This
+	will start the setup process. 
+	
+	Examples:
+	
+	http://www.example.com/setup
+	http://store.example.com/setup
+	http://www.example.com/shop/setup
+	
+c.	Ensure that the correct file permissions are set on the files. These should be:
+	
+	Writable (CHMOD 0777):
+		backup/
+		cache/
+		files/
+		images/cache/
+		images/logos/
+		images/source/
+		includes/
+		includes/extra/
+		
+	* Please use 0755 if Suhosin is operating on the server. 
+	
+d. 	If all files have been uploaded successfully, and the hosting account
+	is compatible, a screen should be presented with the options to install
+	or upgrade.
+	Please select "Install CubeCart" and follow the on screen prompts.
+	
+e. 	Once complete please delete the /setup folder to keep your store
+	secure.
+
++--------------------------------------------------------
+
+For support please visit http://www.cubecart.com

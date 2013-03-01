@@ -1,0 +1,3357 @@
+AWSTATS DATA FILE 6.9 (build 1.925)
+# If you remove this file, all statistics for date 201201 will be lost/reset.
+
+# Position (offset in bytes) in this file of beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1864                
+POS_TIME 2565                
+POS_VISITOR 41131               
+POS_DAY 112990              
+POS_DOMAIN 3614                
+POS_LOGIN 3852                
+POS_ROBOT 4007                
+POS_WORMS 4986                
+POS_EMAILSENDER 5117                
+POS_EMAILRECEIVER 5260                
+POS_SESSION 113998              
+POS_SIDER 114214              
+POS_FILETYPES 5395                
+POS_OS 5701                
+POS_BROWSER 5952                
+POS_SCREENSIZE 6869                
+POS_UNKNOWNREFERER 6943                
+POS_UNKNOWNREFERERBROWSER 10652               
+POS_ORIGIN 11858               
+POS_SEREFERRALS 12014               
+POS_PAGEREFS 12239               
+POS_SEARCHWORDS 17116               
+POS_KEYWORDS 21489               
+POS_MISC 2227                
+POS_ERRORS 23844               
+POS_CLUSTER 3708                
+POS_SIDER_404 24051               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20120201000242 1390528 402476334 55361569118
+FirstTime 20120101001614
+LastTime 20120131232105
+LastUpdate 20120204011544 1390528 1362883 27640 0 4
+TotalVisits 2435                
+TotalUnique 1601                
+MonthHostsKnown 0                   
+MonthHostsUnknown 1852                
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 419 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 233 8963 12047675 329 510 8725307
+1 208 8856 9197146 348 400 4805204
+2 193 9147 11167988 330 364 2698616
+3 379 6582 168705160 622 683 8884891
+4 779 16071 255151825 1805 2235 47254758
+5 1238 20623 194759334 1252 1479 13237369
+6 1357 26404 250922622 531 808 12264643
+7 1618 22298 179827904 585 875 22258375
+8 1052 21535 86807307 441 641 7643295
+9 1361 27083 86848668 650 795 7327278
+10 1053 24740 124115076 523 756 16669120
+11 1360 23051 106404686 502 654 7717680
+12 867 18864 62667365 544 693 5350549
+13 931 18838 70802536 418 514 4515317
+14 1274 21648 106841798 480 611 6213747
+15 1065 20759 100314001 405 607 8564943
+16 1039 18157 81358366 467 611 6738490
+17 1047 17632 74311301 459 562 6062415
+18 644 13560 49556060 322 451 5217710
+19 577 11700 35100794 405 507 4968857
+20 338 9744 25704037 431 577 8239954
+21 165 9332 8445036 293 356 3752542
+22 545 10072 19237653 337 440 5735024
+23 227 9223 11660331 350 617 8942814
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 19550 394882 2131954669
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 22
+googlebot 2674 36894728 20120131220614 422
+bot[+:,\.\;\/\\-] 2049 27646587 20120131234742 320
+msnbot 1506 23269926 20120131140416 33
+spider 1225 35651630 20120131043925 0
+baiduspider 657 19896955 20120131232822 2
+yandex 452 7250569 20120131235810 31
+internetseer 340 2291964 20120131222020 0
+unknown 194 103202 20120131181421 194
+msnbot\-media 114 2696538 20120131223135 34
+no_user_agent 102 12065748 20120131071926 0
+powermarks 29 279511 20120121161355 0
+commons\-httpclient 2 42717 20120130123528 0
+seznambot 3 6611 20120118052444 0
+[+:,\.\;\/\\-]bot 20 107231 20120127140441 0
+custo 6 59213 20120122111850 3
+python 88 681613 20120131111606 0
+surveybot 7 19365 20120131115405 2
+cfnetwork 16 663202 20120131170819 0
+mj12bot 12 50616 20120128095757 0
+netcraft 1 713 20120127145720 0
+nutch 26 176831 20120125195438 1
+crawl 5 5469 20120130123626 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 12
+css 24782 13882630 0 0
+png 17657 27854041 0 0
+htm 5 2490 0 0
+php 15244 183943315 0 0
+cur 8 1316 0 0
+html 4264 30973450 0 0
+js 46802 190887405 0 0
+jpg 255815 1665635201 0 0
+xml 116 148345 0 0
+jpeg 202 2679954 0 0
+Unknown 29 324480 0 0
+gif 29958 15622042 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 18
+winlong 18918
+winxp 24705
+wii 40
+win2000 849
+linuxfedora 115
+win95 190
+winunknown 331
+wince 10
+win2003 400
+winnt 409
+win98 73
+linuxubuntu 61
+linux 5415
+win16 17
+winme 71
+macosx 290022
+Unknown 4289
+win2008 48967
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 57
+firefox3.6.24 120
+msie6.0 3513
+firefox5.0 158
+firefox3.6 222
+firefox4.0.1 434
+chrome 286213
+firefox3.0.1 1
+firefox2.0.0.1 539
+firefox2.0.0.10 52
+msie4.01 24
+firefox8.0 278
+curl 7
+firefox3.5.3 40
+msie3.02 10
+netscape4.76 111
+msie8.0 34340
+firefox2.0.0.14 15
+firefox6.0.2 32
+netscape0.91 8
+msie7.0 5797
+msie2.0 116
+firefox9.0.1 4607
+msie5.0 49
+msie9.0 22319
+Unknown 2107
+firefox3.0.8 7
+firefox3.5.6 82
+msie5.01 5
+firefox2.0.0.20 124
+firefox2.0.0.8 1
+firefox3.0.4 208
+firefox3.0 8
+libwww 1
+opera 3092
+firefox3.6.25 973
+firefox3.5.2 40
+firefox7.0.1 512
+msie5.5 371
+firefox3.5.10 8
+netscape4.79 26
+firefox3.0.3 82
+netscape0.6 18
+firefox1.0.7 1
+mozilla 2190
+netscape5.0 2
+firefox5.0.1 2010
+firefox3.6.18 114
+firefox3.6.3 11
+firefox3.5.19 88
+firefox3.0.13 17
+firefox3.6.22 81
+firefox3.5 1
+firefox8.0.1 2054
+firefox3.0.19 105
+firefox3.6.8 412
+safari 20879
+firefox3.6.13 247
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 46
+AppEngine-Google;_(_http://code.google.com/appengine;_appid:_s~getfavicon27) 20120106085715
+Opera/9.80_(J2ME/MIDP;_Opera_Mini/4.2.20457/26.1407;_U;_en)_Presto/2.8.119_Version/10.54 20120127064019
+Facebook_4100.0_(iPhone;_iPhone_OS_5.0.1;_en_GB) 20120108171839
+Opera/9.80_(J2ME/MIDP;_Opera_Mini/4.2.20464/26.1395;_U;_en)_Presto/2.8.119_Version/10.54 20120124111049
+Crowsnest/0.5_(_http://www.crowsnest.tv/) 20120126110032
+BlackBerry8520/5.0.0.681_Profile/MIDP-2.1_Configuration/CLDC-1.1_VendorID/301 20120131120357
+Opera/9.80_(J2ME/MIDP;_Opera_Mini/4.2.22537/26.1374;_U;_en)_Presto/2.8.119_Version/10.54 20120118031529
+libwww-perl/5.814 20120105050419
+Mozilla/5.0_(compatible;_XML_Sitemaps_Generator;_http://www.xml-sitemaps.com)_Gecko_XML-Sitemaps/1.0 20120105113125
+Opera/9.80_(J2ME/MIDP;_Opera_Mini/4.2.18154/26.1411;_U;_en)_Presto/2.8.119_Version/10.54 20120129011546
+Opera/9.80_(J2ME/MIDP;_Opera_Mini/4.2.20457/26.1374;_U;_en)_Presto/2.8.119_Version/10.54 20120118020302
+JS-Kit_URL_Resolver,_http://js-kit.com/ 20120131110002
+Mozilla/5.0_(PlayBook;_U;_RIM_Tablet_OS_1.0.0;_en-US)_AppleWebKit/534.11__(KHTML,_like_Gecko)_Version/7.1.0.7_Safari/534.11_ 20120128034739
+OurBrowser/1.0_(Some_Name) 20120129090742
+PostRank/2.0_(postrank.com) 20120129110004
+Opera/9.80_(J2ME/MIDP;_Opera_Mini/4.2.18154/26.1395;_U;_en)_Presto/2.8.119_Version/10.54 20120124111520
+Mozilla/5.0_(BlackBerry;_U;_BlackBerry_9300;_en-GB)_AppleWebKit/534.8__(KHTML,_like_Gecko)_Version/6.0.0.600_Mobile_Safari/534.8_ 20120109123118
+YahooCacheSystem 20120127151512
+facebookexternalhit/1.1_(_http://www.facebook.com/externalhit_uatext.php) 20120131165909
+Mozilla/4.0_(compatible;_ICS) 20120122065016
+Google-Site-Verification/1.0 20120105113024
+UnwindFetchor/1.0_(_http://www.gnip.com/) 20120131110004
+MetaURI_API/2.0__metauri.com 20120130110103
+Mozilla/5.0_(BlackBerry;_U;_BlackBerry_9780;_en-GB)_AppleWebKit/534.8__(KHTML,_like_Gecko)_Version/6.0.0.668_Mobile_Safari/534.8_ 20120124051653
+Mozilla/5.0_(BlackBerry;_U;_BlackBerry_9800;_en)_AppleWebKit/534.8__(KHTML,_like_Gecko)_Version/6.0.0.570_Mobile_Safari/534.8_ 20120130110004
+MFE_expand/0.1 20120125080004
+bitlybot 20120118061738
+Opera/9.80_(J2ME/MIDP;_Opera_Mini/4.2.18154/26.1374;_U;_en)_Presto/2.8.119_Version/10.54 20120119001733
+Mozilla/0.91_Beta_(Windows) 20120127174813
+panscient.com 20120131094506
+Mozilla/0.6_Beta_(Windows) 20120119192941
+VB_Project 20120127150926
+facebookexternalhit/1.0_(_http://www.facebook.com/externalhit_uatext.php) 20120131140158
+Opera/9.80_(J2ME/MIDP;_Opera_Mini/4.2.20457/26.1395;_U;_en)_Presto/2.8.119_Version/10.54 20120122162051
+Apple-PubSub/65.28 20120131124856
+Mozilla/5.0_(compatible;_Butterfly/1.0;__http://labs.topsy.com/butterfly/)_Gecko/2009032608_Firefox/3.0.8 20120124134403
+scour/1.0 20120123222446
+Opera/9.80_(J2ME/MIDP;_Opera_Mini/4.2.22228/26.1374;_U;_en)_Presto/2.8.119_Version/10.54 20120118105013
+Opera/9.80_(J2ME/MIDP;_Opera_Mini/4.2.22228/26.1305;_U;_en)_Presto/2.8.119_Version/10.54 20120111024013
+Mozilla/5.0_(BlackBerry;_U;_BlackBerry_9780;_en)_AppleWebKit/534.1__(KHTML,_like_Gecko)_Version/6.0.0.294_Mobile_Safari/534.1_ 20120116082307
+Mozilla/5.0_(en-us)_AppleWebKit/534.14_(KHTML,_like_Gecko;_Google_Wireless_Transcoder)_Chrome/9.0.597_Safari/534.14 20120123141715
+Mozilla/5.0_(compatible 20120123110010
+curl/7.19.7_(universal-apple-darwin10.0)_libcurl/7.19.7_OpenSSL/0.9.8r_zlib/1.2.3 20120130123526
+Mozilla/4.0_(compatible;) 20120126044135
+BlackBerry9000/4.6.0.167_Profile/MIDP-2.0_Configuration/CLDC-1.1_VendorID/102_ips-agent 20120117062444
+Mozilla/5.0_(compatible;_SnapSitemap/1.0;__http://www.snapsitemap.com/) 20120105111926
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 21
+AppEngine-Google;_(_http://code.google.com/appengine;_appid:_s~getfavicon27) 20120106085715
+MFE_expand/0.1 20120125080004
+bitlybot 20120118061738
+Facebook_4100.0_(iPhone;_iPhone_OS_5.0.1;_en_GB) 20120108171839
+panscient.com 20120131094506
+Crowsnest/0.5_(_http://www.crowsnest.tv/) 20120126110032
+BlackBerry8520/5.0.0.681_Profile/MIDP-2.1_Configuration/CLDC-1.1_VendorID/301 20120131120357
+VB_Project 20120127150926
+facebookexternalhit/1.0_(_http://www.facebook.com/externalhit_uatext.php) 20120131140158
+Apple-PubSub/65.28 20120131124856
+JS-Kit_URL_Resolver,_http://js-kit.com/ 20120131110002
+OurBrowser/1.0_(Some_Name) 20120129090742
+PostRank/2.0_(postrank.com) 20120129110004
+scour/1.0 20120123222446
+Microsoft_Office_Protocol_Discovery 20120105061357
+YahooCacheSystem 20120127151512
+facebookexternalhit/1.1_(_http://www.facebook.com/externalhit_uatext.php) 20120131165909
+Google-Site-Verification/1.0 20120105113024
+UnwindFetchor/1.0_(_http://www.gnip.com/) 20120131110004
+BlackBerry9000/4.6.0.167_Profile/MIDP-2.0_Configuration/CLDC-1.1_VendorID/102_ips-agent 20120117062444
+MetaURI_API/2.0__metauri.com 20120130110103
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 3695 7861
+From1 3 4
+From2 252 267
+From3 1354 58605
+From4 14246 328145
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 7
+google 202 214
+search 10 13
+aol 4 4
+live 3 3
+mywebsearch 15 15
+ask 9 9
+yahoo 9 9
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 103
+http://mflphotos.com/gallery2/main.php 436 1476
+http://www.ebay.co.uk/sch/i.html 263 263
+http://vi.ebaydesc.co.uk/ws/eBayISAPI.dll 176 2525
+http://www.bing.com/search 68 68
+http://www.ebay.co.uk/sch/Childrens-Dancewear-/112426/i.html 48 48
+http://www.ebay.co.uk/sch/Dancewear-Accessories-/112425/i.html 44 44
+http://www.mflphotos.com 29 390
+http://www.facebook.com/l.php 26 26
+http://www.orangeask.com 20 20
+http://mflphotos.com/portfolio/ 16 28835
+http://d7c.mflphotos.com/images/ 1 1
+http://www.mflphotos.com/offers/ 4 28
+http://www.ebay.co.uk/sch/Girls-Shoes-/57974/i.html 2 2
+http://www.polo-ralphlaurenpascher.biz 4 4
+http://www.ebay.co.uk/sch/Womens-Dance-Shoes-/108911/i.html 13 13
+http://m.facebook.com/l.php 1 1
+http://srx.uk.ebayrtm.com/clk 1 1
+http://www.mflphotos.com/index.php 1 1
+http://translate.googleusercontent.com/translate_c 1 8
+http://ebay.com 7 112
+http://www.amazon.co.uk/s/ref=nb_sb_noss 1 1
+http://mail.tools.sky.com/mail/ 0 2
+http://akari.com.ua 1 1
+http://www.ebay.co.uk/csc/i.html 1 1
+http://www.mflphotos.com/photos.php 1 1
+http://www.ebay.co.uk/sch/Dresses-/63861/i.html 1 1
+http://searcht2.aol.co.uk/aol/search 1 1
+http://m.bing.com/search 3 3
+http://www.ebay.co.uk/sch/Mens-Dancewear-/112427/i.html 2 2
+http://www.mflphotos.com/galleria/themes/classic/galleria.classic.css 0 4
+http://www.ebay.co.uk/sch/Girls-Clothing-/11462/i.html 1 1
+http://mflphotos.com/contact/ 6 51
+http://m.bing.com/search/ 6 6
+http://www.mflphotos.com/information.php 1 1
+http://www.ebay.co.uk/sch/Mens-Dance-Shoes-/153002/i.html 1 1
+http://mflphotos.com/gallery2/modules/icons/iconpacks/silk/icons.css 0 2
+http://www.ebay.co.uk/sch/items/__capezio+dance+bag_W0QQ_dmdZ2 1 1
+http://www.mflphotos.com 1 75
+http://www.ehow.com/search.html 1 1
+http://m.bing.com:80/search/ 2 2
+http://www.amazon.co.uk/s/ 1 1
+http://www.ebay.co.uk/sch/items/__wdc+dancewear_W0QQ_dmdZ2 1 1
+http://www.dazzledancewear.com 1 1
+http://www.ebay.co.uk/sch/Womens-Shoes-/3034/i.html 2 2
+http://www.ebay.co.uk/sch/items/__junior+latin+dance+dresses_W0QQ_dmdZ2 1 1
+http://uk.search-results.com/web 3 3
+http://www.moztna.com 3 3
+http://www.talktalk.co.uk/search/results.html 2 2
+http://www.ebay.co.uk/sch/Leotards-/79794/i.html 3 3
+http://www.cartuningshop.co.uk 4 4
+http://uk.zapmeta.com 1 1
+http://start.facemoods.com/results.php 1 1
+http://mflphotos.com/cms/ 0 9
+http://tabsstore.com 2 2
+http://t.co/1kLayam4 1 1
+http://www.mflphotos.com/photos/ 1 26
+http://www.poleprincesses.com 1 1
+http://www.mflphotos.com/about/ 14 23
+http://www.ebay.co.uk/sch/Mens-Clothing-/1059/i.html 2 2
+http://mflphotos.com/style.css 0 2
+http://www.ebay.co.uk/sch/Childrens-Dancewear-/112426/s.html 1 1
+http://www.ebay.co.uk/sch/Clothes-Shoes-Accessories-/11450/i.html 10 10
+http://mflphotos.com/photos/ 8 23698
+http://t.co/nNaip5QK 2 2
+http://82v28o8.dhpreview.devhub.com/blog/745685-chopard-watches/ 1 1
+http://www.ebay.co.uk/sch/craftyneedles1366/m.html 1 1
+http://mflphotos.com/galleria/themes/classic/galleria.classic.css 0 4
+http://googleads.g.doubleclick.net/pagead/ads 4 4
+http://twitter.com 1 1
+http://previewitem.ebay.co.uk/ws/eBayISAPI.dll 0 21
+http://www.ebay.co.uk/itm/ws/eBayISAPI.dll 2 30
+http://www.mflphotos.com/contact/ 4 31
+http://vi.ebaydesc.com/ws/eBayISAPI.dll 8 78
+http://www.ebay.co.uk/itm/260942357407 1 8
+http://www.ebay.co.uk/sch/Sportswear-/51584/i.html 1 1
+http://www.ebay.co.uk:80/sch/i.html 5 5
+http://mflphotos.com/information/ 0 2
+http://www.calibex.co.uk/buyer/SponsoredLinksIFrame.jsp 1 1
+http://www.mflphotos.com/portfolio_full/ 2 54
+http://www.mflphotos.com/offers.php 1 1
+http://www.ebay.co.uk/itm/Childrens-Disco-Freestyle-Starter-Dance-Costume-Halter-neck-Tie-Back-Top-/260915197610 2 16
+http://www.gumtree.com/search 2 2
+http://www.smarterdeal.co.uk/smart/deals.jsp 1 1
+http://www.mflphotos.com/style.css 0 3
+http://m.bing.com/search/search.aspx 6 6
+http://www.ebay.co.uk/sch/mclampshop6218/m.html 1 1
+http://www.ebay.co.uk/sch/Womens-Dancewear-/150661/i.html 4 4
+http://www.ebay.co.uk/sch/items/__mirella+leotard_W0QQ_dmdZ2 1 1
+http://www.ebay.co.uk/sch/Mens-Shoes-/93427/i.html 1 1
+http://www.ebay.co.uk/sch/Childrens-Dance-Shoes-/153003/i.html 1 1
+http://www.ebay.co.uk:80/sch/Dancewear-Accessories-/112425/i.html 1 1
+http://www.ebay.co.uk/sch/coralcabin/m.html 1 1
+http://www.mflphotos.com/information/ 1 9
+http://tiffany2jewelry.blogreaction.net/bvlgari-jewellery,334826 1 1
+http://www.bing.com/images/search 0 1
+http://www.mflphotos.com/portfolio.php 1 1
+http://www.mflphotos.com/contact.php/ 1 1
+http://www.airjordanchaussurefr.com 3 3
+http://mflphotos.com 15 191
+http://www.ebay.co.uk/sch/Womens-Clothing-/15724/i.html 1 1
+http://www.ebay.co.uk/sch/items/ 1 1
+http://www.mflphotos.com/portfolio/ 13 207
+http://ebay.com 7 84
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 156
+pnp+dance 14
+mfl+photos 8
+pnpdance 5
+pnp+dancewear 5
+rock+and+roll+skirts 4
+pnpdance.com 3
+dancedirect 3
+dancewear+crop+tops 3
+puff+sleeve+crop+top 3
+princess+pickles+dance+wear 3
+pnp+dance+wear 2
+what+the+type+of+dance+were+the+girls+dance+fast 1
+short+sleeve+dance+crop+top+puff 1
+stoned+dancewear 1
+freestyle+dance+costume 1
+rock+n+roll+dance+wear 1
+unusual+leotard 2
+mfl+pics 1
+dance+direct 2
+black+mesh+dance+top 1
+dancewear+shoes 2
+oxfam+second-hand+store 1
+freestyle+dance+costumes+for+sale 1
+dance+top 1
+puffed+sleeved+catsuit 1
+girls+named+velvet+dance+hot+pants+uk 1
+princesses+and+pickles 1
+childrens+dance+long+sleeve+catsuit 1
+streetdance+costumes+for+kids 2
+top+100+dance+songs 1
+dance 1
+where+to+buy+good+quality+lycra+leggings 1
+discount+code+for+funkifabrics 1
+childrens+lycra+dancewear 1
+kids+catsuit 1
+rock+and+roll+skirt 2
+dance+clothes 2
+second+hand+childrens+dancewear 1
+silver+sequin+childs+dance+crop+top 1
+4mm+ab+rhinestones 1
+top+100+dance+songs+of+all+time 1
+hire+ladies+latin+ballroom+dance+dresses 1
+rock+n+roll+costumes+freestyle 1
+rock+n+roll+lycra 1
+orange+flat+back+rhinestone 1
+shiny+purple+v+neck+leotard 1
+dance+crop+pants 1
+mirella+leotards 1
+freestyle+disco+rock+n+roll+costumes 1
+dance+hot+pants 1
+p+n+p+dance+wear 1
+dance+leotards 1
+lyrical+dance+costumes+uk 1
+plume+dancewear 1
+danceoutfits+rock+%26+roll 1
+dance+depot 1
+flat+back+crystals+best+price 1
+slow+dance+costumes 2
+phpbb+intitle+index+page+in+total+there+are+2+users+online+0+registered+0+hidden+and+2+guests+based+on+users+active+over+the+past+5+minutes+site+com 1
+dance+lyrical+dresses 2
+what+is+equipment+needed+dancing%3f 1
+2nd+hand+dancewear 1
+childrens+dance+shoe 1
+rock+n+roll+dancers+-+skirts 2
+memories+life+images 1
+freestyle+disco+arm+%26+ankle+bands 1
+amazing+dance+costumes 1
+puff+sleeve+cropped+dance+tops 1
+dance+gear+in+romford+near+rm7+0uh 1
+rock+and+roll+costumes+informa 1
+dance+costumes 2
+long+sleeve+lycra+neon+top+uk 1
+disco+solo+costumes 2
+dance+gear+catsuit 1
+dance+shoes 1
+retro+dance+fancy+dress 1
+second+hand+dance+costumes+for+sale 1
+catsuits 1
+dance+crop+top+short+sleeves 2
+dance+clothes+uk 1
+dance+high+waisted+shorts 1
+princess+and+pickles+dancewear 1
+freestyle+discojazz+forum 2
+second+hand+dancewear 2
+cheerleading+spankies+uk 1
+funky+street+dance+costumes 1
+dance+crop+tops+uk 1
+princess+and+pickles+danewear 1
+dance+wear-+lycra+sorts 1
+http+%2f%2fwww.pnpdance.com 1
+dance+clothes+for+girls 1
+dance+catsuite+short+sleeves 1
+16ss+hotfix+rhinestones 1
+dance+costumes+for+kids+competition 1
+glitz+leotards 1
+sexy+dsnc+ecatsuits 1
+lycra+children+s+dance+costumes 1
+istd+southend+dfr 1
+pickle+sleeves 1
+sg2 1
+leotard+sewing+pattern 1
+princess+and+pickle 2
+freestyle+dance+costumes 1
+dance+tops+for+9+year+olds 1
+dance+gear+jazz+boots 1
+freestyle+dance+accesories 1
+childrens+dance+costumes 1
+children+s+green+catsuit+with+puff+sleeves 2
+dance+sequin+waistcoat 1
+princess+%26+pickle 2
+2nd+hand+slow+coustumes 1
+lycra+dancewear 1
+intermezzo+dancewear 1
+princess+and+pickles+dance 3
+mirella+cap+sleeve+keyhole+leotard 1
+puff+slleve+dance+crop+tops 1
+freestyle+dance+wear 1
+mflphoto 1
+puffy+sleeve+crop+top+dance 1
+search 2
+dance+mat+typing+the+song 1
+westbury+wiltshire+dance+boutique 1
+hotfix+dance 1
+womens+nude+leotards+uk 1
+portsmouth+disco+freestyle+costumes 1
+rhinestones+for+dance+costumes 1
+dance+costume+unitard 1
+freestyledisco+lycra 1
+childrens+rock+and+roll+outfit 2
+dances+outfits+and+sale 1
+fabric+rhinestones+4mm+ab 1
+white+backless+shirt+ladygaga+just+dance 1
+bloch+merry+jane+tap+shoes+uk 1
+lycra+catsuit 2
+childrens+rock+and+roll+outfits 1
+flat+back+rhinestones+for+dance+costumes 1
+silver+dance+lycra 1
+dance+black+sequin+waistcoat 1
+rhinestone+size+guide 1
+dance+crop+top+short+sleeve+lycra 1
+dance+mat+typing 2
+www.pnpdance.com 3
+tap+dance+costumes+for+girls 2
+http+//www.pnpdance.com%2fbrand-new-blinged-costumes%2fsold-green-butterfly-costume%2fprod_29.html 1
+tap+and+ballet+shoes+free+delivery+ukl 1
+how+to+make+a+dance+skirt 2
+second+hand+lycra 1
+istd+southend+discounts 1
+istd+medallist+southend 1
+lycra+halter+tie+top+dance 1
+rock+n+roll+skirt 3
+kerryhot 1
+ayssemetric+dance+catsuit+with+sleeve 2
+flo+yellow+dance+top 1
+real+dance+leotards 1
+adult+dance+leotard 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 254
+dance 103
+costumes 25
+pnp 21
+and 21
+dancewear 20
+roll 20
+rock 20
+top 16
+crop 15
+lycra 14
+unusual 2
+pnpdance.com 3
+pickles 9
+delivery 1
+southend 3
+%26 4
+buy 1
+dancedirect 3
+medallist 1
+oxfam 1
+intermezzo 1
+life 1
+code 1
+waisted 1
+danceoutfits 1
+catsuit 10
+what 2
+minutes 1
+orange 1
+catsuite 1
+boutique 1
+discojazz 2
+wiltshire 1
+istd 3
+over 1
+intitle 1
+time 1
+of 2
+purple 1
+users 2
+shiny 1
+is 1
+all 1
+- 2
+pics 1
+merry 1
+sorts 1
+quality 1
+phpbb 1
+plume 1
+fancy 1
+ankle 1
+online 1
+where 1
+backless 1
+index 1
+sleeve 12
+guests 1
+ladygaga 1
+sexy 1
+com 1
+were 1
+glitz 1
+a 2
+2 2
+disco 5
+ballet 1
+tap 4
+http 2
+pickle 5
+in 2
+past 1
+lyrical 3
+guide 1
+active 1
+s 3
+total 1
+discount 1
+4mm 2
+ab 2
+16ss 1
+gear 3
+type 1
+leotards 5
+ladies 1
+named 1
+free 1
+dsnc 1
+catsuits 1
+2nd 2
+rhinestone 2
+flo 1
+make 2
+store 1
+jazz 1
+back 3
+dfr 1
+there 1
+pattern 1
+wear 8
+crystals 1
+hidden 1
+fast 1
+5 1
+slow 3
+funkifabrics 1
+skirts 6
+puff 8
+ukl 1
+children 3
+slleve 1
+green 2
+on 1
+pants 3
+second-hand 1
+rhinestones 5
+sg2 1
+stoned 1
+danewear 1
+adult 1
+yellow 1
+bloch 1
+based 1
+cap 1
+romford 1
+mfl 9
+arm 1
+cheerleading 1
+nude 1
+second 5
+accesories 1
+freestyledisco 1
+black 2
+dresses 3
+fabric 1
+ayssemetric 2
+with 4
+equipment 1
+dress 1
+ballroom 1
+outfit 2
+childrens 8
+wear- 1
+leotard 6
+velvet 1
+sequin 3
+size 1
+forum 2
+shorts 1
+to 3
+good 1
+leggings 1
+real 1
+puffy 1
+solo 2
+%2f%2fwww.pnpdance.com 1
+unitard 1
+tie 1
+dances 1
+mflphoto 1
+costume 2
+silver 2
+site 1
+depot 1
+freestyle 11
+shoe 1
+year 1
+rm7 1
+hot 2
+uk 8
+the 4
+pnpdance 5
+search 2
+page 1
+street 1
+bands 1
+shirt 1
+hotfix 2
+funky 1
+latin 1
+neck 1
+white 1
+sleeves 6
+amazing 1
+mesh 1
+clothes 4
+streetdance 2
+100 2
+jane 1
+dancing%3f 1
+womens 1
+images 1
+registered 1
+informa 1
+discounts 1
+how 2
+song 1
+for 12
+waistcoat 2
+0uh 1
+kids 4
+v 1
+halter 1
+mirella 2
+near 1
+typing 3
+hire 1
+shoes 5
+childs 1
+best 1
+price 1
+mat 3
+flat 3
+olds 1
+cropped 1
+photos 8
+direct 2
+sale 3
+coustumes 1
+songs 2
+sleeved 1
+retro 1
+are 1
+needed 1
+princess 12
+high 1
+short 5
+portsmouth 1
+keyhole 1
+dancers 2
+puffed 1
+skirt 7
+www.pnpdance.com 3
+long 2
+//www.pnpdance.com%2fbrand-new-blinged-costumes%2fsold-green-butterfly-costume%2fprod_29.html 1
+neon 1
+boots 1
+memories 1
+competition 1
+girls 5
+tops 7
+n 10
+9 1
+spankies 1
+p 2
+just 1
+kerryhot 1
+ecatsuits 1
+hand 7
+sewing 1
+westbury 1
+princesses 1
+outfits 2
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 9
+403 153 125438
+503 12 21090
+206 62 2358805
+303 97 31191
+400 37 657493
+302 558 147452
+500 26 32271
+301 1275 751788
+404 4998 59802431
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 325
+/products_new.php 1 -
+/buysell/images/spacer.gif 1 http://forum.pnpdance.com/buysell/manage_ad.php
+//phpMyAdmin-2.5.5-pl1/index.php 1 -
+/images/uploads/Headers/header1(1).jpg 1 -
+/hotfix-rhinestones/4mm-16ss-/100-4mm-emerald-ab-hotfix-rhinestones/document.location.protocol+ 1 -
+//www.pnpdance.com/forum/global-moderators-g4.html 16 http://www.pnpdance.com//www.pnpdance.com/forum/global-moderators-g4.html
+/pnpdance_Sandbox/js/timthumb.php 4 http://www.pnpdance.com/pnpdance_Sandbox/
+/dance-wear-size-guide/document.location.protocol+ 1 -
+/terms-conditions/document.location.protocol+ 1 -
+/silverback-rhinestones/5mm-ab-20ss-/document.location.protocol+ 1 -
+/wp-content/plugins/portable-phpmyadmin/wp-pma-mod/index.php 1 -
+/hotfix-rhinestones/4mm-16ss-/100-4mm-emerald-ab-hotfix-rhinestones/skype:pnpdance 1 -
+/checkout_shipping.php 1 -
+/sand 1 -
+/prod_write.html 22 -
+/si 1 -
+//images/index.bak.php 1 -
+/images/uploads/Headers/header5.jpg 1 -
+/aokfkwlwzwkehzn.html 1 -
+/adm/scripts/jquery.nivo.slider.js 7 http://forum.pnpdance.com/adm/
+/th1s_1s_a_4o4.html 31 -
+/Mark_and_Kerrys_Little_Space/Photo_Albums/Photo_Albums.html 2 -
+/rock-39-n-39-roll-outfits/skype:pnpdance 1 -
+/Mark_and_Kerrys_Little_Space/About_Us.html 3 -
+/opencart/undefined 965 http://www.pnpdance.com/opencart/
+/opencart/i 1 -
+/buysell/ucp.php 6 -
+/shipping.php 2 -
+/silverback-rhinestones/4mm-ab-16ss-/100-4mm-violet-ab-silverback-rhinestones/crystals/skype:pnpdance 1 -
+/techclean/index.php 1 http://www.pnpdance.com/techclean/
+/the-team.html 796 http://www.pnpdance.com/the-team.html
+/forum/buysell/images/spacer.gif 14 http://www.pnpdance.com/forum/buysell/manage_ad.php
+//phpadmin/index.php 1 -
+//phpMyAdmin-2.5.5/index.php 2 -
+//xampp/phpmyadmin/index.php 2 -
+/forum/document.location.protocol+ 1 -
+/dance-wear/pnp-lycra-leggings/skype:pnpdance 1 -
+/hotfix-rhinestones/4mm-ab-16ss-/100-4mm-clear-ab-hotfix-rhinestones/document.location.protocol+ 1 -
+/brand-new-blinged-costumes/sold-white-solo-slow-costume/skype:pnpdance 1 -
+/js/+Y.className+ 1 -
+/pnpdance_Sandboximages/lightbox/loading.gif 16 http://www.pnpdance.com/pnpdance_Sandbox/
+/wp-login.php 2 -
+/brand-new-blinged-costumes/sold-peach-and-white-slow-costume/skype:pnpdance 1 -
+/forum/kerry-u58/document.location.protocol+ 1 -
+/forum/styles/id_provalentina/imageset/forum_unread.gif 1 http://www.pnpdance.com/forum/index.php
+/saleitems/document.location.protocol+ 26 -
+/buysell/skype:pnpdance 1 -
+/admin/buysell/index.php 1 -
+/hotfix-rhinestones/4mm-16ss-/100-4mm-clear-hotfix-rhinestones/skype:pnpdance 1 -
+/silverback-rhinestones/5mm-20ss-/document.location.protocol+ 1 -
+/index.html 2 -
+/hotfix-rhinestones/4mm-16ss-/skype:pnpdance 1 -
+/terms-conditions/file:/localhost/Users/Mark/Library/Caches/TemporaryItems/msoclip/0clip_themedata.xml 1 http://www.google.com
+/up-and-coming-istd-dance-comps/document.location.protocol+ 1 -
+/pnpdance_Sandbox/modules/3rdparty/Stock_Levels_for_Product_Opts/js/stock_levels.js 16 http://www.pnpdance.com/pnpdance_Sandbox/
+//phpmyadmin/index.php 4 -
+/rock-39-n-39-roll-outfits/rock-39-n-39-roll-skirt/document.location.protocol+ 1 -
+/dance-wear/puffed-sleeved-unitard/skype:pnpdance 1 -
+/silverback-rhinestones/4mm-ab-16ss-/100-4mm-orange-ab-silverback-rhinestones/skype:pnpdance 1 -
+/silverback-rhinestones/4mm-16ss-/100-4mm-pink-silverback-rhinestones/crystals/document.location.protocol+ 1 -
+/opencart/istall 1 -
+/document.location.protocol+ 31 -
+/favicon.gif 2 -
+/dance-wear/pnp-lycra-leggings/document.location.protocol+ 1 -
+/1326810207335_561 1 -
+/forum/pnpforum-admin-u2/document.location.protocol+ 1 -
+/misc.php 1 http://www.pnpdance.com/misc.php
+/forum/kerry-u58/skype:pnpdance 1 -
+/hotfix-rhinestones/4mm-16ss-/100-4mm-siam-ruby-hotfix-rhinestones/skype:pnpdance 1 -
+/administrators-g5.html 100 http://www.pnpdance.com/administrators-g5.html
+/dance-wear/pnp-lycra-crop-top-with-puff-sleeves/skype:pnpdance 1 -
+/modules/gateway/PayPal/ipn.php 50 -
+//admin/phpmyadmin/index.php 2 -
+/site 1 -
+/images/uploads/Headers/header1.jpg 1 -
+//mysql/index.php 2 -
+/silverback-rhinestones/4mm-16ss-/100-4mm-clear-silverback-rhinestones/crystals/document.location.protocol+ 1 -
+/robots.txt 321 -
+/rhinestones/silverback-rhinestones/document.location.protocol+ 1 -
+/opencart/isstall 1 -
+/pn 1 -
+/silverback-rhinestones/5mm-ab-20ss-/skype:pnpdance 1 -
+/rhinestones/hotfix-rhinestones/skype:pnpdance 1 -
+/secondhand/document.location.protocol+ 1 -
+/rock-39-n-39-roll-outfits/rock-39-n-39-roll-skirt/skype:pnpdance 1 -
+/dancewear-size-guide/document.location.protocol+ 5 -
+/forum/kerry-u58/ 2 http://www.google.com
+/rhinestones/document.location.protocol+ 1 -
+/silverback-rhinestones/4mm-ab-16ss-/100-4mm-mint-ab-silverback-rhinestones/crystals/document.location.protocol+ 1 -
+/dance-wear/pnp-lycra-catsuit-with-long-sleeves/document.location.protocol+ 1 -
+/dance-wear/pnp-lycra-catsuit-with-long-sleeves/skype:pnpdance 1 -
+/dancewear-size-guide/skype:pnpdance 1 -
+/rhinestones/silverback-rhinestones/skype:pnpdance 1 -
+/forum/pnpforum-admin-u2/ 11 http://www.pnpdance.com/forum/pnpforum-admin-u2/
+/dance-wear/pnp-lycra-catsuit-with-puffed-sleeves/skype:pnpdance 1 -
+/pnpdance_Sandbox/skins/FieldOfDreamsCC4/styleImages/backgrounds/innerRepeat.gif 16 http://www.pnpdance.com/pnpdance_Sandbox/
+/silverback-rhinestones/4mm-16ss-/100-4mm-pink-silverback-rhinestones/crystals/skype:pnpdance 1 -
+/ebay 1 -
+//phpMyAdmin-2.5.6/index.php 2 -
+/forum/calendar.php 18 -
+/forum/buysell/scripts/jquery.nivo.slider.js 342 -
+/dance-wear/pnp-lycra-halter-neck-tie-top/document.location.protocol+ 1 -
+/images/uploads/Headers/header4.jpg 1 -
+//phpMyAdmin-2.5.5-rc1/index.php 2 -
+/privacy-policy/document.location.protocol+ 1 -
+/rhinestones/hotfix-rhinestones/document.location.protocol+ 1 -
+/tellafriend/document.location.protocol+ 1 -
+/forum/misc.php 2 http://www.pnpdance.com/forum/misc.php
+/terms-conditions/file:/localhost/Users/Mark/Library/Caches/TemporaryItems/msoclip/0clip_filelist.xml 1 -
+/dance-wear/pnp-lycra-shorts/skype:pnpdance 1 -
+/dance-wear/document.location.protocol+ 1 -
+/MFL_Photos/Social/Social_files/widget3_markup.html 1 -
+/Mark_and_Kerrys_Little_Space/Blog_files/widget1_markup.html 11 -
+/forum/styles/id_provalentina/theme/images/stats.gif 1 http://www.pnpdance.com/forum/index.php
+//phpMyAdmin-2.5.7-pl1/index.php 2 -
+/modules/3rdparty/extended_product_options/js/visual_options.js 1 -
+/brand-new-blinged-costumes/sold-white-solo-slow-costume/document.location.protocol+ 1 -
+/silverback-rhinestones/4mm-ab-16ss-/100-4mm-pink-ab-silverback-rhinestones/crystals/document.location.protocol+ 1 -
+/skins/FieldOfDreamsCC4/typography/) 2 -
+/skype:pnpdance 22 -
+/hotfix-rhinestones/4mm-ab-16ss-/document.location.protocol+ 1 -
+/silverback-rhinestones/4mm-16ss-/document.location.protocol+ 1 -
+/dance-wear/pnp-lycra-unitard/ 1 -
+/silverback-rhinestones/4mm-ab-16ss-/100-4mm-lemon-ab-silverback-rhinestones/crystals/skype:pnpdance 1 -
+//admin/banner_manager.php/login.php 1 -
+/skins/fieldofdreamscc4/typography/renaissance_400.font.js 1 -
+/sitemap 1 -
+/terms-conditions/skype:pnpdance 1 -
+/forum/adm/scripts/jquery.nivo.slider.js 19 http://www.pnpdance.com/forum/adm/index.php
+/images/general/pink_twitter_icon.jpg 2 http://www.pnpdance.com/index.php
+/forum/member/pnpforum_admin/ 1 -
+/silverback-rhinestones/4mm-ab-16ss-/100-4mm-orange-ab-silverback-rhinestones/document.location.protocol+ 1 -
+/Social/Social_files/widget5_markup.html 1 -
+/openca 1 -
+//buysell/single_ad.php 3 -
+/rhinestones/skype:pnpdance 1 -
+/hotfix-rhinestones/4mm-16ss-/100-4mm-siam-ruby-hotfix-rhinestones/document.location.protocol+ 1 -
+/hotfix-rhinestones/4mm-16ss-/100-4mm-clear-hotfix-rhinestones/document.location.protocol+ 1 -
+/pnpdance_Sandboximages/lightbox/close.gif 16 http://www.pnpdance.com/pnpdance_Sandbox/
+/sa 1 -
+//phpMyAdmin-2.2.3/index.php 2 -
+/dance-wear/skype:pnpdance 1 -
+/brand-new-blinged-costumes/sold-green-butterfly-costume/document.location.protocol+ 1 -
+/reviews.php 2 -
+/opencart/a 1 -
+/admin 1 -
+/dance-wear/disco-freestyle-dance-costume-accessories/document.location.protocol+ 1 -
+/hotfix-rhinestones/4mm-ab-16ss-/skype:pnpdance 1 -
+/administrator/scripts/jquery.nivo.slider.js 1 -
+/skins/FieldOfDreamsCC4/typography/ 4 -
+//websql/index.php 2 -
+/admin/images/general/px.gif 1 http://www.pnpdance.com/admin.php
+/rock-39-n-39-roll-outfits/rock-39-n-39-roll-outfit/document.location.protocol+ 1 -
+//db/index.php 1 -
+/opencart/insstall 1 -
+//admin/file_manager.php/login.php 1 -
+/advanced_search.php 1 -
+/MFL_Photos/Social/Social_files/widget5_markup.html 1 -
+/js/).split( 1 -
+/open 1 -
+/ 1 -
+//phpMyAdmin-2.5.6-rc2/index.php 2 -
+/dancewear-size-guide/function.mysql-connect 1 -
+//web/phpMyAdmin/index.php 1 -
+/rock-39-n-39-roll-outfits/rock-39-n-39-roll-outfit/skype:pnpdance 1 -
+/silverback-rhinestones/4mm-ab-16ss-/skype:pnpdance 1 -
+//buysell/index.php 2 -
+/saleitems/skype:pnpdance 1 -
+/dance-wear/pnp-lycra-unitard/document.location.protocol+ 1 -
+/techclean/templates/beez_20/css/.css 2 http://www.pnpdance.com/techclean/index.php
+/dance-wear/disco-freestyle-dance-costume-accessories/skype:pnpdance 1 -
+//myadmin/index.php 2 -
+/terms-conditions/file:/localhost/Users/Mark/Library/Caches/TemporaryItems/msoclip/document.location.protocol+ 1 -
+//www.pnpdance.com/forum/the-team.html 61 http://www.pnpdance.com//www.pnpdance.com/forum/the-team.html
+/forum/skype:pnpdance 1 -
+//phpMyAdmin-2.5.1/index.php 2 -
+/silverback-rhinestones/4mm-ab-16ss-/100-4mm-violet-ab-silverback-rhinestones/crystals/document.location.protocol+ 1 -
+/secondhand/skype:pnpdance 1 -
+/dance-wear/pnp-lycra-shorts/document.location.protocol+ 1 -
+//phpMyAdmin/index.php 4 -
+//web/index.php 2 -
+/http:/www.pnpdance.com/forum/ucp.php 2 http://forum.pnpdance.com/
+//admin/pma/index.php 2 -
+/contact-us/skype:pnpdance 1 -
+//pma/index.php 2 -
+/silverback-rhinestones/4mm-ab-16ss-/100-4mm-pink-ab-silverback-rhinestones/crystals/skype:pnpdance 1 -
+/privacy-policy/skype:pnpdance 1 -
+/i 1 -
+/forum/member/Kerry/ 3 -
+/dance-wear/pnp-lycra-crop-top/skype:pnpdance 1 -
+/terms-conditions/ 1 -
+/MFL_Photos/index.html 2 -
+/sitem 1 -
+/cat_.html 34 -
+//pma/scripts/setup.php 4 -
+/techclean/index.php/household 2 http://www.pnpdance.com/techclean/
+/brand-new-blinged-costumes/sold-red-and-white-spotted-rock-n-roll-dresses/skype:pnpdance 1 -
+/http:/www.pnpdance.com/forum/scripts/jquery.nivo.slider.js 1 -
+/forum/sammyjosharpe-u99/ 2 http://www.google.com
+//phpmyadmin/scripts/setup.php 4 -
+/modules/3rdparty/stock_levels_for_product_opts/js/stock_levels.js 1 -
+/buysell/document.location.protocol+ 1 -
+/autodiscover/autodiscover.xml 3 -
+/contact-us/.sbpro-one 1 -
+/opencart/inst 2 -
+/hotfix-rhinestones/4mm-16ss-/100-4mm-sapphire-hotfix-rhinestones/document.location.protocol+ 1 -
+/opencart/admin/%3C 1 http://www.pnpdance.com/opencart/admin/index.php
+/Mark_and_Kerrys_Little_Space/Older_Photos/Older_Photos.html 2 -
+/silverback-rhinestones/4mm-16ss-/skype:pnpdance 1 -
+/cookie_usage.php 1 -
+/dance-wear/puffed-sleeved-unitard/document.location.protocol+ 1 -
+/brand-new-blinged-costumes/document.location.protocol+ 1 -
+/skins/mican/images/common/noimage_normal.png 1 -
+/forum/buysell/scripts/document.location.protocol+ 1 -
+//mysqladmin/index.php 1 -
+/images/uploads/Headers/header3.jpg 1 -
+/forum/buysell/scripts/skype:pnpdance 1 -
+/pnpdance_Sandbox/a 1 -
+/about-us/skype:pnpdance 1 -
+/silverback-rhinestones/4mm-ab-16ss-/100-4mm-mint-ab-silverback-rhinestones/crystals/skype:pnpdance 1 -
+/hotfix-rhinestones/4mm-16ss-/document.location.protocol+ 1 -
+/js/) 2 -
+/forum/global-moderators-g4.html 140 http://www.pnpdance.com/forum/global-moderators-g4.html
+/brand-new-blinged-costumes/sold-green-butterfly-costume/skype:pnpdance 1 -
+/forum/member/Octaneflyer/ 1 -
+//phpmyadmin1/index.php 2 -
+/brand-new-blinged-costumes/sold-red-and-white-spotted-rock-n-roll-dresses/document.location.protocol+ 1 -
+/crossdomain.xml 13 -
+/js/0.5 1 -
+/forum/sammyjosharpe-u99/skype:pnpdance 1 -
+/forum/styles/id_provalentina/theme/images/member.gif 1 http://www.pnpdance.com/forum/index.php
+/.sbpro-one 1 -
+/forum/styles/id_provalentina/imageset/en/button_post_ad.gif 7 http://forum.pnpdance.com/buysell/index.php
+/administrator/index.php 1 -
+//phpmyadmin2/index.php 1 -
+/brand-new-blinged-costumes/sold-peach-and-white-slow-costume/document.location.protocol+ 1 -
+//phpMyAdmin-2.5.6-rc1/index.php 1 -
+//typo3/phpmyadmin/index.php 2 -
+/silverback-rhinestones/4mm-16ss-/100-4mm-clear-silverback-rhinestones/crystals/skype:pnpdance 1 -
+/opencart/instl 1 -
+//phpMyAdmin-2/index.php 2 -
+/buysell/scripts/jquery.nivo.slider.js 150 http://forum.pnpdance.com/buysell/index.php
+/forum/administrators-g5.html 112 http://www.pnpdance.com/forum/administrators-g5.html
+/forum/the-team.html 877 http://www.pnpdance.com/forum/the-team.html
+/Mark_and_Kerrys_Little_Space/Welcome.html 11 -
+/opencart/install 1 -
+/dance-wear/pnp-lycra-catsuit-with-puffed-sleeves/document.location.protocol+ 1 -
+/contact-us/document.location.protocol+ 1 -
+/skins/FieldOfDreamsCC4/styleSheets/IE6.css 16 -
+/s 2 -
+/ucp.php 4 http://www.pnpdance.com/forum/ucp.php
+/dance-wear-size-guide/skype:pnpdance 1 -
+//admin/index.php 1 -
+/p 2 -
+/silverback-rhinestones/4mm-ab-16ss-/document.location.protocol+ 1 -
+/pnpforum-admin-u2/ 8 http://www.pnpdance.com/pnpforum-admin-u2/
+/silverback-rhinestones/4mm-ab-16ss-/100-4mm-clear-ab-silverback-rhinestones/crystals/document.location.protocol+ 1 -
+/pnpdance_Sandbox/ticker_space.gif 3 http://www.pnpdance.com/pnpdance_Sandbox/
+//scripts/setup.php 4 -
+//admin/categories.php/login.php 1 -
+/create_account.php 1 -
+/skins/FieldOfDreamsCC4/styleSheets/IE7.css 113 http://www.pnpdance.com/index.php
+/about-us/document.location.protocol+ 1 -
+/conditions.php 3 -
+/tellafriend/skype:pnpdance 1 -
+/specials.php 1 -
+/silverback-rhinestones/4mm-ab-16ss-/100-4mm-lemon-ab-silverback-rhinestones/crystals/document.location.protocol+ 1 -
+/forum/styles/id_provalentina/imageset/forum_read_locked.gif 1 http://www.pnpdance.com/forum/index.php
+/up-and-coming-istd-dance-comps/skype:pnpdance 1 -
+/function.mysql-connect 2 -
+/sandbo 1 -
+/forum/pnpforum-admin-u2/skype:pnpdance 1 -
+/pnpdance_Sandboxadmin.php 1 -
+/Mark_and_Kerrys_Little_Space/Wedding_Photos/Wedding_Photos.html 8 -
+/rock-39-n-39-roll-outfits/document.location.protocol+ 1 -
+/confirmed.php 2 -
+/brand-new-blinged-costumes/skype:pnpdance 1 -
+/Mark_and_Kerrys_Little_Space/Blog.html 1 -
+/forum/member/dancehill/ 1 -
+//phpMyAdmin-2.5.7/index.php 2 -
+/sizes.com 7 -
+/silverback-rhinestones/5mm-20ss-/skype:pnpdance 1 -
+/http://www.pnpdance.com/forum/ucp.php 14 http://forum.pnpdance.com/
+/hotfix-rhinestones/4mm-16ss-/100-4mm-sapphire-hotfix-rhinestones/skype:pnpdance 1 -
+/pnpdance_Sandbox/modules/3rdparty/Extended_Product_Options/js/visual_options.js 16 http://www.pnpdance.com/pnpdance_Sandbox/
+/terms-conditions/file:/localhost/Users/Mark/Library/Caches/TemporaryItems/msoclip/skype:pnpdance 1 -
+/images/uploads/header4.jpg 1 -
+/dance-wear/pnp-lycra-halter-neck-tie-top/skype:pnpdance 1 -
+/images/uploads/Headers/header2.jpg 1 -
+//dbadmin/index.php 2 -
+/images/logos/mican-pink.php 1 -
+/buysell/memberlist.php 2 http://forum.pnpdance.com/buysell/memberlist.php
+/MFL_Photos/Social/Social_files/widget4_markup.html 1 -
+/forum/sammyjosharpe-u99/document.location.protocol+ 1 -
+/images/general/Pink-facebook_icon.png 2 http://www.pnpdance.com/index.php
+/global-moderators-g4.html 121 http://www.pnpdance.com/global-moderators-g4.html
+//php-my-admin/index.php 4 -
+/techclean/index.php/using-joomla/extensions/components 1 http://www.pnpdance.com/techclean/index.php/using-joomla/extensions
+/images/uploads/_images/header1.jpg 1 -
+/dance-wear/pnp-lycra-crop-top-with-puff-sleeves/document.location.protocol+ 1 -
+/muieblackcat 6 -
+/Mark_and_Kerrys_Little_Space/Wedding_Photos/Wedding_Photos_files/shapeimage_1.jpg 1 -
+/sandbox 1 -
+/pnpdance_Sandbox/adm 1 -
+//phpMyAdmin-2.5.4/index.php 2 -
+/contact_us.php 4 -
+/sitemap. 1 -
+/silverback-rhinestones/4mm-ab-16ss-/100-4mm-clear-ab-silverback-rhinestones/crystals/skype:pnpdance 1 -
+/o 1 -
+/forum/styles/id_provalentina/imageset/forum_read.gif 1 http://www.pnpdance.com/forum/index.php
+/opencart/ins 1 -
+//www.pnpdance.com/forum/administrators-g5.html 9 http://www.pnpdance.com//www.pnpdance.com/forum/administrators-g5.html
+/dance-wear/pnp-lycra-unitard/skype:pnpdance 1 -
+//phpMyAdmin-2.5.5-rc2/index.php 2 -
+//phpMyAdmin-2.2.6/index.php 2 -
+/hotfix-rhinestones/4mm-ab-16ss-/100-4mm-clear-ab-hotfix-rhinestones/skype:pnpdance 1 -
+/dance-wear/pnp-lycra-crop-top/document.location.protocol+ 1 -
+/wp-content/plugins/wp-phpmyadmin/phpmyadmin/index.php 1 -
+//phpMyAdmin/scripts/setup.php 4 -
+//mysql/scripts/setup.php 4 -
+/index.php 19 -
+/forum/member/RobineYoung/ 1 http://www.pnpdance.com/forum/memberlist.php
+/favicon.png 2 -
+/sitemap.x 1 -
+/forum/buysell/images/faith_&amp 2 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 1852
+82.27.226.223 3337 245448 103526950 20120131124856
+50.23.68.66 539 539 1147258 20120109071144
+178.150.186.98 330 330 5035488 20120114084440
+85.92.84.232 300 300 2705556 20120105113125
+86.11.250.252 295 911 6493037 20120114223636
+195.212.29.78 215 3397 88767394 20120112110449
+82.12.192.229 200 2387 5259252 20120130124947
+81.158.96.111 162 1833 4000946 20120129170101
+70.161.177.214 144 156 756958 20120131094506
+90.214.119.74 138 2204 6918716 20120124152014
+31.53.36.61 13 89 1132871 20120114195203
+213.123.10.2 0 7 79956 
+117.104.139.158 1 1 514 20120131175357
+217.43.149.149 0 7 79956 
+212.103.114.238 2 2 21528 20120103095650
+69.58.178.56 11 11 55417 20120112104456
+2.126.92.166 1 8 126886 20120129151731
+82.132.211.237 38 167 315393 20120116171927
+81.159.220.237 21 197 886941 20120129153930
+109.153.223.73 2 48 764748 20120101200704
+217.44.213.187 1 34 807492 20120128223053
+150.70.172.200 15 78 2450135 20120114093213
+94.197.64.120 2 62 765873 20120124131657
+217.71.180.3 14 130 2577856 20120118022339
+66.220.156.2 4 4 16455 20120128145735
+67.228.188.4 1 21 1010055 20120126065210
+92.9.60.78 2 36 716654 20120119182710
+109.230.217.46 3 23 1055748 20120120101352
+74.125.156.92 0 4 24102 
+81.145.109.187 14 133 1140462 20120123054017
+86.170.245.15 12 46 1043461 20120129091304
+81.155.49.49 0 14 159912 
+78.150.253.85 1 42 759360 20120125132323
+50.18.132.28 1 1 22516 20120111095830
+176.31.105.147 4 4 58559 20120119192941
+81.111.107.213 1 41 761205 20120113050536
+93.186.30.115 0 18 580725 
+74.125.112.94 0 1 42176 
+92.235.254.24 1 43 760271 20120116164956
+168.143.243.50 1 1 23393 20120121103050
+91.125.149.235 1 8 126886 20120110165901
+91.125.158.92 3 44 807064 20120127150926
+212.183.128.84 5 30 665353 20120119094400
+204.236.242.9 1 1 23977 20120130123526
+198.54.202.210 3 71 171628 20120116082822
+81.152.251.37 8 123 1465908 20120113084105
+195.212.29.79 36 623 11425153 20120131113446
+74.125.16.152 1 13 181338 20120123141712
+99.188.120.35 1 3 7736 20120122125030
+94.3.159.3 1 41 758995 20120120124722
+74.125.126.88 0 1 16747 
+82.193.117.52 0 9 63088 
+86.0.159.254 1 8 126886 20120129144534
+90.206.46.138 13 91 1840339 20120122100405
+195.93.21.66 0 4 201534 
+66.220.158.247 1 1 6639 20120104061143
+91.121.185.34 3 63 3030162 20120128185827
+79.71.81.247 3 56 865330 20120126154427
+66.220.146.249 12 14 218237 20120112101403
+178.200.170.102 3 73 2897102 20120127151834
+79.109.42.81 1 1 34498 20120122114448
+74.125.64.87 0 1 9170 
+165.254.127.128 23 23 243963 20120131144635
+82.27.114.248 19 126 2228639 20120125164739
+80.193.169.249 11 146 1059562 20120106055326
+2.219.215.113 1 47 766477 20120128161334
+217.42.55.79 27 382 1254980 20120122181452
+92.26.120.118 16 168 1165560 20120124085221
+66.220.158.248 1 1 31467 20120109145306
+72.52.80.133 2 2 13282 20120113030703
+195.195.239.194 26 231 4973316 20120111085347
+74.125.16.160 1 15 183848 20120123141715
+90.195.46.169 12 190 1119212 20120128144756
+86.159.228.193 17 173 1214128 20120104135136
+94.15.145.27 12 153 1034689 20120130153035
+93.186.23.80 1 41 807626 20120124051520
+66.220.147.248 2 4 124484 20120120083809
+195.243.29.70 1 1 514 20120126200222
+200.247.36.130 6 6 88511 20120101005443
+86.156.63.142 2 76 764666 20120115135851
+80.7.96.204 1 8 126886 20120126174556
+213.107.70.92 2 86 765932 20120111155646
+90.193.86.172 13 87 1132560 20120118051616
+31.214.169.253 4 4 21723 20120116180042
+221.130.162.48 14 46 1264550 20120131060054
+31.83.122.250 1 41 758936 20120116083758
+141.0.10.92 8 76 795785 20120110110235
+80.249.48.132 0 4 89631 
+217.18.249.148 2 88 794861 20120131115031
+74.125.78.83 1 15 415252 20120122114450
+86.146.16.123 1 42 759360 20120120200652
+209.131.39.60 1 1 22516 20120111081842
+31.214.144.204 118 118 2208822 20120115092827
+81.149.31.214 7 82 102717 20120130085631
+82.24.228.112 79 832 4831592 20120130080318
+93.186.30.113 1 2 132558 20120126185935
+193.105.210.118 22 22 227557 20120129215843
+31.109.23.200 14 131 2792450 20120131054755
+213.105.59.172 6 111 974698 20120127120030
+94.13.1.45 1 41 758995 20120120114642
+175.145.221.223 4 4 61437 20120116164117
+92.40.102.110 3 115 770595 20120129211444
+86.13.240.223 31 341 6833805 20120124111132
+82.1.173.8 0 4 201036 
+78.147.153.114 1 1 738 20120107055311
+92.122.219.180 1 1 514 20120129044943
+88.111.179.218 25 224 1408016 20120130180054
+78.148.112.194 1 41 758995 20120125123751
+82.18.152.143 123 757 5408371 20120126081537
+66.220.153.244 2 2 8230 20120130071619
+93.97.85.136 1 42 759301 20120114065359
+62.24.181.134 36 227 7539240 20120128203115
+207.46.119.86 2 2 40302 20120107105418
+94.175.84.32 1 8 126886 20120129081517
+184.73.126.115 1 1 541 20120129110004
+216.104.15.138 2 7 135141 20120114133026
+209.85.224.99 0 10 139491 
+87.171.253.202 8 39 718655 20120103160131
+86.176.34.102 34 259 1420111 20120105051021
+82.8.250.90 17 148 1325329 20120117141100
+78.147.149.145 1 1 738 20120131090756
+64.215.171.121 2 2 1028 20120131095339
+109.238.105.190 2 2 21379 20120104064410
+82.4.38.81 9 117 843633 20120130184152
+93.186.31.243 1 6 147691 20120127080513
+173.193.216.83 7 7 15040 20120101181533
+195.93.21.70 2 8 173906 20120123183854
+89.204.200.233 7 82 819009 20120126150910
+87.102.74.4 13 91 1134760 20120126151421
+46.17.98.221 2 2 13282 20120101213837
+183.17.231.171 2 2 18687 20120104234113
+95.150.16.189 1 15 206842 20120126145441
+80.6.17.165 0 21 239868 
+81.153.32.186 5 79 782189 20120124114807
+82.132.210.239 1 8 126886 20120110075115
+69.171.229.244 0 16 1227388 
+95.79.149.47 2 2 31886 20120116074030
+92.22.149.0 1 42 759301 20120114103237
+141.0.9.46 3 126 1524297 20120119001730
+99.48.60.61 22 146 1302476 20120125182459
+77.121.243.71 13 13 212927 20120119065059
+92.30.90.22 1 8 126886 20120131042404
+2.120.206.8 0 7 79956 
+206.57.29.174 17 17 170330 20120131153005
+86.25.248.77 13 89 1132979 20120126171718
+207.46.204.213 1 1 682 20120105143722
+94.116.62.164 4 1676 955384 20120124041424
+90.198.111.156 17 159 1348480 20120122185431
+184.72.22.42 1 1 21796 20120112095526
+78.33.75.201 9 129 922181 20120123075149
+41.162.7.234 4 4 61437 20120116163627
+90.197.162.87 21 164 1215874 20120129224748
+31.11.96.102 2 48 766386 20120103153051
+213.233.144.71 1 4 44659 20120127075958
+90.219.85.117 24 193 1201633 20120103132001
+86.1.253.214 0 7 79956 
+109.155.140.111 1 42 759360 20120120134007
+210.75.208.179 1 1 10188 20120116164411
+188.221.141.30 1 8 126886 20120127183000
+66.220.146.251 3 3 12347 20120112084903
+94.13.49.14 0 7 79956 
+90.215.68.111 2 41 760160 20120110144436
+146.82.3.31 1 1 514 20120123172823
+90.199.134.115 2 48 764009 20120102104331
+93.182.180.107 3 3 20775 20120106155056
+74.125.52.87 0 1 59111 
+95.146.87.121 36 619 1404565 20120104163007
+78.147.166.177 1 1 738 20120109151406
+76.175.80.85 12 42 722648 20120108132157
+82.38.88.111 9 124 1156718 20120109145327
+71.207.1.68 1 1 6763 20120126110223
+74.125.78.81 0 11 224818 
+184.73.65.27 1 19 1009188 20120123222444
+89.241.14.93 0 7 79956 
+71.76.183.183 4 52 860831 20120111125225
+88.111.157.82 1 37 733018 20120107141826
+46.251.237.242 6 48 1247439 20120131002754
+209.85.224.83 0 2 33705 
+50.16.127.10 2 2 11822 20120108194833
+95.148.74.182 1 41 758964 20120117162511
+87.194.103.254 27 161 1672209 20120103085818
+50.18.8.22 1 1 21593 20120121110014
+188.126.74.9 1 21 1042461 20120131093553
+69.63.189.247 1 1 2106 20120111094848
+82.33.230.34 14 95 2422596 20120130112955
+86.17.152.6 32 343 1278891 20120126144808
+74.208.125.5 2 2 43122 20120119124426
+81.141.75.35 24 201 924252 20120130095646
+66.220.149.246 3 11 296535 20120120010142
+81.98.130.187 1 43 760271 20120114091002
+86.162.14.109 20 182 1509397 20120124075215
+107.20.42.241 2 2 1210 20120119110015
+82.25.33.15 24 256 1417306 20120127153147
+92.29.142.107 1 8 126886 20120129142721
+74.125.78.86 0 9 193692 
+89.242.134.170 13 187 1040404 20120128203047
+110.136.149.124 1 1 9216 20120105050419
+46.174.64.201 1 21 1010055 20120128172121
+94.116.243.16 3 1329 423800 20120125043447
+200.55.213.175 1 1 18322 20120102010032
+195.93.21.40 0 2 7778 
+94.116.202.140 38 745 2588341 20120106044808
+92.5.205.228 2 77 765376 20120115112054
+109.230.221.150 5 5 47918 20120102141306
+83.100.224.59 1 42 759301 20120115122248
+188.220.132.230 1 41 758995 20120122095452
+74.125.16.157 0 8 218975 
+2.125.206.211 84 1321 6726265 20120114115938
+92.9.54.216 44 558 2232927 20120102162435
+81.149.175.2 36 359 2133566 20120103093214
+60.231.93.126 12 148 1338283 20120117031150
+94.11.156.85 0 7 79956 
+74.112.131.133 2 2 34468 20120124134403
+109.154.200.25 8 8 119938 20120114152243
+80.249.48.137 0 8 68977 
+88.111.154.172 0 7 79956 
+80.4.111.115 1 42 759360 20120119115722
+79.240.201.159 6 6 39846 20120114154956
+2.123.85.62 1 41 757783 20120111203015
+109.79.180.110 1 8 126886 20120127150653
+150.70.64.194 5 38 1454406 20120131161550
+86.2.217.197 1 41 758995 20120128153743
+24.143.199.166 1 1 16390 20120127062402
+80.42.187.131 17 122 862989 20120127154745
+94.116.48.218 31 434 1534195 20120120042824
+195.93.21.36 0 2 61222 
+141.0.8.29 1 42 759290 20120124111045
+209.85.226.82 0 7 21705 
+209.85.226.92 0 3 75831 
+74.125.78.92 2 13 233311 20120122142706
+50.18.99.128 1 1 21593 20120128110032
+90.207.93.156 13 90 1133957 20120120145733
+82.21.19.11 25 324 3277362 20120109090239
+212.139.212.209 2 16 253772 20120130090110
+74.125.16.144 0 13 181382 
+85.195.99.90 36 36 205022 20120118193619
+208.80.194.33 1 1 4894 20120106171549
+90.211.219.116 23 275 1001134 20120129081233
+78.24.78.230 4 4 61437 20120116164451
+95.144.39.87 1 6 100486 20120129150005
+69.171.228.245 2 26 1297500 20120112062527
+86.168.192.90 16 138 1163892 20120115144304
+93.186.31.81 1 28 638202 20120116100330
+2.221.28.149 14 122 860565 20120111131824
+86.163.102.230 3 77 783619 20120120121303
+72.14.231.193 10 219 1652489 20120118071301
+86.152.150.13 4 78 790497 20120123161021
+69.22.154.229 1 1 514 20120123203837
+86.4.226.23 2 77 1486355 20120110194232
+195.93.21.71 0 2 3538 
+78.147.152.185 1 1 738 20120122161808
+92.28.131.44 0 7 79956 
+109.148.198.17 4 81 787912 20120103080230
+86.25.165.156 8 109 568717 20120111125511
+79.240.223.192 4 4 26564 20120117092011
+209.85.224.98 1 5 9521 20120108130943
+82.2.115.166 13 87 1132622 20120121073555
+74.125.64.85 0 2 155567 
+82.41.147.32 127 998 4734437 20120130191646
+94.1.80.142 3 34 297279 20120126153904
+81.109.242.233 1 43 760330 20120129140311
+92.24.232.40 1 15 206842 20120131111707
+92.9.145.255 13 110 765073 20120123043410
+94.9.48.15 1 8 126886 20120130170330
+77.99.63.224 1 41 758995 20120128034733
+86.168.30.8 1 8 126886 20120130043517
+141.0.8.136 2 80 1516578 20120122162047
+78.147.169.116 1 1 738 20120125131234
+78.147.163.59 1 1 738 20120116063427
+66.102.12.88 0 1 3854 
+67.187.28.169 1 1 10334 20120113201821
+92.29.141.228 1 41 758995 20120121090056
+92.30.206.252 14 124 1131161 20120102154721
+66.220.156.4 1 1 10516 20120111093835
+2.101.116.222 21 156 1166396 20120114075822
+98.82.0.101 2 55 695065 20120108155811
+216.104.15.134 3 8 198217 20120111133718
+77.98.15.206 1 1 587 20120109162357
+195.93.21.33 0 2 1622 
+86.181.255.90 0 12 142756 
+94.116.99.203 47 733 320260 20120111052003
+82.21.17.238 40 331 1573500 20120102133216
+74.125.16.150 2 14 149373 20120123141715
+200.40.138.82 0 24 137627 
+41.145.124.86 3 47 81583 20120116073906
+211.25.246.194 4 4 61437 20120116164252
+78.150.83.227 1 8 126886 20120130151010
+94.9.8.100 1 29 366754 20120128092100
+90.203.45.222 1 8 126886 20120106121717
+204.188.136.7 2 2 1028 20120121214702
+90.201.40.101 1 42 761570 20120113060038
+94.15.28.68 14 120 1138564 20120128154428
+88.108.174.84 0 7 79956 
+173.208.36.204 5 5 63496 20120126214223
+90.198.48.246 2 84 1518470 20120124083530
+69.171.224.246 1 24 1139951 20120112081318
+194.83.71.172 1 5 13820 20120130070636
+94.5.2.163 1 42 759329 20120117155007
+78.144.152.158 31 372 1445626 20120122132434
+109.230.245.197 0 12 69877 
+184.72.46.215 14 14 8086 20120131070003
+88.111.114.74 13 89 1132987 20120122145256
+77.97.29.22 1 43 760330 20120126143743
+90.202.45.127 10 152 1205498 20120102142724
+90.209.7.215 25 201 1233114 20120115073126
+82.37.4.160 1 8 126886 20120126171031
+77.103.38.248 27 262 975050 20120119153415
+92.26.164.189 1 1 738 20120118080717
+93.186.23.82 2 31 933846 20120120090902
+90.221.156.97 85 1074 6926677 20120127084744
+69.234.97.202 1 1 23123 20120113060006
+50.18.81.147 1 1 12872 20120118061340
+86.183.170.237 7 83 821581 20120113132759
+62.31.177.223 1 15 206842 20120126165252
+217.155.193.3 1 42 759329 20120118084850
+90.209.61.113 14 131 1139155 20120124063557
+93.182.132.103 1 21 1010052 20120126221231
+195.212.29.73 136 11025 739324253 20120126074705
+90.198.220.114 13 89 1135140 20120112103528
+173.248.230.233 1 1 10334 20120115135925
+46.42.140.238 2 2 13282 20120116002718
+77.72.129.74 1 1 12768 20120118112153
+94.173.249.163 1 41 758995 20120125153406
+86.4.105.147 1 42 759360 20120124104457
+178.16.133.16 13 89 1132987 20120120190958
+82.2.121.32 0 7 79956 
+86.175.26.198 0 7 79956 
+92.25.99.226 1 43 762540 20120113090554
+69.63.190.247 1 1 1061 20120103065231
+86.165.171.234 53 664 2158831 20120130140350
+199.19.249.196 8 8 269346 20120130074603
+90.220.23.1 0 7 79956 
+92.237.209.207 26 178 2270030 20120113115435
+86.184.172.156 5 102 951502 20120128134708
+217.212.227.17 1 1 15122 20120120155343
+62.109.177.38 2 2 10860 20120113201852
+81.152.71.227 3 78 784954 20120122162008
+90.200.237.131 11 217 1080744 20120127102954
+207.138.120.141 1 1 6763 20120127150926
+209.131.38.88 1 1 23851 20120118061841
+2.102.71.208 14 123 862883 20120127163653
+107.21.229.100 29 29 556118 20120109022840
+109.76.107.167 25 269 1346205 20120117172628
+71.178.155.169 16 104 1264439 20120127040319
+94.116.88.250 115 1554 20885906 20120110053919
+86.156.112.93 28 189 1390639 20120117142502
+94.7.13.101 13 13 102488 20120130053934
+74.125.156.95 1 3 12512 20120106085715
+88.108.200.69 39 285 1525357 20120116114221
+69.171.228.250 1 26 1530110 20120112080319
+194.169.205.14 2 2 13285 20120111214337
+71.199.195.233 2 2 13282 20120109001906
+2.222.240.215 0 7 79956 
+94.168.84.119 14 95 886429 20120121091237
+195.229.181.251 6 16 249341 20120116163050
+94.10.171.225 17 127 1160644 20120114103846
+70.173.252.78 4 4 26559 20120119143146
+61.191.191.142 46 70 635734 20120120080731
+92.5.248.114 3 94 1562443 20120114103938
+204.236.150.14 1 1 24979 20120118110055
+66.220.156.5 1 1 4114 20120110172325
+74.125.112.91 0 2 2739 
+90.202.175.54 22 154 1347897 20120131173200
+86.31.168.95 18 206 1130083 20120129073917
+59.58.157.17 8 8 107010 20120106000639
+78.144.19.81 1 21 287500 20120117092906
+92.30.199.15 1 8 126886 20120129082215
+86.154.6.102 13 87 1132622 20120122095959
+95.150.219.41 1 82 759301 20120115051715
+81.153.75.166 37 232 1233768 20120105124652
+86.179.118.204 12 87 1116146 20120105090006
+108.217.229.6 8 8 71329 20120115113723
+90.203.226.235 28 294 1355190 20120128154337
+86.63.38.238 1 15 206842 20120102075506
+115.124.72.177 4 4 61910 20120116162956
+46.17.97.58 2 2 13282 20120103233210
+74.125.78.88 0 12 328937 
+94.2.107.146 2 16 253772 20120102083422
+82.198.9.30 4 4 61437 20120116163612
+69.171.229.249 3 20 1188452 20120131165909
+194.176.105.136 14 168 4711965 20120124054423
+74.125.64.95 0 4 8268 
+68.46.189.32 42 505 2029795 20120122183346
+86.19.244.220 51 628 3511058 20120121090254
+89.204.249.14 1 8 126886 20120128080308
+2.97.184.71 0 42 479736 
+80.192.252.249 13 89 1132979 20120130174918
+86.154.176.104 7 41 732720 20120126170402
+92.18.233.195 1 15 96639 20120103160948
+195.93.21.73 0 6 62670 
+78.147.105.241 1 1 738 20120130024020
+121.54.47.50 1 1 587 20120127075810
+86.176.151.7 7 147 977510 20120127154058
+90.217.151.159 1 41 758936 20120113191801
+78.148.49.8 9 126 816641 20120115042154
+66.220.149.244 0 4 151114 
+92.6.149.167 0 1 30611 
+2.101.61.177 3 31 366754 20120130102807
+96.254.153.197 10 10 88607 20120120035815
+198.54.202.226 3 57 117787 20120105114449
+92.237.193.58 1 43 760330 20120121100241
+50.18.21.49 1 1 21593 20120119110040
+84.92.84.212 1 8 126886 20120110082136
+74.125.16.155 0 9 60924 
+90.197.49.19 9 116 841310 20120112043154
+184.72.46.206 12 12 6876 20120130123527
+86.176.156.59 5 5 2630 20120127064136
+31.187.9.225 2 16 92143 20120122080244
+58.97.45.86 1 1 17347 20120129111537
+80.249.48.139 0 6 44834 
+69.171.228.247 1 27 2011935 20120121040533
+195.62.25.252 3 43 2024234 20120127174805
+46.208.148.93 1 8 126886 20120127102922
+92.28.129.186 0 21 239868 
+88.81.213.46 2 2 10860 20120113201240
+95.150.27.80 7 82 130413 20120126120501
+212.64.151.213 1 1 6573 20120110234029
+81.104.196.169 11 152 1723088 20120112075305
+50.18.121.34 12 12 6748 20120129070001
+74.112.131.148 1 1 21796 20120112095545
+76.182.95.85 9 41 710800 20120102171153
+198.54.202.218 4 79 922760 20120116082947
+196.25.255.218 1 61 415853 20120116082948
+94.14.220.232 0 7 79956 
+92.40.253.204 1 40 757418 20120112065248
+74.125.52.91 0 1 42626 
+201.30.186.68 1 1 11486 20120103070304
+80.177.110.0 1 38 733988 20120108070630
+212.219.164.44 0 14 159912 
+82.17.43.24 0 21 239868 
+188.28.146.166 0 7 79956 
+209.85.224.88 0 5 37353 
+184.107.108.42 4 4 61437 20120116164517
+82.9.228.226 8 83 804612 20120123145537
+69.171.242.247 2 2 6219 20120106190216
+194.187.32.1 1 41 758936 20120116100843
+209.85.226.94 0 3 8369 
+93.182.133.40 56 56 1085324 20120131055126
+77.99.125.169 14 123 862890 20120120123659
+74.125.16.146 1 15 394404 20120122114452
+82.24.13.187 0 7 79956 
+216.246.75.186 1 1 514 20120122032534
+82.155.210.35 2 47 763644 20120102163344
+195.162.69.214 2 2 13282 20120113014215
+61.54.26.44 1 1 10334 20120113202017
+2.120.61.69 8 131 789623 20120109081539
+108.59.8.203 1 21 1010053 20120131152936
+86.168.147.40 2 77 783102 20120119112821
+69.22.154.212 1 1 25890 20120130040326
+212.85.1.2 1 42 1154048 20120123060603
+188.143.233.214 2 2 10714 20120114120357
+61.7.214.42 1 1 12768 20120110194241
+195.93.21.38 0 4 37406 
+195.2.255.48 8 8 114791 20120124174616
+66.220.147.251 2 5 19702 20120121081011
+70.110.150.114 1 1 250 20120114005250
+189.23.192.54 1 1 18319 20120103070253
+92.124.53.156 6 6 232617 20120125144341
+95.158.181.188 50 419 1745896 20120128043137
+98.216.249.122 4 120 4684606 20120120083241
+209.170.113.246 1 1 514 20120126221245
+77.100.87.24 38 341 1837894 20120114232431
+93.174.8.253 1 42 759360 20120125082600
+209.85.226.80 0 1 3580 
+174.122.126.185 4 4 61437 20120116163924
+94.181.137.167 2 2 10860 20120128165302
+89.243.68.133 1 8 126886 20120105073059
+94.116.180.144 5 53 40583 20120109043415
+175.139.89.208 13 95 2215578 20120127102608
+93.96.74.137 1 32 717616 20120107172005
+74.125.78.90 0 10 202316 
+141.0.8.42 1 40 758539 20120121042701
+81.131.172.73 0 7 79956 
+46.251.237.81 2 2 12973 20120111003618
+82.18.86.108 2 47 763865 20120101084707
+78.145.211.210 8 85 806286 20120116233521
+86.19.181.5 1 22 286798 20120128140128
+50.16.147.49 2 2 10034 20120107160125
+92.122.210.239 1 1 25856 20120123111338
+94.2.113.39 7 82 819009 20120124082641
+89.142.43.241 3 56 865958 20120117143505
+50.19.37.21 0 9 139429 
+2.99.64.226 1 36 732653 20120108173323
+69.84.207.147 24 24 557799 20120106011622
+204.11.219.86 41 170 1922150 20120117092414
+86.186.118.131 1 8 126886 20120130140311
+82.41.155.140 8 41 725591 20120126140726
+74.125.16.154 0 9 102248 
+92.40.112.178 17 159 880743 20120122144445
+92.9.137.131 7 41 732720 20120125123112
+94.0.119.58 13 95 1136760 20120115105751
+141.0.8.185 1 42 759509 20120118031525
+74.112.131.126 1 1 23977 20120124084152
+62.24.252.133 54 209 6602638 20120131090828
+82.41.179.240 19 129 1191088 20120113185405
+2.122.216.246 1 8 126886 20120104162237
+94.11.15.71 0 7 79956 
+221.130.23.152 3 3 41661 20120120153438
+66.102.12.83 0 1 970 
+81.156.84.227 3 40 208829 20120109145309
+89.243.73.255 18 118 821030 20120126101330
+207.46.204.218 1 1 682 20120107013956
+94.170.12.106 0 7 79956 
+213.249.239.109 9 117 843633 20120125143928
+188.126.86.241 41 41 726459 20120121024738
+86.137.235.125 13 122 816403 20120116194415
+86.185.251.86 1 8 126886 20120105053516
+92.22.120.103 16 158 1162803 20120115064847
+86.180.87.16 1 38 747939 20120109141426
+2.124.123.93 0 7 79956 
+87.115.8.70 13 89 1132979 20120128102108
+69.171.229.248 4 18 811411 20120118095009
+109.152.248.114 1 43 762540 20120112192305
+94.4.160.53 1 42 759301 20120117113916
+217.156.52.254 1 9 50224 20120131054025
+86.142.155.151 2 84 768025 20120113040934
+78.147.152.204 1 1 738 20120121145617
+188.141.64.94 0 14 159912 
+74.125.156.81 0 1 1378 
+82.28.235.240 57 438 1530760 20120120140057
+79.74.95.21 45 489 2112036 20120120154605
+79.74.82.111 1 42 759360 20120127144134
+2.98.174.214 4 62 928941 20120105092125
+92.13.87.188 0 7 79956 
+217.24.48.38 1 1 12771 20120113084447
+89.77.228.87 2 2 13282 20120104211100
+195.74.247.198 4 79 1075173 20120125105839
+85.210.114.78 40 311 4656531 20120123133611
+81.178.228.45 1 8 126886 20120106164331
+94.169.3.55 29 447 1102346 20120130174146
+46.17.102.138 9 29 1053203 20120124060352
+60.254.142.57 1 1 25864 20120123124202
+31.53.46.158 10 152 850613 20120122143232
+86.138.218.48 2 9 136279 20120129125542
+195.229.181.253 4 4 5123 20120116163047
+86.160.197.137 36 424 2231054 20120128151243
+204.2.199.211 2 2 15881 20120131144650
+109.155.133.196 19 116 1050021 20120121123009
+76.95.48.206 1 19 317715 20120106233748
+86.161.79.52 6 114 976013 20120127163636
+195.12.233.221 2 2 1076 20120129091049
+90.206.163.2 1 8 126886 20120103104226
+107.22.32.75 3 3 18554 20120118060048
+31.222.156.52 1 1 6573 20120111024215
+82.30.70.186 1 20 149862 20120130121857
+86.166.30.251 1 15 206842 20120130150820
+2.121.244.238 1 7 110165 20120127154931
+178.49.155.39 2 2 13285 20120120044345
+80.1.97.211 2 47 764200 20120101212435
+74.125.64.94 1 5 16276 20120105102728
+183.17.208.114 1 16 818031 20120127073942
+92.7.4.191 1 42 759360 20120125141106
+2.96.235.165 2 2 1476 20120102191935
+64.31.60.138 15 15 323321 20120120190419
+90.206.196.45 0 7 79956 
+86.152.71.152 2 30 413684 20120105150537
+207.46.12.106 1 15 106414 20120110211715
+188.227.177.2 47 47 889936 20120113143709
+94.173.204.127 3 77 783984 20120129124420
+2.126.192.65 1 43 760271 20120115050228
+94.169.91.214 35 454 1684537 20120127113635
+207.46.12.61 3 12 100578 20120116074411
+31.214.133.20 16 16 101410 20120113165742
+86.135.185.106 4 58 879529 20120126152213
+174.127.133.2 40 51 400635 20120111231250
+77.100.4.197 1 47 771721 20120112172507
+69.171.229.251 1 15 1335278 20120120045502
+94.197.127.121 6 119 974675 20120122160037
+213.233.144.73 3 16 168279 20120127080004
+82.12.80.238 37 400 1712309 20120129170158
+94.10.73.188 1 42 759360 20120126172044
+83.170.76.205 1 42 761570 20120113060430
+50.18.121.40 6 6 3246 20120131110002
+81.110.183.113 0 7 79956 
+82.36.248.91 7 289 837629 20120115140447
+66.102.12.86 0 5 69630 
+77.93.2.81 9 9 138789 20120121075411
+74.125.78.95 2 14 200539 20120130002336
+212.183.128.249 2 35 473299 20120131124503
+24.143.194.177 2 2 16830 20120127151840
+93.114.61.245 4 4 61437 20120116163248
+212.79.112.47 10 10 148118 20120115132652
+74.125.78.85 0 10 119591 
+196.25.255.210 2 77 268688 20120105114755
+90.201.119.39 22 199 1226942 20120116054210
+82.34.228.132 13 89 1132614 20120128114814
+69.171.224.251 3 19 604322 20120111142406
+86.155.217.125 21 179 1268968 20120115173705
+202.57.1.162 8 8 132422 20120123124854
+178.137.17.129 36 126 1123933 20120130040611
+92.5.206.246 1 8 126886 20120106033642
+188.163.106.15 9 9 122110 20120117002644
+109.230.220.236 2 2 25536 20120113062441
+188.28.246.254 44 475 1549316 20120127182022
+85.167.116.86 22 195 1189323 20120103110211
+50.18.121.64 10 10 5794 20120130110018
+109.154.49.253 38 437 1443110 20120129125910
+86.3.187.114 1 15 206842 20120108063926
+89.149.223.64 2 2 13283 20120110062907
+86.173.247.147 70 940 3766491 20120107033016
+111.192.163.214 1 1 10681 20120108225213
+80.40.134.104 3 27 956086 20120129160427
+60.209.5.13 2 20 1024123 20120129173418
+209.85.224.95 1 3 28144 20120108130943
+183.14.2.190 1 1 9260 20120109060347
+213.178.52.75 5 5 61660 20120116164633
+92.40.254.238 2 42 759582 20120123220000
+59.58.137.58 4 4 53505 20120101110143
+66.220.153.248 1 1 8624 20120110053336
+74.125.16.147 0 13 130217 
+2.216.154.4 1 41 757783 20120112070433
+81.241.82.19 8 37 318770 20120111095012
+85.17.213.242 2 2 9816 20120112215455
+188.80.147.86 1 43 760330 20120123111105
+59.49.79.220 30 30 571877 20120106163629
+82.35.97.194 1 41 758995 20120122083345
+213.205.233.182 13 88 1132979 20120127142606
+119.245.226.73 4 4 2292 20120127143215
+80.243.191.178 1 21 1010053 20120121123741
+2.96.105.27 0 7 79956 
+2.216.33.28 14 118 1201625 20120127125945
+86.177.129.101 1 8 126886 20120105145547
+95.145.36.87 1 15 206842 20120130145009
+79.134.255.45 2 2 13282 20120102112859
+69.171.228.251 1 25 832718 20120111095350
+86.5.226.83 28 269 1368170 20120124091001
+94.242.211.85 2 2 13282 20120119054300
+188.126.84.103 1 21 1010054 20120129154434
+109.242.96.3 13 87 1132614 20120129190154
+208.80.194.36 4 4 19576 20120130164251
+93.186.31.237 0 4 82092 
+74.125.52.82 0 3 5139 
+209.85.224.94 0 5 99720 
+80.249.48.133 0 4 184699 
+74.125.126.84 0 1 1097 
+81.52.160.206 1 1 514 20120126010609
+123.125.67.208 1 1 6628 20120102201505
+82.1.183.49 16 206 1130015 20120107164748
+82.24.226.214 45 438 2277776 20120128124757
+86.171.86.181 10 82 1099312 20120109141854
+31.52.112.50 6 111 971435 20120130121358
+86.30.216.138 1 41 758995 20120127035229
+62.255.90.109 1 42 759301 20120114133949
+64.246.165.180 1 1 4922 20120124140444
+86.143.98.45 21 196 1385380 20120124154929
+165.254.6.206 3 3 28051 20120121001809
+88.97.27.168 30 302 709087 20120118085429
+66.220.158.244 0 1 74077 
+120.37.202.80 4 4 57622 20120131221443
+94.116.163.108 2 2 857 20120111041813
+74.125.126.91 0 1 1148 
+82.31.121.110 18 129 1155835 20120101032213
+88.136.250.127 1 21 1010056 20120122035922
+90.216.168.175 0 7 79956 
+86.181.189.65 10 183 1233693 20120111091507
+41.206.158.125 3 32 261219 20120127062811
+41.30.19.185 1 5 99516 20120126171827
+86.26.22.47 3 50 1152115 20120114161858
+82.3.111.135 0 7 79956 
+190.202.87.134 2 2 13282 20120103113434
+46.20.47.43 2 2 12234 20120123110010
+2.122.30.120 1 22 286798 20120103100559
+86.163.160.184 1 1 587 20120120141617
+46.251.237.170 22 22 392804 20120112061128
+86.138.38.215 0 7 79956 
+98.139.241.246 1 1 23977 20120127151512
+218.86.51.219 6 6 84148 20120108165509
+66.220.147.244 3 4 54524 20120120083809
+92.6.42.85 1 8 126886 20120105070511
+46.117.128.9 22 22 416636 20120115131153
+82.30.6.24 15 133 1283628 20120108172823
+207.46.199.34 1 20 149299 20120121094552
+195.190.13.158 2 2 13285 20120117083407
+86.9.158.24 13 89 1132871 20120116182739
+86.161.71.92 1 8 126886 20120128170902
+178.167.230.78 1 26 600545 20120128061027
+69.171.224.247 2 23 1343855 20120112090403
+209.85.224.81 1 6 123664 20120101151459
+82.18.111.198 21 236 1386115 20120104044418
+82.41.217.126 44 354 1446383 20120124132622
+94.4.175.49 1 41 758995 20120129162234
+94.0.50.242 43 423 1613139 20120126114455
+82.24.228.125 68 455 1466583 20120121193653
+93.186.31.83 0 1 24249 
+84.13.75.208 0 7 79956 
+209.85.224.86 1 7 104965 20120108130943
+92.3.110.73 1 8 126886 20120131181351
+90.198.50.155 1 15 206842 20120101075825
+74.125.64.89 0 1 80633 
+78.150.105.39 1 41 761205 20120112190511
+217.23.233.124 1 8 126886 20120110070938
+90.216.116.85 1 1 6763 20120130180855
+86.142.51.66 1 36 732653 20120106172456
+86.160.143.118 1 8 126886 20120110171704
+141.0.8.230 1 42 759540 20120124023621
+81.94.90.76 1 8 126886 20120105144545
+115.124.65.26 4 4 61437 20120116163755
+109.230.246.100 10 10 66267 20120117190727
+94.116.53.90 24 282 1569992 20120109041824
+46.251.237.193 20 20 379176 20120109195607
+74.125.112.90 0 4 59607 
+74.125.156.83 0 1 69711 
+209.85.226.86 0 3 19760 
+66.220.146.245 4 9 127717 20120112093903
+77.102.181.219 14 121 1142558 20120102150354
+81.170.186.175 3 3 105893 20120111232440
+81.154.78.105 6 117 991935 20120117160227
+131.107.0.113 2 84 2307846 20120126085841
+86.143.30.195 30 257 1349614 20120123175628
+86.17.193.103 19 209 1932705 20120127124909
+208.49.162.156 1 1 18423 20120121025520
+2.222.68.69 2 76 764534 20120128122612
+198.63.196.198 1 1 514 20120125203049
+109.79.225.178 37 250 1227371 20120125120003
+216.13.37.226 2 2 9816 20120108080821
+81.157.182.92 25 348 1299424 20120122114452
+88.190.241.180 2 2 13282 20120106080247
+64.246.165.160 1 1 4922 20120101054932
+31.170.228.74 1 41 758995 20120124091751
+109.64.136.23 2 2 13283 20120102152918
+94.116.37.181 15 134 92352 20120109044315
+41.221.197.141 1 41 757783 20120111085929
+50.18.1.75 5 5 2961 20120124070002
+141.0.11.59 4 118 1543454 20120124111516
+77.247.181.165 2 2 84532 20120111232454
+117.21.225.66 2 14 93434 20120119214456
+207.138.120.135 1 1 6763 20120127150918
+183.14.1.211 1 1 4125 20120107051350
+184.105.184.197 6 6 30601 20120105111926
+80.237.226.75 1 1 12156 20120111232513
+141.105.66.2 1 1 189 20120119055641
+82.145.217.51 13 175 1007647 20120127064018
+177.66.106.27 4 4 61437 20120116164433
+66.220.149.248 1 6 288652 20120110053338
+59.57.15.71 4 4 61437 20120116164313
+82.1.32.75 16 159 1152589 20120129055859
+212.219.248.235 1 42 1153194 20120116072305
+92.234.142.192 1 42 759360 20120123173927
+157.55.112.231 1 16 311512 20120124065851
+90.192.173.15 0 14 159912 
+209.85.226.89 0 5 197993 
+81.135.67.127 2 30 413684 20120131135405
+213.105.56.250 9 114 843268 20120124133138
+2.223.131.172 15 125 1147428 20120127141351
+209.85.226.83 0 5 178503 
+190.144.92.42 4 4 61898 20120116163038
+2.24.147.141 9 159 833064 20120113133807
+180.243.236.210 4 4 61910 20120116162915
+94.181.148.222 2 2 10860 20120131103753
+81.241.35.8 12 59 494352 20120110162552
+86.175.124.22 1 41 757783 20120112040235
+74.125.78.87 1 16 299356 20120122142708
+199.19.107.192 49 49 768488 20120131140720
+74.125.64.91 0 2 77098 
+107.21.118.229 21 21 194613 20120130110103
+194.106.193.254 0 7 79956 
+86.134.67.83 3 37 195301 20120119122707
+69.171.242.250 3 3 18743 20120109090033
+50.18.121.55 17 17 9581 20120131080003
+109.230.245.245 0 38 352205 
+86.31.123.154 16 277 2395195 20120110102856
+94.3.3.8 18 161 1629751 20120103161004
+122.177.149.170 2 2 46246 20120113054328
+89.168.118.73 19 257 1095723 20120121072639
+92.26.161.223 1 1 738 20120112172816
+89.126.126.119 4 68 251927 20120129104212
+109.154.220.111 19 131 1193031 20120130114154
+50.18.228.114 1 1 21593 20120122110011
+115.87.235.49 0 12 67750 
+86.20.181.170 6 110 971428 20120130190757
+81.152.255.223 1 43 760330 20120128052446
+66.102.12.81 0 4 109500 
+2.101.17.160 1 43 760271 20120113145031
+88.181.117.205 1 1 0 20120105153428
+86.41.123.200 24 307 1706267 20120108192642
+64.246.165.220 1 1 4922 20120112232605
+90.201.177.216 26 295 1090317 20120123175213
+220.181.51.106 1 21 1010055 20120125050623
+81.151.183.32 13 89 1132871 20120114111619
+81.104.163.224 15 125 1158297 20120129185811
+184.72.47.46 3 3 1623 20120131080003
+213.198.95.223 1 1 562 20120131144653
+77.254.180.124 2 32 1057399 20120109053445
+38.112.148.99 0 80 7271212 
+69.63.189.244 1 1 2106 20120129175637
+92.22.205.132 25 203 1356647 20120128161135
+78.156.65.249 27 272 1776413 20120125132003
+67.232.145.91 2 42 2020106 20120125174558
+66.102.12.91 0 6 136772 
+92.19.40.198 1 1 6763 20120120114109
+211.224.108.17 2 2 31878 20120114145223
+93.182.187.129 2 2 13282 20120105112827
+90.193.122.213 12 221 1570061 20120124152713
+90.194.4.34 7 170 985965 20120120134644
+80.243.191.114 0 12 82574 
+80.6.146.135 1 42 759360 20120126134223
+8.28.16.254 2 2 57088 20120112055406
+86.27.247.254 29 241 1176319 20120124183143
+63.235.29.59 1 1 514 20120124000546
+188.28.104.213 32 486 1840514 20120109054624
+94.8.13.214 7 82 818896 20120113182515
+15.195.185.75 16 202 3022076 20120116074609
+82.9.80.3 0 7 79956 
+213.233.144.76 0 6 63994 
+80.249.48.136 0 3 24005 
+69.171.229.246 3 24 782684 20120112101903
+109.230.245.203 4 4 26564 20120117233909
+92.40.254.164 2 16 206842 20120129091618
+82.38.4.69 10 86 813022 20120101083154
+90.203.18.106 3 83 794079 20120115172513
+74.125.126.82 0 1 59300 
+58.97.45.90 1 1 514 20120129111551
+95.100.242.16 2 2 26378 20120127125834
+188.163.64.16 8 8 136475 20120113011112
+92.238.63.154 0 7 79956 
+218.75.149.147 4 4 61437 20120116164531
+77.67.99.64 1 1 514 20120121060940
+93.182.137.209 2 2 13285 20120103172406
+78.144.247.151 19 129 1191088 20120115142704
+86.184.253.184 7 82 819009 20120128193102
+86.30.158.208 28 202 1237008 20120102121816
+86.63.30.244 1 8 126886 20120127141527
+41.129.5.206 1 1 5855 20120123152953
+188.222.55.51 1 8 126886 20120106183315
+86.145.125.180 13 87 1132614 20120123172442
+82.6.167.229 1 15 206842 20120105145702
+206.57.29.183 19 19 174245 20120131184506
+89.243.39.92 49 477 2615492 20120107164041
+90.217.111.234 1 8 126886 20120131152302
+69.234.100.242 1 1 23123 20120117060008
+80.214.1.13 1 11 285536 20120115123743
+80.42.196.169 13 87 1132614 20120126173737
+81.96.222.136 0 7 79956 
+90.202.86.147 1 42 761570 20120112103959
+31.214.133.17 14 14 216830 20120130094856
+204.236.185.87 1 1 21909 20120131110002
+86.2.24.38 31 235 1269670 20120128051127
+91.194.80.29 11 11 147940 20120103013859
+66.220.156.1 1 1 6763 20120124152155
+91.195.183.215 1 42 1153194 20120116095242
+109.76.88.153 40 317 1325036 20120114195557
+94.116.28.214 3 43 7170 20120113043028
+86.112.10.83 1 43 760271 20120115081231
+66.220.146.250 1 2 78153 20120111102433
+66.135.200.200 34 40 1139461 20120126041313
+87.127.225.50 15 124 1146458 20120130093358
+31.214.133.14 1 33 1079932 20120129051905
+193.151.120.120 1 42 759329 20120117181252
+193.194.85.94 4 4 61910 20120116163007
+209.85.224.92 1 7 214713 20120125111600
+86.142.79.174 15 124 1157611 20120120152307
+195.93.21.34 0 2 3492 
+89.189.191.11 29 29 554773 20120101201955
+92.5.105.103 1 41 758995 20120127152857
+90.219.12.183 1 43 760330 20120127164115
+188.28.209.171 7 103 1932440 20120129180053
+109.67.136.213 2 2 13282 20120105075245
+86.5.131.95 1 8 126886 20120129132556
+80.192.164.234 7 82 819009 20120123180557
+88.61.206.90 1 1 18349 20120103012859
+184.72.46.207 14 14 7958 20120131110004
+88.111.181.137 1 44 761141 20120127181949
+66.220.147.246 2 4 15053 20120119140423
+109.157.114.59 1 8 126886 20120126203257
+198.54.202.195 1 80 632235 20120105102131
+74.125.112.92 0 3 84697 
+96.9.145.74 4 4 26564 20120105223255
+66.102.12.80 1 5 15019 20120107165523
+74.125.16.162 0 5 59353 
+2.31.56.131 6 114 975744 20120125182805
+188.28.102.67 13 90 1133957 20120122174258
+203.217.170.41 4 4 61437 20120116164138
+81.103.60.225 1 41 758995 20120121081618
+86.180.251.133 5 101 949829 20120112073114
+69.22.154.235 3 3 16316 20120130191001
+123.125.67.154 1 1 6658 20120102201513
+94.68.236.115 2 80 1395169 20120120204515
+74.125.156.88 0 1 5294 
+178.167.164.22 3 75 783503 20120114100301
+209.85.226.90 0 4 84122 
+92.6.166.255 3 77 783868 20120115080305
+41.190.16.17 2 2 13282 20120107001141
+74.125.112.88 0 3 13114 
+74.125.156.87 0 3 7134 
+121.204.61.140 4 4 36164 20120103094819
+173.242.124.212 1 21 1010011 20120128161056
+90.203.37.171 19 130 1192058 20120116135145
+94.10.98.242 17 127 1160800 20120123132654
+66.220.149.245 1 4 96718 20120125162516
+74.125.16.149 2 15 50644 20120130002339
+81.96.220.166 0 1 3824 
+82.23.225.47 1 42 761570 20120113073959
+208.80.194.29 2 2 9788 20120112144526
+196.25.255.194 6 40 385572 20120123073145
+82.7.73.23 1 8 126886 20120129103224
+188.232.42.239 2 96 1168887 20120114231732
+66.220.146.246 2 3 47353 20120112055917
+74.125.16.159 1 11 109637 20120127112736
+184.73.14.210 1 1 2103 20120104215605
+90.193.138.108 0 7 124318 
+198.54.202.214 21 95 210340 20120131062032
+109.150.36.111 25 308 1994112 20120115162838
+203.140.68.134 2 2 31910 20120110083023
+85.210.159.141 1 8 126886 20120127155931
+91.207.6.86 7 7 61212 20120106181248
+95.149.33.53 1 42 759360 20120126155003
+92.41.28.50 22 193 1220933 20120124152452
+96.6.124.92 1 1 25869 20120122064315
+46.17.96.151 18 18 119252 20120114110108
+109.148.212.242 1 41 758995 20120128150519
+94.196.74.102 17 271 1256676 20120121100621
+207.138.120.145 1 1 6763 20120127150916
+209.85.224.84 1 3 80037 20120131093057
+109.148.181.76 40 351 1342529 20120124151754
+175.39.8.172 4 61 1225381 20120112070638
+200.74.240.17 1 21 1010055 20120129182425
+188.112.151.199 7 7 102180 20120116190814
+90.210.174.124 1 43 760330 20120125142530
+81.109.89.34 1 8 126886 20120131112124
+109.249.215.69 5 83 1470023 20120116154612
+62.24.181.135 15 133 4978288 20120128202934
+180.211.91.226 4 4 61437 20120116164546
+65.172.31.213 4 4 45220 20120129155749
+92.26.170.90 1 1 738 20120105183004
+74.112.131.128 1 1 12872 20120124080236
+82.37.190.80 5 145 794391 20120123152902
+178.95.206.164 1 22 13941 20120129014434
+31.52.239.58 0 7 79956 
+46.251.237.95 1 21 1010052 20120129233745
+218.83.175.129 3 3 26053 20120108104802
+74.125.16.158 2 35 1148822 20120122142708
+93.186.31.238 0 17 303801 
+90.205.41.106 1 42 759360 20120130161549
+209.85.224.89 1 9 98937 20120101151456
+81.96.27.142 45 258 1230186 20120122145432
+78.147.171.197 1 1 738 20120126140428
+194.129.65.79 1 8 126886 20120130074603
+88.190.33.224 18 38 1240238 20120123070017
+82.9.89.36 1 8 126886 20120110113807
+77.98.67.163 1 37 733018 20120108164720
+74.125.112.85 0 7 87439 
+109.64.137.86 2 2 10860 20120112043842
+195.93.21.72 0 3 26580 
+82.41.200.17 16 158 887289 20120116132108
+198.54.202.250 1 22 47973 20120105114436
+65.52.0.229 5 5 27218 20120120110313
+209.85.224.91 0 14 292909 
+86.132.61.159 46 464 1554301 20120123153807
+188.220.77.37 13 187 1105509 20120122151403
+109.238.97.65 2 2 21513 20120104190858
+212.183.140.9 1 27 670256 20120125114156
+94.1.191.241 2 66 1357060 20120121041024
+204.2.196.224 2 2 43580 20120121102807
+92.30.146.144 0 7 79956 
+183.14.195.143 1 1 10613 20120115224457
+92.26.206.17 9 151 1085000 20120116133535
+50.18.157.227 0 9 60263 
+94.193.202.61 3 36 712281 20120119110141
+218.86.50.22 12 12 163132 20120114055448
+86.183.99.160 0 7 79956 
+218.14.227.197 4 4 61437 20120116163448
+77.194.146.11 13 106 1200139 20120104054737
+82.5.252.227 1 41 758995 20120122052435
+190.202.109.246 4 4 61437 20120116163412
+74.125.156.85 0 2 4239 
+90.212.95.146 1 15 206842 20120131083436
+173.234.62.226 12 12 194063 20120131121628
+81.108.61.126 20 276 2239386 20120101161430
+82.46.71.82 26 298 1738344 20120130092045
+78.147.208.35 17 159 1186936 20120116184639
+92.26.167.213 1 1 738 20120111164655
+94.0.119.111 2 40 321526 20120103153937
+69.171.224.249 3 25 1323056 20120111094857
+82.27.250.56 1 8 126886 20120126052811
+86.179.120.21 1 41 757783 20120111143703
+46.251.228.222 42 42 758947 20120105083830
+31.111.88.104 1 43 783108 20120113050621
+92.23.127.150 1 22 286798 20120107152221
+81.136.152.128 9 146 1864917 20120129171822
+150.70.172.101 77 255 7113570 20120128115210
+157.55.112.218 1 17 108283 20120127033707
+31.104.2.21 1 43 780839 20120115101109
+207.46.12.71 2 2 1364 20120104153232
+2.124.54.144 29 524 1338302 20120121091055
+86.177.160.18 5 112 974869 20120128151632
+90.198.50.86 1 22 286798 20120129123618
+82.38.36.25 3 77 783868 20120115040414
+195.37.234.30 4 4 61437 20120116163117
+90.219.151.38 1 42 1153194 20120115063059
+86.129.95.40 6 79 1155143 20120104145813
+69.171.242.246 2 2 6219 20120107113052
+90.194.123.251 1 8 126886 20120128130605
+2.120.191.19 24 216 1628324 20120131165432
+92.26.81.178 1 42 759301 20120117103110
+84.13.202.62 14 121 1139969 20120101190713
+109.155.132.182 21 232 1253907 20120126161729
+120.43.6.121 1 1 4116 20120103082633
+210.164.226.243 2 20 877085 20120131174929
+46.137.241.184 2 2 31890 20120111064109
+208.80.194.67 1 1 4894 20120128201756
+74.125.112.89 0 3 7730 
+195.93.21.41 0 7 20555 
+81.167.76.97 3 86 616316 20120121102751
+69.63.189.246 2 2 8156 20120107095416
+82.7.141.198 4 63 850528 20120106220249
+2.221.109.246 0 7 79956 
+93.182.133.85 2 2 13282 20120107185236
+98.192.53.128 4 55 850145 20120107122743
+74.125.126.90 0 1 38375 
+86.155.127.36 3 75 783619 20120128132322
+90.194.104.58 2 48 808092 20120129154132
+95.150.21.231 1 42 759360 20120130062634
+220.181.51.82 1 1 6763 20120125050622
+69.63.189.251 1 1 4115 20120110142716
+46.17.97.223 11 11 283962 20120115011939
+82.132.242.106 0 3 1107669 
+122.155.0.135 3 24 1029231 20120127032630
+81.241.141.8 9 49 381533 20120124104744
+88.104.164.147 0 7 79956 
+2.219.138.121 23 167 1218861 20120116024748
+86.9.30.174 1 29 678023 20120122164217
+209.85.226.81 0 1 30611 
+90.208.235.57 28 289 1676087 20120122190007
+46.11.29.127 14 120 1137772 20120121112744
+187.0.222.167 4 4 61437 20120116163508
+92.40.218.104 1 8 126886 20120106000319
+81.140.8.213 9 117 843463 20120117045016
+122.181.6.50 1 41 6513 20120120084014
+209.85.226.93 0 1 3202 
+2.124.79.129 27 270 1406081 20120126131530
+78.147.109.31 1 1 738 20120127144555
+90.213.179.90 0 7 79956 
+71.184.35.49 2 82 765508 20120120082609
+212.183.128.47 0 7 79956 
+86.170.203.61 1 8 126886 20120131160306
+2.220.101.6 2 58 884111 20120124143804
+50.16.3.77 0 11 989981 
+141.0.10.12 1 42 761750 20120112085945
+69.171.228.246 2 21 1023701 20120112053317
+80.249.48.138 0 6 28811 
+92.26.165.239 1 1 738 20120120133006
+2.221.228.39 0 7 79956 
+122.154.163.249 4 4 61898 20120116163025
+66.220.156.6 1 1 10514 20120128145737
+93.186.31.240 0 19 696418 
+46.105.144.64 4 4 26255 20120119223604
+69.171.161.67 2 2 13282 20120113201819
+82.3.125.24 6 115 992374 20120116150618
+201.22.6.97 4 4 61437 20120116163714
+178.98.87.160 1 8 126886 20120108064450
+88.97.239.150 1 42 759360 20120119114652
+78.147.19.221 25 204 1533477 20120127091402
+94.172.162.182 1 8 126886 20120108072740
+81.109.78.220 13 87 1132614 20120129114458
+2.124.90.230 0 7 79956 
+50.57.190.113 2 2 84489 20120120080427
+74.125.78.89 4 20 562535 20120130002339
+86.24.58.93 5 80 783159 20120126174224
+207.46.12.66 2 11 44519 20120111043107
+90.193.102.53 1 8 126886 20120129141147
+66.102.12.87 1 3 86167 20120105112554
+213.123.216.163 0 7 79956 
+188.116.3.38 2 2 10860 20120113205200
+38.100.21.19 29 37 893488 20120119160256
+90.198.98.219 15 121 1157238 20120124194026
+74.125.126.87 0 1 552 
+128.73.52.188 2 76 764769 20120117041736
+80.2.143.42 23 215 1461722 20120128111643
+82.38.21.22 14 124 1144536 20120102154937
+74.125.78.80 0 14 234873 
+94.8.213.53 19 162 1175468 20120104040802
+86.31.123.16 24 156 921328 20120109173815
+90.195.181.101 1 8 126886 20120130073035
+195.93.21.39 0 4 34066 
+82.132.211.236 37 263 2103401 20120116171943
+195.93.21.67 0 5 193830 
+109.79.148.195 1 8 126886 20120126060725
+74.125.64.88 1 4 149880 20120105102712
+66.102.12.90 3 6 122058 20120112062201
+195.43.48.140 9 178 2956445 20120116090255
+195.2.255.46 11 31 1164496 20120125072610
+195.190.13.174 2 2 13282 20120115080934
+207.46.195.211 2 21 1082086 20120126050150
+64.120.194.170 1 1 4894 20120117100759
+213.97.21.71 0 7 79956 
+92.40.254.171 39 205 1178582 20120123082502
+82.7.64.115 0 7 79956 
+78.147.153.57 1 1 738 20120108143000
+74.125.16.151 2 12 314660 20120124181104
+109.230.246.26 2 14 101756 20120114222656
+93.186.30.114 1 54 1391578 20120126190013
+82.132.242.121 1 43 780898 20120128125833
+74.125.112.95 0 4 9206 
+109.152.224.207 0 7 79956 
+91.124.58.96 4 4 65528 20120118100735
+94.155.51.21 4 4 61437 20120116163551
+86.133.125.75 1 41 758995 20120123151150
+66.220.156.3 1 1 4117 20120108051842
+209.85.224.82 3 17 216563 20120108130943
+157.55.17.84 3 9 105486 20120104230349
+2.96.78.246 1 8 126886 20120104163507
+93.96.194.253 23 223 2109287 20120112053101
+157.55.112.209 1 1 682 20120102113425
+81.157.192.113 12 89 1119332 20120102120009
+94.14.220.247 13 87 1132614 20120127172338
+2.127.10.119 117 542 2124777 20120105122006
+94.116.73.226 4 49 7112 20120103042756
+2.28.153.255 3 110 770739 20120128145954
+82.37.190.122 0 14 159912 
+2.126.111.166 1 42 759360 20120124143755
+109.230.217.45 16 16 102081 20120111042350
+66.220.146.248 3 3 12313 20120120155432
+90.205.169.77 1 8 126886 20120110152713
+89.240.131.218 1 42 759360 20120123140215
+2.220.91.85 22 207 985655 20120117192719
+198.54.202.234 2 48 108271 20120105114356
+86.133.60.151 0 7 79956 
+141.0.11.67 9 193 1035511 20120118020258
+92.2.25.235 1 42 759360 20120122183523
+95.146.190.59 19 194 1354093 20120122174730
+82.23.243.56 1 42 759360 20120123200101
+92.238.98.34 4 65 879530 20120128132927
+109.156.247.243 3 61 783619 20120120144731
+92.23.122.143 1 15 206842 20120130112105
+92.8.74.73 17 161 1335012 20120103053919
+24.189.118.219 4 59 879244 20120123200253
+86.172.247.7 16 154 892085 20120123111107
+90.199.100.173 13 213 1245751 20120130131529
+95.146.83.56 28 362 1525892 20120131110257
+31.222.156.193 1 1 6618 20120112050449
+199.19.116.72 6 6 226468 20120110170242
+213.169.36.43 4 4 61437 20120116163524
+213.233.144.72 0 2 24648 
+91.85.194.156 19 183 1336733 20120112063733
+66.220.153.245 1 1 4078 20120107073110
+217.150.147.197 2 2 13282 20120111005112
+50.23.239.14 20 20 240321 20120124003123
+81.98.23.107 20 195 1188890 20120112070456
+81.178.182.184 6 105 908876 20120125122446
+2.99.139.71 3 119 2211745 20120124125113
+90.218.85.120 0 7 79956 
+2.101.136.70 0 7 79956 
+81.176.230.40 1 1 4894 20120126134840
+193.164.114.4 4 55 1339731 20120104043156
+208.49.162.164 5 5 45859 20120131232105
+86.169.26.248 26 314 1475529 20120126155936
+72.10.78.87 1 41 758995 20120129183333
+23.19.68.66 1 21 1010052 20120126012424
+2.222.155.28 1 8 126886 20120107104544
+209.85.224.90 0 7 83697 
+95.144.51.17 1 42 759301 20120115075100
+66.102.12.95 0 3 148088 
+86.165.159.153 2 34 716671 20120131090113
+82.15.237.252 0 7 79956 
+74.125.78.82 3 10 55009 20120130002339
+74.125.64.90 0 1 3580 
+92.11.171.192 1 42 759301 20120116111809
+86.176.143.21 0 7 79956 
+69.162.74.82 8 8 51600 20120113064359
+207.236.109.30 2 2 13282 20120110043205
+204.2.199.214 1 1 18423 20120130220543
+90.200.173.20 11 120 842532 20120120220547
+87.254.184.67 1 18 138462 20120128043457
+64.214.226.233 2 2 16843 20120126082409
+86.104.60.59 2 2 13282 20120110150916
+92.26.213.52 1 42 759301 20120114191359
+213.155.156.213 1 1 21765 20120121102806
+93.186.23.81 1 43 916054 20120116082144
+109.156.101.31 1 41 758995 20120122111811
+178.41.94.219 1 8 126886 20120101143220
+161.112.232.220 1 42 759301 20120117095952
+195.93.21.74 0 1 365 
+94.197.127.251 1 8 126886 20120106110947
+94.116.199.50 24 275 668576 20120109035704
+79.142.123.82 1 1 541 20120122065016
+80.40.134.103 0 31 1335325 
+86.133.78.166 1 41 758936 20120116084540
+50.57.68.10 3 3 66163 20120120214000
+2.25.32.19 23 201 1405274 20120129173440
+188.221.0.65 2 2 78536 20120122194625
+50.19.29.212 1 1 5911 20120108080521
+208.80.194.30 2 2 9788 20120120083323
+175.41.249.4 2 2 12234 20120126110032
+86.169.219.40 1 1 587 20120127112222
+94.196.170.224 1 8 126886 20120126072839
+82.26.143.0 1 15 206842 20120130153249
+89.204.165.211 1 8 126886 20120130154822
+69.171.242.248 1 1 6732 20120117143441
+193.105.210.66 1 21 1010054 20120130063337
+199.195.140.230 1 1 23123 20120114085206
+146.82.153.65 1 1 514 20120123140342
+74.125.52.84 0 1 386 
+109.148.198.48 0 7 79956 
+82.33.170.162 1 43 760330 20120127161329
+69.171.228.248 2 19 1513120 20120111095351
+86.165.240.1 8 73 777149 20120107092548
+212.159.103.54 5 77 778664 20120113030203
+81.156.58.151 2 42 759332 20120121051917
+74.125.112.87 0 9 109345 
+65.172.31.195 2 2 1028 20120128015808
+86.147.226.21 15 121 1157073 20120114061632
+74.125.16.156 2 12 120013 20120123141715
+94.2.9.234 1 15 206842 20120128140547
+183.80.140.8 1 1 18655 20120101203708
+86.134.191.138 34 304 2028438 20120116015610
+94.13.34.249 1 42 759360 20120124155914
+86.22.247.63 13 92 1132979 20120123124023
+78.105.191.69 1 42 759360 20120120140332
+109.230.216.26 1 1 18995 20120115102949
+92.40.253.22 5 160 795046 20120111161015
+92.25.137.126 1 13 92369 20120117080201
+94.2.82.197 1 8 126886 20120129113145
+94.15.144.20 1 8 126886 20120105101351
+109.79.173.97 1 8 126886 20120110175026
+223.255.165.34 2 2 10860 20120113204046
+86.155.248.52 1 15 206842 20120126050227
+66.220.149.249 2 7 276450 20120126043912
+89.210.85.44 1 42 759360 20120124093238
+89.241.103.126 1 42 759301 20120115115904
+94.4.29.21 0 7 79956 
+202.58.170.51 4 4 61910 20120116162940
+91.224.27.229 0 7 79956 
+83.60.96.61 2 40 754386 20120109153223
+178.86.17.24 0 24 139754 
+94.181.139.169 2 2 10860 20120118025116
+178.73.63.132 60 100 2859409 20120124065414
+86.159.177.163 17 127 1160721 20120117153150
+157.228.52.61 1 40 753598 20120110120450
+92.6.100.61 1 8 126886 20120108092300
+209.85.224.87 1 5 71949 20120101151459
+69.171.224.250 5 25 996184 20120129175637
+90.220.79.53 54 709 2220212 20120103161316
+222.186.27.199 69 69 1271691 20120129035635
+74.125.16.145 0 12 374675 
+196.32.0.74 4 4 61437 20120116163908
+206.220.173.91 2 81 1509874 20120112085209
+94.10.74.117 1 1 6763 20120119085002
+82.31.104.69 1 15 206842 20120127100647
+86.161.92.93 1 1 288 20120108153603
+209.85.226.95 1 3 26828 20120105112930
+90.208.85.242 1 44 761082 20120115163950
+173.252.249.37 1 1 21593 20120122144405
+174.127.132.10 1 1 22516 20120111215130
+86.5.98.131 8 84 805475 20120115160007
+74.125.78.93 1 9 159277 20120122142708
+86.181.219.250 32 334 1589548 20120129185406
+72.52.80.132 1 21 1010053 20120121204808
+82.30.9.160 0 7 79956 
+66.220.149.251 1 6 22697 20120112055417
+66.220.147.250 2 4 53410 20120120194743
+93.97.119.150 1 8 126886 20120131143010
+69.58.178.57 11 11 329968 20120117062529
+184.98.164.38 1 21 1010053 20120128012106
+81.107.103.248 1 8 126886 20120109140215
+93.216.78.250 2 2 13282 20120102235240
+86.3.185.223 7 83 819866 20120113221214
+178.162.181.73 2 2 25536 20120114132546
+61.32.75.88 1 1 12771 20120111232205
+82.13.159.62 14 86 1166615 20120117154332
+109.230.220.244 3 23 1023339 20120127195934
+71.106.229.126 13 90 1133841 20120113200455
+90.208.167.174 2 48 764009 20120103153433
+86.19.205.197 1 44 761141 20120128102542
+121.54.2.83 3 43 1096528 20120108095915
+94.3.95.210 13 86 1127109 20120110170330
+124.42.77.178 4 4 61437 20120116164416
+82.193.117.53 2 37 190973 20120131144708
+89.243.184.55 6 114 1117797 20120125132448
+86.148.102.255 22 198 891715 20120114175139
+109.77.58.235 1 41 758936 20120116134308
+64.213.111.10 1 1 18035 20120122080014
+50.16.82.25 1 15 159573 20120105143232
+74.118.193.117 20 20 362964 20120107074224
+209.85.224.97 0 9 248020 
+94.181.145.135 5 5 208653 20120124030942
+190.248.67.138 1 21 1010055 20120124165700
+90.203.22.189 0 7 79956 
+109.230.244.66 60 60 807499 20120106032508
+82.7.227.30 13 87 1132614 20120128153558
+109.79.246.96 1 8 126886 20120105164341
+66.102.12.93 1 1 447 20120105112630
+90.215.203.160 13 90 1133895 20120117162809
+95.150.27.72 17 159 893935 20120121074636
+86.137.231.240 2 47 766491 20120103154726
+109.79.98.202 20 348 2332858 20120120150334
+69.171.224.245 2 31 4007654 20120112081818
+176.213.192.149 2 2 10860 20120125175542
+190.200.5.110 2 2 10860 20120113202200
+66.85.142.81 11 11 196104 20120107050915
+109.149.51.50 0 21 239868 
+92.28.227.71 21 160 1220453 20120128142141
+2.100.61.226 0 7 79956 
+66.102.12.85 0 2 5195 
+89.240.189.62 1 40 753587 20120110160155
+87.112.129.114 3 75 783619 20120125111424
+93.186.31.80 1 25 564508 20120117133552
+86.133.141.118 30 353 2305264 20120110070815
+81.96.52.232 53 990 4622435 20120116094127
+82.9.111.65 2 16 206842 20120107164114
+90.213.163.219 26 237 1250089 20120123093543
+86.177.244.175 1 43 760330 20120128162937
+79.97.182.46 13 87 1132622 20120120224539
+195.93.21.65 0 4 154598 
+2.121.219.37 2 9 81130 20120125162650
+82.37.149.123 7 82 819009 20120124054111
+91.20.157.74 30 273 1957931 20120113073623
+86.156.75.240 6 113 975050 20120128143623
+62.75.181.210 13 13 343332 20120112065918
+80.6.234.135 25 168 1195852 20120124110857
+94.2.187.159 0 14 159912 
+92.11.237.204 1 15 206842 20120126050134
+69.171.224.244 3 29 1419721 20120112092903
+208.80.194.28 2 2 9788 20120122022822
+92.25.223.248 1 42 759301 20120116123610
+78.133.41.88 11 237 1275650 20120107073502
+64.215.171.117 1 1 25890 20120125172652
+92.251.241.180 1 8 126886 20120110175759
+86.29.224.243 15 124 1157603 20120129083844
+88.104.78.3 1 8 126886 20120128163757
+88.104.111.103 1 42 759360 20120130151543
+2.27.134.142 2 16 206842 20120127090700
+2.102.91.50 2 45 759655 20120128024705
+204.188.136.25 1 1 514 20120121180432
+80.40.134.120 58 237 8098145 20120131181123
+92.23.245.107 31 176 2528980 20120108143606
+94.172.57.250 4 123 1220064 20120128151955
+2.83.119.98 1 41 758936 20120115160540
+82.20.228.251 64 877 2489648 20120126101347
+178.210.211.254 2 42 2020110 20120131095331
+109.194.138.85 2 2 10714 20120127112819
+204.236.190.246 1 1 21593 20120126110053
+107.20.161.197 2 2 13282 20120101105945
+86.148.228.103 1 39 756943 20120111075222
+81.141.193.171 41 404 3128865 20120119120616
+86.19.172.101 1 8 126886 20120131085325
+146.82.3.21 2 2 19022 20120123021339
+83.217.166.79 0 21 239868 
+31.7.31.113 68 516 2469286 20120129100830
+87.157.203.124 1 21 1010054 20120126200217
+86.165.200.120 1 17 108070 20120102103110
+202.153.228.179 4 4 61437 20120116164605
+213.104.248.41 39 409 1447963 20120106164705
+2.220.236.21 13 89 1132871 20120114084756
+46.105.151.65 20 20 266114 20120106161548
+109.230.246.182 6 6 39841 20120112101043
+2.96.227.71 1 1 738 20120128152714
+207.46.204.173 1 1 682 20120108162814
+109.230.244.2 1 1 12768 20120102053654
+31.178.7.2 87 169 5167337 20120124163128
+86.13.97.6 5 80 783159 20120126175404
+74.125.112.82 0 2 151228 
+2.127.113.233 1 8 126886 20120107145432
+82.37.152.255 0 7 79956 
+118.95.29.53 0 3 378894 
+86.158.113.240 2 82 1517740 20120123182105
+188.55.92.212 3 40 208769 20120111055437
+2.221.15.173 1 41 758995 20120129055124
+66.220.147.249 3 9 502092 20120112091403
+86.182.201.238 1 43 760330 20120128151813
+195.229.181.252 4 5 62080 20120116163054
+122.70.150.12 1 1 10334 20120113201851
+141.0.10.47 13 89 1134545 20120119000044
+78.145.125.182 19 193 1351096 20120122092405
+77.103.254.116 1 1 587 20120109160926
+207.138.86.112 1 1 9393 20120129125542
+74.125.126.85 0 2 1850 
+50.18.168.17 2 2 12973 20120116044058
+213.155.156.207 1 1 514 20120129154438
+86.29.10.12 52 459 1507365 20120130113708
+78.147.167.162 2 47 764567 20120101190152
+87.113.54.133 3 78 784838 20120116073453
+216.228.174.13 0 11 68444 
+217.212.227.7 2 2 1028 20120124083112
+86.181.53.13 19 209 2260527 20120118063746
+82.2.34.124 1 41 758995 20120123153523
+95.42.190.87 31 31 590814 20120124235814
+64.62.255.245 6 6 83436 20120119120312
+92.28.201.71 0 7 79956 
+209.85.226.84 0 1 3021 
+94.168.227.34 2 58 767619 20120120143027
+213.233.144.74 1 4 72998 20120127075915
+199.15.234.132 4 4 26564 20120111210019
+86.137.37.78 14 197 1137863 20120130100435
+62.24.222.131 10 165 6384289 20120129150106
+184.72.0.132 1 1 24853 20120118061738
+109.145.55.53 13 93 1161380 20120131143900
+88.104.211.243 12 45 1060154 20120111081908
+195.93.18.69 0 6 8522 
+110.85.74.159 1 1 10681 20120104003639
+124.117.139.126 61 794 2600016 20120131231935
+86.145.162.227 13 88 1130944 20120111124840
+90.202.128.189 3 77 783984 20120124111531
+205.127.241.18 15 154 1253174 20120110122121
+1.161.131.130 10 10 266455 20120108024135
+220.164.162.23 4 4 61437 20120116164017
+66.102.12.94 0 1 4137 
+87.157.193.208 1 21 1010012 20120120142751
+82.132.210.210 3 79 937105 20120115164751
+208.72.116.32 2 2 13282 20120113233448
+92.23.121.44 0 7 79956 
+74.125.78.84 0 8 241926 
+86.138.53.32 1 42 759360 20120131063109
+74.125.78.91 2 12 119917 20120123141715
+69.164.111.198 0 7 240478 
+82.41.180.74 1 8 126886 20120131125553
+92.6.250.175 10 126 850146 20120123164429
+188.223.24.28 1 41 758995 20120120125347
+83.71.103.183 1 8 126886 20120110094652
+12.53.117.198 9 117 2673098 20120111110904
+196.25.255.250 0 37 164932 
+92.40.207.128 0 7 79956 
+31.147.146.95 0 7 79956 
+92.12.249.196 12 229 1105769 20120113162956
+209.85.224.96 0 7 235088 
+188.28.180.87 1 8 126886 20120109155833
+94.2.198.16 1 1 6763 20120120132551
+86.159.121.249 13 87 1132614 20120129114537
+81.110.199.250 0 7 79956 
+77.97.30.39 19 198 1372561 20120116143101
+90.218.96.114 26 251 1334591 20120114102101
+69.171.161.231 2 2 13282 20120112173451
+81.149.67.212 14 124 1144850 20120102071338
+46.17.98.68 3 59 2974168 20120124000540
+95.145.28.23 14 131 1139155 20120126070714
+175.41.236.5 1 1 6763 20120125080005
+117.26.203.176 3 3 42074 20120104024826
+46.251.237.180 18 18 323144 20120104070908
+31.214.133.15 8 8 68117 20120109121545
+74.125.112.93 0 4 34505 
+94.228.34.213 12 52 2086003 20120125171857
+74.125.16.148 0 3 14829 
+66.220.147.245 3 7 104346 20120119102616
+94.1.112.216 14 96 1199506 20120114204420
+74.125.64.82 0 1 3201 
+72.199.236.232 16 232 1759319 20120130103611
+78.147.100.222 3 3 1935 20120115045942
+65.120.61.47 1 1 25869 20120123111307
+176.213.201.208 2 2 10860 20120123182512
+94.7.65.159 1 43 509945 20120105190316
+217.177.79.87 1 37 733018 20120109035430
+188.126.85.100 19 19 270336 20120116103936
+2.122.57.246 25 232 1815733 20120103135618
+86.3.16.184 12 178 1051540 20120117163255
+86.46.150.51 14 119 822659 20120130194847
+107.21.126.137 21 21 154268 20120124070207
+90.195.101.166 3 77 789821 20120114071724
+92.232.238.31 2 86 767199 20120114102618
+206.126.122.178 2 2 10863 20120109145907
+141.0.9.207 2 84 766069 20120118105009
+81.159.43.212 28 247 1980772 20120116205731
+89.223.43.43 2 2 13136 20120113044353
+120.42.123.177 2 2 21229 20120115104616
+94.193.240.66 10 76 1083503 20120107185341
+86.3.6.13 1 39 753222 20120110171729
+74.125.52.93 1 1 2106 20120110100354
+83.100.236.162 1 41 758995 20120126180445
+74.125.112.86 2 3 82279 20120104051421
+79.143.176.209 1 1 10334 20120115135926
+184.72.253.73 4 4 61437 20120116163934
+176.25.68.96 13 89 1132979 20120124111439
+86.161.250.191 1 29 499840 20120103152242
+92.237.121.0 1 8 126886 20120109060331
+82.16.128.29 27 239 1901578 20120129163248
+86.147.88.103 1 8 126886 20120131094237
+86.178.58.197 16 167 1169558 20120117144422
+62.175.153.53 1 1 16384 20120131083411
+95.83.230.96 1 8 126886 20120127163138
+90.199.54.114 1 42 759360 20120125173726
+90.215.132.245 9 117 843633 20120129115832
+86.152.162.92 1 44 840106 20120124172859
+93.186.31.82 1 26 444082 20120116100538
+96.127.163.106 16 79 3151156 20120129202438
+86.136.202.43 1 5 13820 20120127124944
+66.90.73.47 2 2 13282 20120111152127
+46.17.96.12 40 80 2688498 20120129123434
+200.68.18.178 4 4 61437 20120116163959
+115.39.126.220 1 42 759360 20120121090050
+86.31.49.235 3 77 783868 20120113190931
+109.156.210.42 1 1 587 20120115141710
+94.116.203.199 20 208 444427 20120104044142
+176.31.18.219 8 8 53134 20120118162445
+80.83.120.178 1 1 21593 20120119124805
+86.138.126.17 10 76 1083503 20120108103859
+66.220.149.247 1 4 131870 20120112100403
+92.235.212.243 0 12 125570 
+90.203.114.147 1 8 126886 20120129130016
+196.25.255.195 3 72 351775 20120116082948
+86.134.232.20 0 7 79956 
+221.180.22.240 4 4 61437 20120116163430
+209.85.224.80 0 15 239278 
+90.192.198.160 14 131 1892089 20120126094506
+49.212.49.76 2 2 10860 20120113202755
+74.125.126.81 0 1 25463 
+94.170.214.214 1 8 126886 20120130154603
+209.85.226.87 0 2 8277 
+86.137.235.131 4 58 870222 20120125084826
+61.100.2.71 2 2 13282 20120104011525
+91.206.252.226 1 21 1010053 20120127205819
+88.104.103.212 1 22 286798 20120128170924
+86.185.142.51 1 1 587 20120122070814
+93.96.58.186 4 32 366754 20120106121524
+82.8.250.136 12 116 1123327 20120110045229
+90.210.158.20 1 8 126886 20120105170018
+209.85.224.85 2 6 110863 20120108130943
+150.70.75.34 21 38 981680 20120130142310
+188.227.181.211 4 4 63734 20120113193058
+157.55.112.206 1 1 682 20120104104146
+94.116.15.118 29 307 560230 20120116044906
+81.52.160.238 1 1 25867 20120123174545
+90.217.8.215 7 81 812823 20120110101658
+90.215.253.247 7 82 819009 20120129132530
+2.122.25.119 15 124 1157603 20120127110659
+94.15.39.188 1 41 757783 20120112054752
+204.245.48.190 1 1 514 20120123021346
+69.171.229.247 1 18 980407 20120118095008
+204.2.196.234 2 2 40712 20120121102750
+81.104.218.192 1 8 126886 20120102044043
+74.125.78.94 0 14 212212 
+77.67.47.209 1 1 25877 20120129104152
+209.85.226.85 1 4 95408 20120105112926
+86.182.204.98 6 110 971436 20120130160158
+74.112.131.127 2 2 37747 20120118110044
+109.154.25.28 30 209 1257172 20120115141940
+74.125.112.80 0 3 80874 
+141.0.9.16 8 82 804792 20120129011546
+62.49.107.242 1 15 206842 20120127102909
+74.125.64.93 0 2 4521 
+90.222.25.59 0 7 79956 
+137.191.241.9 8 88 2071425 20120111084027
+109.230.251.185 92 92 1816071 20120116055821
+69.171.242.249 2 2 6822 20120103104141
+213.249.224.61 2 48 764565 20120101171902
+14.96.121.94 1 41 757779 20120111064145
+86.150.243.99 13 85 1100573 20120109170031
+187.102.64.137 4 4 61437 20120116164035
+184.106.170.252 1 21 1010054 20120129090742
+78.147.149.255 1 1 738 20120117072548
+66.220.149.250 4 6 79524 20120130120558
+96.25.211.42 5 57 862508 20120104170559
+109.156.227.222 1 15 206842 20120110191712
+109.150.35.216 0 7 79956 
+192.41.10.100 1 58 449188 20120114062248
+204.236.183.86 1 1 21593 20120124110047
+81.0.254.172 4 4 57473 20120102133746
+80.229.207.65 1 41 758995 20120128132615
+92.251.163.197 1 8 126886 20120103105803
+86.134.174.131 1 43 760299 20120117125848
+81.97.4.183 91 1491 9069650 20120130145613
+81.141.51.57 1 26 600545 20120122172004
+62.24.222.132 6 54 1973794 20120123140246
+77.99.52.239 2 48 766856 20120101062053
+86.31.124.220 21 95 902165 20120129152208
+78.145.235.134 1 36 446710 20120126144250
+89.74.188.233 29 29 554935 20120101001902
+174.29.212.29 18 171 1168068 20120114133007
+213.105.50.42 24 200 1494306 20120129121341
+77.103.48.38 29 328 5176443 20120130181047
+86.27.19.244 1 11 85365 20120122163338
+86.137.20.210 6 86 1375995 20120127173021
+2.221.51.76 30 341 1636157 20120127094409
+216.104.15.142 2 5 114761 20120114133046
+31.222.137.209 1 1 6082 20120110013247
+78.150.148.118 9 84 810767 20120122044433
+141.105.65.153 12 12 160519 20120107011039
+86.20.113.165 1 8 126886 20120129065444
+176.31.132.128 6 6 34553 20120107141253
+195.39.210.220 1 45 767724 20120116151601
+86.175.47.114 2 48 766571 20120101141136
+74.125.16.153 3 17 304366 20120124181102
+81.132.64.105 1 8 126886 20120128081745
+74.125.126.83 0 3 63815 
+2.24.177.68 1 42 759329 20120117120610
+119.255.6.205 4 4 26564 20120118192000
+74.123.148.54 1 1 21593 20120119110027
+74.123.148.48 1 1 692 20120124070022
+178.106.52.132 18 313 4372310 20120124083113
+69.171.229.250 2 19 1182638 20120112095903
+66.146.193.31 1 1 4122 20120125091452
+86.170.74.7 1 15 206842 20120104141204
+89.243.116.190 3 118 770509 20120114045903
+83.100.251.89 27 232 1727223 20120120141101
+188.143.232.112 2 2 13282 20120112032616
+165.254.127.133 28 28 263547 20120131144656
+81.108.242.140 16 199 1776192 20120129163459
+109.157.116.209 13 121 823611 20120120153455
+72.52.80.146 2 2 13282 20120115223808
+69.171.228.244 2 29 1606963 20120121040533
+77.67.96.96 4 4 16814 20120129014442
+92.232.189.41 6 113 975019 20120122074232
+152.78.128.149 1 8 126886 20120130123812
+95.148.167.131 1 42 759301 20120113221038
+178.73.44.4 11 11 152956 20120116022121
+115.141.144.182 2 2 13285 20120116122901
+74.125.156.82 0 1 3092 
+69.63.190.246 2 2 13640 20120130080224
+90.215.42.206 1 40 757418 20120111155238
+86.171.56.248 6 109 780052 20120111083633
+86.172.34.16 45 323 1346179 20120122142343
+217.37.226.93 4 119 790497 20120127053224
+86.28.229.220 16 154 887142 20120128193802
+84.13.84.56 1 42 761570 20120113044417
+122.72.0.6 4 4 61437 20120116163819
+2.121.195.74 2 48 848854 20120102191934
+199.119.227.175 3 3 55679 20120120074528
+80.5.97.140 1 8 126886 20120110182459
+216.246.75.188 1 1 514 20120129182448
+94.116.232.232 24 246 775368 20120127040701
+82.2.126.216 26 237 1249763 20120116052637
+1.161.139.145 10 10 294018 20120104005000
+86.155.244.58 1 1 587 20120121044030
+188.143.232.119 1 21 1042422 20120122190725
+90.192.127.78 1 8 126886 20120105112246
+92.123.72.180 3 3 1028 20120131011348
+88.109.69.187 1 43 760747 20120121065949
+90.205.70.244 1 38 747939 20120110043906
+31.184.238.50 1 21 1010055 20120129044939
+193.105.210.143 31 31 540148 20120127092011
+86.183.60.119 19 198 1096126 20120114103641
+72.246.94.100 1 1 514 20120122035945
+82.30.104.130 18 116 496001 20120105063627
+217.44.70.117 0 7 79956 
+89.241.61.159 1 8 126886 20120108125054
+2.127.24.113 1 8 126886 20120106105521
+204.2.199.205 1 1 15280 20120125203051
+50.57.68.9 1 1 51213 20120112205559
+217.171.129.70 1 8 126886 20120108170245
+66.102.12.84 0 5 37175 
+109.123.126.139 2 2 44716 20120119125723
+82.18.132.145 27 315 2620760 20120109123105
+79.158.130.56 0 7 79956 
+92.26.164.165 1 1 738 20120104090231
+82.24.229.122 1 1 587 20120109154403
+90.216.64.188 12 208 3338687 20120130071907
+178.73.221.135 2 2 13282 20120101180717
+86.147.255.87 4 96 1485251 20120105112511
+86.162.1.237 0 7 79956 
+80.3.102.46 1 8 126886 20120130074049
+31.53.238.175 3 83 914629 20120102163357
+86.10.25.154 1 8 126886 20120105094754
+2.24.105.114 1 15 206842 20120106131807
+90.202.74.106 21 181 1378188 20120116123535
+195.212.29.89 1 39 1587290 20120126043733
+31.109.141.179 12 137 2659814 20120107201604
+141.0.10.118 1 39 753222 20120111024009
+84.13.73.153 0 7 79956 
+81.154.174.51 1 41 758995 20120122094755
+109.131.28.160 1 15 206842 20120102081814
+74.125.16.163 1 13 243899 20120121084800
+109.230.246.118 18 30 323320 20120120203847
+69.171.228.249 2 19 1575581 20120112054317
+209.85.226.91 0 1 1378 
+66.220.146.247 6 10 298825 20120120121153
+81.145.244.64 18 167 839403 20120116191750
+184.72.46.235 7 7 4299 20120129070001
+86.144.157.248 1 42 759360 20120121003800
+50.16.126.114 0 3 10705 
+50.17.235.96 2 2 582 20120110202553
+91.207.4.150 76 76 1400036 20120122005913
+86.181.160.67 3 77 783984 20120126174452
+80.249.48.135 1 5 162377 20120111063441
+46.251.228.99 2 2 13285 20120119133155
+196.25.255.246 6 42 344600 20120116082822
+222.77.226.16 2 2 13282 20120109183640
+109.230.220.24 3 3 40221 20120117202639
+2.123.29.171 32 296 1400404 20120124143215
+108.202.81.238 3 34 461185 20120116235230
+82.31.124.114 3 109 1713477 20120120050117
+90.196.74.14 2 84 765873 20120123200747
+212.103.115.246 2 2 27709 20120104141209
+82.39.48.26 1 41 758995 20120121080539
+82.30.169.151 1 15 206842 20120131163820
+74.125.156.91 0 2 66593 
+88.104.162.197 1 15 206842 20120127135759
+188.29.69.43 20 193 2069846 20120117153358
+82.19.139.46 5 114 817416 20120113112628
+92.4.190.36 2 56 882530 20120126104548
+195.93.21.68 0 6 145585 
+209.85.224.93 0 4 90147 
+94.10.227.241 0 7 79956 
+90.202.84.154 14 115 1138960 20120116163921
+86.19.102.60 1 1 587 20120129153546
+213.186.122.27 11 11 147819 20120102011100
+82.41.193.186 15 212 1025645 20120117122055
+74.125.16.161 1 14 190005 20120127112734
+90.210.241.163 0 7 79956 
+2.100.42.187 13 89 1132979 20120127181035
+86.137.140.138 1 42 759360 20120124082607
+117.240.239.225 1 41 758995 20120120080309
+82.39.76.100 12 192 1161101 20120101134802
+87.225.253.174 2 2 13282 20120108172440
+78.146.1.250 21 336 1189852 20120121213605
+90.216.54.48 0 7 79956 
+195.93.21.42 0 4 155304 
+195.93.21.37 0 2 2774 
+161.69.220.1 2 2 45570 20120125080004
+2.121.40.26 14 123 1834874 20120124161933
+31.53.45.213 3 75 772357 20120117100942
+92.24.117.124 2 48 764817 20120102133732
+109.230.216.120 8 65 1029146 20120119210337
+69.171.224.248 5 23 1126237 20120119212130
+109.155.171.104 14 123 1140243 20120112140606
+50.57.190.97 1 1 41609 20120118052319
+38.100.21.14 5 6 31945 20120124114912
+91.89.169.190 1 1 6572 20120112063851
+90.220.71.109 30 379 977164 20120130163041
+95.144.21.153 1 41 758995 20120130145253
+74.125.156.80 0 2 4224 
+107.20.0.184 1 1 3672 20120109053055
+195.93.21.69 0 2 163034 
+117.58.241.227 4 4 61437 20120116163134
+94.116.244.66 13 280 637953 20120123042523
+92.122.210.240 1 1 9216 20120123111338
+80.249.48.134 0 4 154080 
+92.238.116.25 34 459 923760 20120128110408
+31.53.181.178 28 336 2119459 20120117103239
+24.225.119.59 1 38 733988 20120108120003
+90.212.197.248 1 8 126886 20120128173315
+77.107.153.118 24 201 1224226 20120116073249
+90.215.241.97 25 203 1244665 20120128140940
+88.104.216.11 93 793 1180773 20120123105927
+94.194.203.46 3 83 1161305 20120131171447
+113.106.194.221 1 19 1004702 20120131154052
+178.73.222.206 2 2 13282 20120119145523
+66.220.146.244 2 2 8234 20120112085903
+109.154.28.233 19 200 1375602 20120113092758
+90.218.165.40 1 41 758964 20120117160125
+74.125.64.80 0 1 2230 
+90.201.141.251 23 194 1217845 20120116145851
+109.152.195.196 1 8 126886 20120105182523
+50.19.52.198 1 1 5661 20120108054425
+82.30.219.162 2 77 783102 20120121090122
+94.197.190.77 1 41 757779 20120111052517
+78.30.220.252 5 5 53519 20120118181131
+188.165.231.104 18 41 413543 20120118205022
+88.104.220.107 84 1509 4619199 20120118062054
+81.155.63.172 20 208 4005801 20120104170605
+50.16.111.31 1 1 6654 20120105143231
+98.238.126.51 6 73 1260247 20120110194551
+109.153.8.141 27 299 2036233 20120123133836
+86.22.118.139 18 157 1348312 20120124103742
+220.227.89.237 1 41 6513 20120120083003
+198.54.202.246 5 59 802472 20120116082938
+94.8.40.97 16 223 1657591 20120104061558
+86.166.174.199 0 7 79956 
+80.42.160.224 1 8 126886 20120129104121
+86.159.165.145 20 195 910336 20120129130259
+209.85.226.88 0 2 4404 
+85.138.118.201 2 56 866360 20120127172619
+86.183.46.191 16 158 1163086 20120114130252
+196.25.255.214 22 75 187714 20120131062113
+78.147.3.72 1 42 759360 20120129150036
+86.134.230.216 2 28 484683 20120103045540
+82.44.1.131 0 21 239868 
+80.168.248.146 50 491 2236807 20120127083147
+74.125.64.83 0 2 34435 
+193.108.94.142 2 2 26399 20120131184459
+93.97.216.20 1 41 758995 20120128160712
+82.132.211.130 1 19 140172 20120113144641
+188.227.166.154 2 2 13330 20120104031121
+94.116.148.92 104 1867 2157607 20120110043737
+74.120.15.150 1 1 21952 20120111232321
+86.27.89.199 1 8 126886 20120131162934
+65.120.60.233 2 2 32682 20120123111313
+88.104.211.106 6 118 107107 20120124045445
+213.233.144.75 0 8 72132 
+188.165.231.75 40 40 748044 20120105031724
+86.31.169.212 1 15 206842 20120108043059
+93.186.30.112 1 4 18296 20120126185832
+92.26.171.208 1 1 738 20120119123843
+88.108.27.49 1 8 126886 20120131104408
+92.36.249.73 23 161 1206303 20120103165028
+83.85.53.109 27 230 1244099 20120130141338
+207.46.204.204 3 12 106753 20120104235153
+86.144.133.42 13 89 1132987 20120119034217
+60.25.131.2 7 7 102147 20120107033104
+86.160.25.33 24 134 1182671 20120120133727
+78.147.156.98 1 1 738 20120123170828
+69.63.189.245 1 1 6573 20120110142715
+184.51.156.63 1 1 514 20120129202425
+109.13.65.217 3 3 42632 20120113173321
+175.41.174.238 2 2 31914 20120109204556
+77.102.141.21 1 42 759329 20120117121305
+195.212.29.74 39 379 5446638 20120131095108
+46.4.166.136 0 19 85383 
+204.2.196.178 2 2 41133 20120123203839
+80.192.46.217 23 236 2279466 20120103165007
+81.159.196.244 0 4 100518 
+208.80.194.26 2 2 9788 20120111021729
+90.203.27.165 1 8 126886 20120130152027
+86.7.78.55 24 196 1403307 20120127174318
+50.18.121.54 12 12 7132 20120127070000
+216.104.15.130 3 9 466464 20120114133047
+86.156.21.150 0 7 79956 
+86.174.30.12 0 7 79956 
+217.33.145.172 1 42 759360 20120124064104
+62.105.93.97 6 6 1184 20120106055222
+66.220.156.0 2 2 9349 20120111093834
+91.207.9.226 3 24 1029081 20120120155400
+178.116.213.96 28 187 1151900 20120101145954
+74.125.64.92 0 2 24344 
+86.29.22.163 47 476 2522124 20120115090130
+2.25.28.10 5 79 781824 20120127141349
+94.8.0.210 1 20 149862 20120124173414
+109.230.246.24 6 36 1981300 20120131232100
+109.156.30.125 1 8 126886 20120105040953
+86.179.165.247 17 132 1171249 20120113211344
+66.102.12.92 0 7 223168 
+193.105.210.62 7 7 103690 20120110232833
+212.159.109.38 2 34 716671 20120127142022
+165.254.127.123 7 7 18259 20120130134659
+198.54.202.194 2 53 442151 20120116082239
+72.52.80.150 1 18 819388 20120123164109
+208.80.194.35 1 1 4894 20120116193605
+84.92.65.85 27 239 1703589 20120113130126
+188.126.84.195 2 2 13282 20120116141445
+50.57.68.14 1 1 29139 20120119204929
+69.171.229.245 3 17 676636 20120112092403
+2.223.38.152 1 8 126886 20120109152553
+90.206.240.112 15 125 1158408 20120115153551
+184.72.47.71 11 11 6079 20120127070000
+94.196.170.227 1 8 126886 20120104133614
+14.99.224.177 5 184 787121 20120111072017
+95.245.91.112 1 41 758995 20120127063932
+204.236.161.173 1 1 21593 20120129110009
+82.31.31.174 1 8 126886 20120107155000
+81.159.142.59 35 232 78739 20120130052755
+66.102.12.89 0 3 78172 
+94.11.115.144 0 7 79956 
+92.10.152.74 1 41 758995 20120129160356
+195.162.69.217 1 1 4124 20120123164242
+86.150.44.123 1 39 748304 20120109151149
+78.151.82.215 0 7 79956 
+72.52.80.143 2 2 13282 20120113102942
+78.147.155.249 1 1 738 20120110160531
+86.174.78.27 7 77 1362663 20120106121144
+190.38.165.90 2 2 13282 20120110010015
+141.0.11.51 8 78 802420 20120121053834
+176.31.18.226 2 2 13282 20120104220820
+210.101.131.231 2 2 13282 20120110131940
+141.0.9.93 1 42 759540 20120121102158
+94.168.110.205 1 42 1155462 20120113064236
+95.143.23.148 2 2 13282 20120102011050
+69.171.242.251 1 1 1113 20120105043643
+183.14.1.44 1 1 4124 20120112205913
+85.210.237.56 1 8 126886 20120101171857
+27.131.130.66 4 4 61437 20120116163647
+78.150.36.189 15 145 1321008 20120117155014
+92.4.237.143 1 43 760330 20120120151553
+173.168.173.45 9 127 1061220 20120121205622
+66.102.12.82 0 3 24329 
+126.126.114.84 2 2 13282 20120111030056
+62.75.229.85 1 1 2106 20120128235013
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 31
+20120101 268 1736 20698708 46
+20120102 292 2354 19542001 46
+20120103 455 20783 27057425 53
+20120104 456 7627 36340893 56
+20120105 847 4949 86639531 85
+20120106 635 6527 28935597 49
+20120107 482 4677 31801134 67
+20120108 224 1626 21004821 54
+20120109 1024 5781 27186352 55
+20120110 862 11481 49318714 69
+20120111 661 7622 38453137 84
+20120112 651 3792 57482769 115
+20120113 639 7231 60093429 84
+20120114 1128 6806 54016399 76
+20120115 505 3646 34062840 68
+20120116 1232 16527 67529195 140
+20120117 1004 24172 61492283 64
+20120118 332 3995 18159319 52
+20120119 424 2681 22549249 72
+20120120 570 8480 281515440 84
+20120121 493 4873 41605881 78
+20120122 575 5400 46684023 91
+20120123 733 44457 59852030 110
+20120124 842 63597 78551083 100
+20120125 249 65683 30979239 58
+20120126 675 21273 559890023 92
+20120127 707 12494 57073445 108
+20120128 612 5870 53674847 92
+20120129 671 6590 59521057 113
+20120130 799 8674 56280726 98
+20120131 503 3478 43963079 76
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 59
+5mn-15mn 71
+30s-2mn 357
+2mn-5mn 150
+15mn-30mn 40
+0s-30s 1720
+30mn-1h 38
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 226
+/js/timthumb.php 6916 62366221 244 608
+/forum/ucp.php 1776 29139256 116 112
+/ 1545 11930119 1176 598
+/forum/feed.php 998 570380 58 129
+/index.php 731 7569107 59 74
+/admin.php 636 3143903 16 12
+/forum/style.php 551 38908189 12 25
+/gallery2/main.php 542 6545024 52 56
+/dance-wear/cat_15.html 379 3445991 17 22
+/opencart/cart2cart/bridge.php 312 484556 0 0
+/silverback-crystals/4mm-16ss-/100-4mm-clear-silverback-rhinestones/crystals/prod_2.html 1 6620 0 0
+/adm/index.php 91 1233678 0 0
+/contact-us/info_2.html 29 214537 1 7
+/tellafriend/tell_3.html 1 5584 0 0
+/hotfix-rhinestones/4mm-16ss-/100-4mm-siam-ruby-hotfix-rhinestones/prod_11.html 2 13280 1 0
+/silverback-rhinestones/4mm-16ss-/cat_8.html 2 29873 0 0
+/images/getLogo.php 22 1090694 0 1
+/about-us/info_1.html 13 112268 1 1
+/contact/ 17 47837 0 1
+/gallery2/modules/magiczoomplus/core/magictoolbox.makethumb.class.php 1 1 0 0
+/techclean/installation/gpl.html 1 7751 0 0
+/js/timthumb.php%3Fsrc%3D/images/uploads/_images/ProductImages/Lycra/DanceWear/Dancewear-11.jpg%26w%3D500%26q%3D95 2 102426 2 2
+/tellafriend/tell_5.html 1 5589 0 0
+/gallery2/modules/rating/ 5 4444 0 0
+/pnpdance_Sandbox/ 19 107043 0 0
+/up-and-coming-istd-dance-comps/cat_22.html 66 523975 12 9
+/tellafriend/tell_8.html 1 5544 0 0
+/admin/includes/rte/editor/dialog/fck_link.html 6 12512 0 0
+/dance-wear/disco-freestyle-dance-costume-accessories/prod_27.html 3 26616 0 0
+/cart2cart/bridge.php 223 590188 1 1
+/techclean/couch/ 8 9831 0 0
+/techclean/index.php/sample-sites 3 9459 1 0
+/gallery2/modules/magiczoomplus/core/magiczoomplus.module.core.class.php 1 1 0 0
+/techclean/index.php/77-home/68-home-page-article 4 13409 0 0
+/admin/includes/rte/editor/fckeditor.html 114 87951 0 0
+/gallery2/modules/sitemap/templates/ 9 5942 0 0
+/rock-39-n-39-roll-outfits/cat_17.html 137 1126794 14 9
+/terms-conditions/info%255f3.html 1 12606 0 0
+/opencart/install/ 3 29157 0 0
+/hotfix-rhinestones/4mm-16ss-/cat_6.html 9 74000 0 1
+/information/ 10 29970 1 2
+/js/timthumb.php%3Fsrc%3D/images/uploads/_images/ProductImages/Lycra/DanceWear/pnpLycra-11.jpg%26w%3D500%26q%3D95 1 29139 1 1
+/forum/install/index.php 69 1125169 2 2
+/dance-wear-size-guide/info_10.html 23 179507 4 7
+/silverback-crystals/5mm-20ss-/cat_12.html 1 4802 0 0
+/admin/includes/rte/editor/dialog/fck_paste.html 1 4522 0 0
+/techclean/index.php 82 643634 1 0
+/techclean/administrator/index.php 171 5499955 0 0
+/dance-wear/pnp-lycra-shorts/prod_20.html 18 300518 4 1
+/style.php 6 362536 0 0
+/hotfix-rhinestones/4mm-ab-16ss-/100-4mm-clear-ab-hotfix-rhinestones/prod_9.html 10 68905 0 0
+/opencart/ 7 43630 0 0
+/brand-new-blinged-costumes/sold-white-solo-slow-costume/prod_32.html 18 160318 0 1
+/forum/memberlist.php 12 189060 4 2
+/portfolio_full/ 6 9770 0 0
+/brand-new-blinged-costumes/cat_20.html 217 1580915 4 6
+/tellafriend/tell_25.html 1 5584 0 0
+/dance-wear/pnp-lycra-catsuit-with-puffed-sleeves/prod%255f17.html 1 9532 0 0
+/rock-39-n-39-roll-outfits/cat%255f17.html 1 6616 0 0
+/gallery2/modules/remote/ 4 3326 0 0
+/up-and-coming-istd-dance-comps/cat%255f22.html 1 6243 0 0
+/techclean/index.php/household 4 10324 0 0
+/techclean/index.php/using-joomla/extensions 1 3935 0 0
+/secondhand/cat%255f18.html 1 5898 0 0
+/gallery2/modules/magiczoomplus/core/magictoolbox.params.class.php 1 1 0 0
+/gallery2/modules/magiczoomplus/core/ 8 6375 0 0
+/js/timthumb.php%3Fsrc%3D/images/uploads/_images/ProductImages/Lycra/DanceWear/pnpLycra-4.jpg%26w%3D500%26q%3D95 1 46350 1 1
+/feed.php 276 159336 91 248
+/gallery2/modules/members/ 1 827 0 0
+/tellafriend/tell_22.html 1 5590 0 0
+/dance-wear-size-guide/info%255f10.html 1 6143 0 0
+/buysell/index.php 86 2188504 68 36
+/silverback-rhinestones/4mm-ab-16ss-/100-4mm-clear-ab-silverback-rhinestones/crystals/prod_3.html 2 14422 0 1
+/techclean/installation/index.php 19 83404 0 0
+/techclean/index.php/index.php 1 11756 0 0
+/securimage/securimage_show.php 8 12448 0 0
+/admin/includes/rte/editor/filemanager/browser/default/frmresourceslist.html 21 14034 0 0
+/silverback-crystals/4mm-ab-16ss-/100-4mm-orange-ab-silverback-rhinestones/prod_4.html 1 6585 0 0
+/silverback-rhinestones/4mm-16ss-/100-4mm-clear-silverback-rhinestones/crystals/prod_2.html 1 7199 0 0
+/silverback-rhinestones/4mm-ab-16ss-/cat_9.html 8 74967 1 0
+/dance-wear/pnp-lycra-crop-top/prod_19.html 19 330746 9 0
+/admin/includes/rte/editor/filemanager/browser/default/frmfolders.html 21 14418 0 0
+/tellafriend/tell_20.html 1 5573 0 0
+/sizes.html 4 14290 1 1
+/hotfix-rhinestones/4mm-ab-16ss-/cat_7.html 9 67153 0 0
+/dance-wear/pnp-lycra-unitard/prod_28.html 14 147005 0 0
+/cron.php 1 43 0 0
+/admin/includes/rte/editor/fckdialog.html 9 50862 0 0
+/forum/buysell/manage_ad.php 13 380164 0 0
+/brand-new-blinged-costumes/sold-peach-and-white-slow-costume/prod_31.html 10 70547 0 0
+/tellafriend/tell_6.html 1 5580 0 0
+/buysell/feeds.php 4 12822 0 0
+/forum/cron.php 275 11825 6 56
+/silverback-rhinestones/4mm-ab-16ss-/cat%255f9.html 1 6540 0 0
+/techclean/index.php/login 3 8289 0 0
+/techclean/administrator/ 1 2117 0 0
+/dance-wear/cat%255f15.html 1 7345 0 0
+/dance-wear/pnp-lycra-shorts/prod%255f20.html 1 9335 0 0
+/admin/includes/rte/editor/dialog/fck_image.html 2 5444 0 0
+/tellafriend/tell_16.html 1 5589 0 0
+/classifieds_install.php 3 24867 0 0
+/admin/includes/rte/editor/filemanager/browser/default/frmupload.html 21 11754 0 0
+/brand-new-blinged-costumes/sold-red-and-white-spotted-rock-n-roll-dresses/prod_33.html 22 176161 0 0
+/forum/buysell/rules.php 5 88227 0 0
+/ucp.php 169 2563901 4 5
+/forum/adm/index.php 69 1006079 1 2
+/hotfix-rhinestones/4mm-16ss-/cat%255f6.html 1 6379 0 0
+/hotfix-rhinestones/4mm-16ss-/100-4mm-clear-hotfix-rhinestones/prod_8.html 3 20188 0 0
+/techclean/index.php/your-profile 1 2799 0 1
+/silverback-crystals/4mm-ab-16ss-/cat_9.html 3 17529 2 0
+/portfolio/ 22 41691 0 0
+/js/timthumb.php%3Fsrc%3D/images/uploads/_images/ProductImages/Lycra/DanceWear/DanceWear-30.jpg%26w%3D500%26q%3D95 1 34858 1 1
+/tellafriend/tell_2.html 1 5575 0 0
+/tellafriend/tell_11.html 1 5580 0 0
+/saleitems/cat%255fsaleItems.html 1 5615 0 0
+/forum/ 194 881999 143 143
+/techclean/index.php/using-joomla 1 2925 0 0
+/dance-wear/pnp-lycra-catsuit-with-puffed-sleeves/prod_17.html 33 429314 6 4
+/terms-conditions/info_3.html 4 126655 0 1
+/privacy-policy/info_4.html 5 103074 0 0
+/rhinestones/silverback-rhinestones/cat%255f3.html 1 6909 0 0
+/photos/ 14 26986 1 0
+/tellafriend/tell_21.html 1 5568 0 0
+/opencart/admin/index.php 252 3500460 1 0
+/gallery2/modules/magiczoomplus/core/graphics/zoomout.cur 4 658 0 0
+/tellafriend/tell_10.html 1 5572 0 0
+/techclean/index.php/77-home 1 3580 0 0
+/forum/buysell/index.php 269 6957632 21 21
+/silverback-crystals/5mm-ab-20ss-/cat_14.html 1 4806 0 0
+/techclean/couch/logo.php 5 18960 0 0
+/admin/includes/rte/editor/filemanager/browser/default/browser.html 21 16362 0 0
+/silverback-rhinestones/5mm-ab-20ss-/cat_14.html 10 69764 0 3
+/brand-new-blinged-costumes/sold-green-butterfly-costume/prod_29.html 6 42538 1 0
+/gallery2/modules/sitemap/po/ 3 2027 0 0
+/opencart/install/index.php 19 121955 0 0
+/buysell/single_ad.php 30 521733 23 17
+/hotfix-rhinestones/4mm-16ss-/100-4mm-emerald-ab-hotfix-rhinestones/prod_10.html 2 13846 0 0
+/images/uploads/Headers/ 1 274 0 0
+/tellafriend/tell_17.html 1 5565 0 0
+/silverback-rhinestones/cat_3.html 1 6003 0 0
+/js/timthumb.php%3Fsrc%3D/images/uploads/thumbs/thumb_Dancewear-11.jpg%26w%3D150%26q%3D95 1 8182 1 1
+/silverback-crystals/4mm-16ss-/100-4mm-pink-silverback-rhinestones/crystals/prod_16.html 1 6596 0 0
+/admin/includes/rte/editor/filemanager/browser/default/frmcreatefolder.html 21 10188 0 0
+/dance-wear/pnp-lycra-leggings/prod_21.html 27 482989 4 3
+/gallery2/modules/sitemap/ 9 6674 0 0
+/saleitems/cat_saleItems.html 69 472436 2 17
+/hotfix-rhinestones/4mm-16ss-/100-4mm-sapphire-hotfix-rhinestones/prod_12.html 3 21273 1 0
+/tellafriend/tell_18.html 1 5536 0 0
+/dance-wear/pnp-lycra-catsuit-with-long-sleeves/prod%255f18.html 1 9516 0 0
+/rhinestones/cat_19.html 144 1139495 62 56
+/gallery2/modules/magiczoomplus/ 4 2978 0 0
+/silverback-crystals/4mm-ab-16ss-/100-4mm-mint-ab-silverback-rhinestones/crystals/prod_6.html 1 6625 0 0
+/silverback-rhinestones/4mm-ab-16ss-/100-4mm-pink-ab-silverback-rhinestones/crystals/prod_15.html 1 7220 0 0
+/opencart/admin/ 3 4946 0 0
+/forum/buysell/single_ad.php 133 2340235 9 6
+/rock-39-n-39-roll-outfits/rock-39-n-39-roll-outfit/prod_25.html 20 439318 5 4
+/silverback-crystals/4mm-ab-16ss-/100-4mm-pink-ab-silverback-rhinestones/crystals/prod_15.html 1 6633 0 0
+/js/timthumb.php%3Fsrc%3D/images/uploads/_images/ProductImages/Lycra/DanceWear/pnpLycra-9.jpg%26w%3D500%26q%3D95 1 38139 1 1
+/silverback-crystals/4mm-16ss-/cat_8.html 1 5405 0 0
+/silverback-crystals/cat_3.html 3 18953 1 0
+/Mark_and_Kerrys_Little_Space/Blog_files/widget1_markup.html 7 4774 7 7
+/buysell/manage_ad.php 1 28882 0 0
+/dance-wear/pnp-lycra-halter-neck-tie-top/prod_22.html 25 390395 5 4
+/gallery2/modules/sitemap/MANIFEST 1 1855 0 0
+/about/ 9 23303 0 1
+/dance-wear/pnp-lycra-catsuit-with-long-sleeves/prod_18.html 27 427567 5 1
+/tellafriend/tell_9.html 1 5547 0 0
+/gallery2/modules/sitemap/po/GNUmakefile 1 428 0 0
+/silverback-rhinestones/5mm-ab-20ss-/cat%255f14.html 1 5718 0 0
+/forum/faq.php 2 61394 0 0
+/admin/includes/rte/editor/dialog/fck_image/fck_image_preview.html 2 3674 0 0
+/silverback-crystals/4mm-ab-16ss-/100-4mm-violet-ab-silverback-rhinestones/crystals/prod_7.html 2 13482 1 1
+/techclean/ 105 198366 31 28
+/silverback-rhinestones/4mm-16ss-/cat%255f8.html 1 6224 0 0
+/dancewear-size-guide/cat%255f21.html 1 6387 0 0
+/forum/install/database_update.php 1 2029 0 0
+/gallery2/modules/ 5 8222 0 0
+/techclean/index.php/using-joomla/extensions/components 1 4887 0 0
+/tellafriend/tell_12.html 1 5593 0 0
+/tellafriend/tell_7.html 1 5592 0 0
+/dance-wear/pnp-lycra-crop-top/prod%255f19.html 1 9642 0 0
+/buysell/ajaxupload.php 1 140 0 0
+/dance-wear/disco-freestyle-dance-costume-accessories/prod_26.html 9 109371 5 3
+/rhinestones/cat%255f19.html 1 6819 0 0
+/info.php 3 55679 1 1
+/admin/includes/rte/editor/filemanager/browser/default/frmactualfolder.html 21 9024 0 0
+/offers/ 14 48222 4 5
+/images/ 1 250 1 1
+/rock-39-n-39-roll-outfits/rock-39-n-39-roll-skirt/prod_23.html 18 265969 3 3
+/brand-new-blinged-costumes/cat%255f20.html 1 6603 0 0
+/dance-wear/pnp-lycra-crop-top-with-puff-sleeves/prod_19.html 4 37855 0 0
+/silverback-rhinestones/5mm-20ss-/cat_12.html 8 58800 0 0
+/dance-wear/pnp-lycra-crop-top-with-short-puff-sleeves/prod_19.html 16 264282 3 1
+/tellafriend/tell_24.html 1 5584 0 0
+/dance-wear/pnp-lycra-leggings/prod%255f21.html 1 9445 0 0
+/forum/classifieds_install.php 3 24580 0 0
+/admin/includes/rte/editor/filemanager/connectors/php/connector.php 171 44241 0 0
+/rhinestones/silverback-rhinestones/cat_3.html 21 210209 0 1
+/forum/buysell/ajaxupload.php 28 7776 0 0
+/rhinestones/hotfix-rhinestones/cat%255f2.html 1 6835 0 0
+/gallery2/modules/magiczoomplus/core/graphics/zoomin.cur 4 658 0 0
+/googledcccbe5e02991281.html 4 1788 1 2
+/techclean/index.php/getting-started 1 3496 0 0
+/tellafriend/tell_23.html 1 5566 0 0
+/silverback-crystals/4mm-ab-16ss-/100-4mm-lemon-ab-silverback-rhinestones/crystals/prod_5.html 1 6631 0 0
+/tellafriend/tell_15.html 1 5587 0 0
+/forum/buysell/feeds.php 18 27580 0 0
+/tellafriend/tell_19.html 1 5585 0 0
+/tellafriend/tell_4.html 1 5590 0 0
+/hotfix-rhinestones/cat_2.html 13 104896 1 1
+/admin/includes/rte/editor/filemanager/browser/default/frmresourcetype.html 21 8106 0 0
+/dance-wear/puffed-sleeved-unitard/prod_24.html 15 170924 0 0
+/cms/ 3 3186 1 0
+/forum/index.php 230 4130445 73 40
+/forum/index.php/archive/index.php 1 18655 1 1
+/dancewear-size-guide/cat_21.html 24 185636 0 1
+/silverback-rhinestones/5mm-20ss-/cat%255f12.html 1 5713 0 0
+/techclean/media/editors/tinymce/jscripts/tiny_mce/themes/advanced/image.htm 3 1485 0 0
+/silverback-crystals/4mm-ab-16ss-/100-4mm-clear-ab-silverback-rhinestones/crystals/prod_3.html 2 13233 0 0
+/dance-wear/pnp-lycra-catsuit-with-short-puffed-sleeves/prod_17.html 15 134744 0 0
+/secondhand/cat_18.html 311 2106270 19 11
+/contact-us/info%255f2.html 1 5602 0 0
+/opencart/index.php 7 76010 0 1
+/silverback-rhinestones/4mm-ab-16ss-/100-4mm-orange-ab-silverback-rhinestones/prod_4.html 2 34560 0 0
+/rhinestones/hotfix-rhinestones/cat_2.html 26 186958 2 2
+/techclean/media/editors/tinymce/jscripts/tiny_mce/themes/advanced/source_editor.htm 2 1005 0 0
+END_SIDER

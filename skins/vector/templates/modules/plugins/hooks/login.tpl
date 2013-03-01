@@ -1,0 +1,2 @@
+{$JAN_LANG = $GLOBALS['language']->getStrings('janrain')}
+<a class="btn btn-info rpxnow" onclick="return false;" href="http://{$RPX_APP_DOMAIN}/openid/embed?token_url={$VAL_SELF|urlencode}"><i class="icon-share icon-white"></i> {$JAN_LANG.rpx_login}</a>

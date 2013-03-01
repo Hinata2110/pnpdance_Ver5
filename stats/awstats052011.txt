@@ -1,0 +1,712 @@
+AWSTATS DATA FILE 6.9 (build 1.925)
+# If you remove this file, all statistics for date 201105 will be lost/reset.
+
+# Position (offset in bytes) in this file of beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1864                
+POS_TIME 2554                
+POS_VISITOR 11238               
+POS_DAY 18336               
+POS_DOMAIN 3416                
+POS_LOGIN 3651                
+POS_ROBOT 3844                
+POS_WORMS 4271                
+POS_EMAILSENDER 4402                
+POS_EMAILRECEIVER 4545                
+POS_SESSION 18811               
+POS_SIDER 19024               
+POS_FILETYPES 4680                
+POS_OS 4947                
+POS_BROWSER 5120                
+POS_SCREENSIZE 5372                
+POS_UNKNOWNREFERER 5446                
+POS_UNKNOWNREFERERBROWSER 5721                
+POS_ORIGIN 5896                
+POS_SEREFERRALS 6038                
+POS_PAGEREFS 6214                
+POS_SEARCHWORDS 6419                
+POS_KEYWORDS 6627                
+POS_MISC 2218                
+POS_ERRORS 6746                
+POS_CLUSTER 3507                
+POS_SIDER_404 6912                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20110601004442 23317 6572972 37120223096
+FirstTime 20110517060010
+LastTime 20110531235451
+LastUpdate 20110604004251 23317 20423 2893 0 0
+TotalVisits 374                 
+TotalUnique 93                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 226                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 2 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 10 20 132487 19 27 195402
+1 6 38 257141 13 16 23813
+2 17 96 979368 19 32 385030
+3 2 16 138201 18 32 92570
+4 313 1081 7515876 285 416 2225611
+5 197 746 10388173 17 47 176455
+6 264 3622 13828976 48 126 309440
+7 123 476 5814991 24 115 112514
+8 278 2185 10469253 44 129 276091
+9 213 2402 22332144 35 100 1297282
+10 715 4040 18866217 44 133 471340
+11 1366 1786 6670200 35 62 678940
+12 790 2282 11838548 40 63 308719
+13 82 270 11662532 9 11 108464
+14 109 1164 5801043 28 64 301734
+15 11 132 1365860 21 35 127773
+16 6 24 220314 28 50 169422
+17 51 402 4903245 21 23 24497
+18 15 36 352137 16 23 30942
+19 18 53 862841 19 23 97478
+20 16 51 362323 20 25 315304
+21 27 108 896824 31 34 35462
+22 6 21 262286 13 13 18811
+23 32 81 561376 21 31 91903
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 4667 21132 136482356
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 1
+pnpdancecom 1 54 37512 20110523062312
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 8
+spider 348 1992050 20110531043435 0
+googlebot 286 3428410 20110531235416 0
+baiduspider 38 545242 20110531143007 0
+slurp 32 388658 20110530112932 0
+powermarks 22 205685 20110531100918 0
+yandex 8 214922 20110530170456 0
+bot[+:,\.\;\/\\-] 3 1752 20110531210132 0
+surveybot 2 98862 20110522045505 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 11
+mp3 51 224188 0 0
+css 2859 1730934 0 0
+png 2207 7362151 0 0
+pl 4 171187 0 0
+swf 40 1737251 0 0
+php 3954 35888367 0 0
+html 658 1804060 0 0
+xml 21 52526 0 0
+js 1904 7966789 0 0
+jpg 1121 77446392 0 0
+gif 8313 2098511 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 13
+winlong 7
+winxp 796
+winnt 125
+win2000 203
+win98 49
+linux 485
+macosx 18738
+winme 23
+win95 7
+wince 2
+win2003 63
+Unknown 63
+win2008 571
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 17
+msie6.0 653
+firefox4.0.1 571
+chrome 17319
+opera 229
+msie4.01 17
+msie5.5 69
+msie3.02 2
+netscape4.76 44
+msie8.0 149
+mozilla 60
+firefox1.0 2
+msie7.0 27
+msie2.0 27
+msie5.0 26
+wget 2
+Unknown 28
+safari 1907
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 3
+BlackBerry8520/4.6.1.272_Profile/MIDP-2.0_Configuration/CLDC-1.1_VendorID/301 20110519050800
+Wget/1.9_cvs-stable_(Red_Hat_modified) 20110517111046
+Mozilla/4.0_(compatible;) 20110531095317
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 1
+BlackBerry8520/4.6.1.272_Profile/MIDP-2.0_Configuration/CLDC-1.1_VendorID/301 20110519050800
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 266 2005
+From1 0 0
+From2 5 5
+From3 1 1
+From4 4395 19121
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 3
+google 3 3
+yandex 1 1
+yahoo 1 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 1
+http://members.ipage.com/webControl/VisitorStats.bml 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 3
+pnpdance.com 3
+www.pnpdance.com 1
+princess+and+pickle 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 5
+pnpdance.com 3
+pickle 1
+www.pnpdance.com 1
+and 1
+princess 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 7
+403 3 2262
+302 120 52673
+503 40 103368
+206 12 173877
+400 1 412
+301 21 11181
+404 694 655643
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 92
+/products_new.php 1 -
+/welcom 1 -
+/robots.txt 69 -
+/forums/forum.php 1 -
+/styles/id_provalentina/theme/images/bg_tabs2.png 17 http://forum.pnpdance.com/ucp.php
+/create_account.php 1 -
+/admin.php 1 -
+/cart.php 10 -
+/u 2 -
+/forum/register.php 4 -
+/Welcome.p 1 -
+/styleImages/icons/button.gif 7 http://www.pnpdance.com/index.php
+/skins//styleImages/homepage/Scarlett_2.jpg 26 http://forum.pnpdance.com/
+/shopping_cart.php 1 -
+/skins/FieldOfDreams_CC4/styleImages/catnophoto.gif 4 http://www.pnpdance.com/hotfix-rhinestones/cat_2.html
+/pnpforum_admin 1 http://forum.pnpdance.com/adm/index.php
+/ucp. 1 -
+/checkout_shipping.php 1 -
+/conditions.php 1 -
+/forum/member.php 13 http://www.pnpdance.com/forum/member.php
+/W 1 -
+/specials.php 1 -
+/bullets.png 2 http://www.pnpdance.com/index.php
+/styles/id_provalentina/imageset/en/icon_post_quote.gif 3 http://forum.pnpdance.com/viewtopic.php
+/adm/scripts/jquery.nivo.slider.js 17 http://forum.pnpdance.com/adm/index.php
+/welcome.ph 1 -
+/th1s_1s_a_4o4.html 14 -
+/ucp.p 1 -
+/Wel 1 -
+/welcome. 1 -
+/apple-touch-icon-114x114.png 7 -
+/function.mysql-connect 1 http://pnpdance.com/
+/forum/calendar.php 127 -
+/uc 1 -
+/styles/id_provalentina/imageset/icon_post_report.gif 3 http://forum.pnpdance.com/viewtopic.php
+/forum/archive/index.php/f-2.html 2 -
+/ucp 1 -
+/i 1 -
+/Welcome.php 1 -
+/account.php 2 -
+/undefined 5 http://forum.pnpdance.com/
+/forums/index.php 1 http://www.pnpdance.com/forums/index.php
+/welc 1 -
+/ucp.ph 1 -
+/a 1 -
+/skins//styleImages/homepage/Scarlett_3.jpg 25 http://forum.pnpdance.com/
+/Welcome. 1 -
+/forum/misc.php 4 http://www.pnpdance.com/forum/misc.php
+/we 2 -
+/images/uploads/Rhinestones/4mm/lemon_ab.jpg 1 http://www.pnpdance.com/silverback-crystals/4mm-ab-16ss-/100-4mm-lemon-ab-silverback-rhinestones/crystals/prod_5.html
+/forum/forum.php 20 http://pnpdance.com/forum/forum.php
+/styles/id_provalentina/imageset/icon_post_info.gif 3 http://forum.pnpdance.com/viewtopic.php
+/posting.php 3 http://www.pnpdance.com/posting.php
+/forum/clientscript/yui/history/assets/blank.html 1 -
+/forum/list.php 2 http://www.pnpdance.com/forum/list.php
+/apple-touch-icon.png 7 -
+/silverback-crystals/styleImages/backgrounds/navigation.jpg 14 http://www.pnpdance.com/silverback-crystals/4mm-16ss-/cat_8.html
+/apple-touch-icon-114x114-precomposed.png 6 -
+/skins//styleImages/homepage/Scarlett_6.jpg 25 http://forum.pnpdance.com/
+/prototype.js 1 http://forum.pnpdance.com/chat/install.php
+/w 2 -
+/styles/id_provalentina/imageset/icon_post_delete.gif 3 http://forum.pnpdance.com/viewtopic.php
+/silverback-crystals/styleImages/icons/button.gif 15 http://www.pnpdance.com/silverback-crystals/4mm-16ss-/cat_8.html
+/forum/forumdisplay.php 5 http://www.pnpdance.com/forum/forumdisplay.php
+/images/uploads/_images/header1.jpg 81 http://www.pnpdance.com/
+/styles/id_provalentina/imageset/en/button_topic_locked.gif 4 http://forum.pnpdance.com/viewtopic.php
+/styleImages/backgrounds/navigation.jpg 6 http://www.pnpdance.com/index.php
+/welco 1 -
+/welcome 1 -
+/contact_us.php 1 -
+/forum/forum.phpindex.php 1 http://www.pnpdance.com/forum/forum.phpindex.php
+/Welcome.ph 1 -
+/offLine.php 1 http://www.pnpdance.com/offLine.php
+/wel 1 -
+/apple-touch-icon-precomposed.png 8 -
+/privacy.php 1 -
+/styleImages/titles/pnp_whatshot.gif 2 http://www.pnpdance.com/index.php
+/styles/id_provalentina/imageset/en/button_topic_reply.gif 1 http://forum.pnpdance.com/viewtopic.php
+/skins//styleImages/homepage/SnS.jpg 27 http://forum.pnpdance.com/
+/ad 1 -
+/forum/archive/index.php/f-1.html 2 -
+/reviews.php 1 -
+/welcome.p 1 -
+/forums/bb-index.php 2 http://www.pnpdance.com/forums/bb-index.php
+/Welcome 1 -
+/silverback-crystals/styleImages/backgrounds/innerRepeat.gif 1 http://www.pnpdance.com/silverback-crystals/4mm-16ss-/cat_8.html
+/s 1 -
+/elcome.php 1 -
+/js/password.js 16 http://www.pnpdance.com/setup/install.php
+/skins//styleImages/homepage/Scarlett_4.jpg 25 http://forum.pnpdance.com/
+/styles/id_provalentina/imageset/en/icon_post_edit.gif 3 http://forum.pnpdance.com/viewtopic.php
+/forum/login.php 2 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 226
+195.212.29.75 2363 4646 23830701 20110531095320
+82.14.4.16 755 10623 29676323 20110531142156
+206.57.29.183 189 189 699640 20110531235451
+63.83.61.27 159 159 685159 20110531235445
+206.57.29.191 145 145 544826 20110531211521
+63.83.61.13 136 136 682251 20110531085423
+77.67.21.112 72 72 185792 20110526122015
+95.100.242.16 64 64 414203 20110531092109
+77.67.21.113 59 59 111089 20110526125819
+204.2.196.177 59 59 158608 20110523103218
+92.122.210.239 35 35 115585 20110531085423
+80.15.236.225 0 14 63556 
+90.84.51.63 0 1 98166 
+94.142.133.190 14 14 141683 20110521183527
+64.212.198.76 0 1 441 
+109.230.246.122 3 3 32321 20110521161057
+63.150.131.63 0 31 1054654 
+31.184.238.13 22 22 213007 20110529105307
+69.22.150.109 0 1 98166 
+196.37.155.135 1 1 696 20110518124705
+2.124.238.74 19 305 894348 20110529104241
+84.53.146.36 1 1 3614 20110529100805
+109.230.216.103 14 14 156122 20110518073807
+165.254.127.143 10 10 31284 20110526024900
+198.54.202.250 0 3 2935 
+198.54.202.210 0 3 2439 
+80.15.233.30 0 2 6043 
+213.248.117.7 0 59 1623443 
+196.25.255.246 0 2 1036 
+80.15.233.70 0 2 6539 
+64.145.88.63 0 1 5212 
+64.145.88.71 0 10 17172 
+213.248.117.20 0 20 291852 
+80.15.233.76 0 1 1092 
+80.15.236.234 0 19 118347 
+213.248.117.69 0 12 412450 
+173.242.116.48 2 2 17194 20110530101520
+92.122.215.104 1 1 696 20110519041356
+80.15.233.95 0 2 2210 
+63.83.61.24 1 1 8184 20110526090011
+80.15.233.12 0 1 441 
+92.123.75.118 1 1 0 20110527050029
+94.116.143.219 35 348 1804469 20110519051114
+64.145.88.53 0 3 7042 
+213.248.117.70 0 310 8979754 
+213.248.117.39 0 352 14282478 
+93.186.31.241 1 16 132433 20110519050735
+213.248.117.23 0 146 2508430 
+165.254.127.128 35 35 50122 20110527050300
+64.212.198.71 0 9 112632 
+96.17.145.39 1 1 696 20110521055559
+199.3.115.183 1 1 8186 20110531051727
+61.213.189.12 0 6 59040 
+77.67.0.156 0 66 732974 
+69.22.150.110 0 1 98166 
+77.67.0.172 0 45 630923 
+213.248.117.77 0 43 490463 
+72.246.184.89 1 1 8184 20110527214015
+80.15.233.21 0 25 185619 
+92.123.65.124 0 5 8565 
+72.247.243.174 1 1 696 20110525205312
+80.15.233.28 0 10 64162 
+213.248.117.79 0 303 5457901 
+77.67.0.157 0 102 1690118 
+60.254.142.52 1 1 696 20110517111043
+69.31.77.59 3 3 38491 20110519231032
+80.15.233.36 0 4 2544 
+204.2.187.79 0 15 419623 
+208.49.52.23 0 2 6861 
+92.123.75.119 4 4 5283 20110527050300
+195.162.69.196 7 7 78357 20110518051730
+199.19.249.196 3 3 12632 20110520061724
+220.90.198.222 1 1 14752 20110522070942
+77.67.0.141 0 1 831 
+46.109.195.132 5 5 41968 20110529115718
+82.132.210.137 3 43 581596 20110521145750
+80.15.233.13 0 18 291209 
+92.123.65.165 0 7 58543 
+92.123.155.233 12 12 83740 20110531211521
+80.15.233.4 0 2 2090 
+64.212.198.69 0 1 50996 
+80.15.233.31 0 32 744490 
+80.15.233.22 0 2 210914 
+92.122.210.240 37 37 170843 20110531085423
+213.248.117.21 0 85 1188238 
+98.154.49.133 26 26 246620 20110531191047
+77.67.19.232 1 1 14749 20110523170427
+213.248.117.6 0 4 124273 
+94.116.118.32 2 29 132968 20110521134702
+213.248.117.46 0 54 935084 
+196.25.255.195 0 4 2369 
+174.129.117.237 5 5 1575 20110530155440
+64.145.88.44 0 2 4185 
+80.15.233.62 0 2 52375 
+91.224.160.5 3 3 32127 20110519194637
+50.18.16.50 1 1 1183 20110529193838
+80.15.233.71 0 1 3744 
+193.108.94.135 1 1 14749 20110519134957
+80.15.233.60 0 3 2261 
+64.145.88.55 0 1 1092 
+60.254.154.6 0 2 2123 
+96.6.44.210 2 2 20654 20110517101901
+80.149.149.4 0 22 1042825 
+61.213.189.5 0 5 62042 
+92.123.65.182 0 6 204846 
+80.15.233.38 0 2 1923 
+80.15.233.78 0 5 7367 
+213.248.117.55 0 251 7783077 
+213.248.117.28 0 40 1238299 
+212.183.128.99 20 439 1841016 20110520062155
+64.145.88.36 0 2 5123 
+77.67.0.150 0 1 98166 
+109.230.246.229 2 2 20299 20110519135016
+77.67.0.135 0 16 440872 
+213.248.117.37 0 4 52515 
+213.248.117.53 0 4 6659 
+198.54.202.246 0 2 1000 
+80.149.149.21 0 27 795076 
+83.231.150.65 2 2 5001 20110528052543
+208.49.52.13 0 3 2912 
+216.24.199.58 2 2 20299 20110519231044
+89.178.14.214 1 1 1183 20110531092026
+109.230.216.220 6 6 64439 20110522070618
+77.67.99.64 2 2 15461 20110531235435
+93.186.31.240 1 8 16268 20110519050736
+213.248.117.68 0 15 335732 
+95.100.242.15 45 45 156659 20110531092109
+208.49.52.37 0 3 5016 
+63.150.131.87 0 16 339229 
+206.57.29.180 2 2 1061 20110526125827
+63.235.37.67 1 1 696 20110519210113
+193.108.94.142 1 1 11268 20110519135002
+206.57.29.174 5 5 17609 20110526125852
+60.254.154.12 0 8 60215 
+82.132.210.126 2 30 147946 20110519050502
+60.254.154.5 0 1 819 
+77.67.0.140 0 18 192239 
+62.41.8.29 1 1 8613 20110525203153
+109.230.216.8 8 8 89688 20110519041407
+80.15.236.172 0 1 98166 
+60.254.154.7 0 24 865353 
+209.18.38.60 0 1 98166 
+64.145.88.14 0 2 54740 
+92.123.65.190 0 1 98166 
+198.54.202.226 2 4 77445 20110518125500
+80.15.233.37 0 10 14854 
+60.254.154.31 0 7 61600 
+64.212.198.92 0 21 131075 
+146.82.3.31 28 28 98209 20110526005247
+213.248.117.44 0 20 725749 
+92.123.155.240 14 14 73372 20110531174734
+64.145.88.45 0 20 177878 
+80.15.236.186 0 1 441 
+82.96.58.74 1 1 696 20110529115715
+83.231.150.76 1 1 0 20110528052543
+204.2.187.52 0 9 216554 
+213.248.117.71 0 3 53885 
+84.53.146.34 1 1 8184 20110527135320
+61.213.189.23 0 1 98166 
+80.15.236.154 0 12 65324 
+213.248.117.4 0 19 296774 
+61.213.189.14 0 5 4184 
+77.67.0.166 0 2 5653 
+204.2.187.86 0 2 4575 
+80.233.196.71 3 3 27750 20110518124603
+204.2.187.54 0 4 130381 
+198.54.202.218 0 4 52504 
+196.25.255.218 0 1 3744 
+80.15.233.45 0 3 5016 
+72.247.238.242 1 1 9017 20110520091556
+24.14.91.59 2 2 20299 20110523235259
+96.6.44.209 4 4 36442 20110523235256
+204.2.196.178 30 30 113382 20110523110719
+198.54.202.195 0 1 627 
+213.248.117.15 0 2 6004 
+60.254.154.13 0 2 4836 
+77.67.0.165 0 49 798635 
+80.15.233.15 0 5 12254 
+208.43.81.144 8 8 81906 20110525205313
+146.82.3.21 31 31 202706 20110531002841
+213.248.117.47 0 181 3236070 
+80.15.233.77 0 1 441 
+198.54.202.234 0 1 433 
+213.248.117.5 0 7 379048 
+63.150.131.215 1 1 4604 20110523100124
+77.67.41.126 0 1 98166 
+92.123.65.181 0 1 3744 
+213.248.117.76 0 28 602139 
+208.49.52.22 0 1 441 
+198.54.202.194 0 1 604 
+216.246.75.186 49 49 258227 20110531085420
+196.25.255.194 0 2 1926 
+64.214.226.236 8 8 47292 20110522070945
+61.213.189.4 0 4 7186 
+213.248.117.54 0 129 2592909 
+204.2.187.69 0 2 1533 
+64.145.88.54 0 4 4133 
+195.54.163.122 2 2 17458 20110524203256
+209.18.38.46 0 1 98166 
+60.254.154.29 0 18 398792 
+213.248.117.29 0 8 37768 
+80.15.233.55 0 2 56208 
+217.212.227.4 1 1 3616 20110526123648
+96.17.69.183 3 3 31121 20110528184816
+77.67.0.134 0 25 235392 
+64.145.88.47 0 6 4895 
+209.170.113.246 1 1 8613 20110530101519
+216.246.75.188 37 37 227071 20110523121210
+77.67.40.186 1 1 696 20110523120557
+64.212.198.93 0 2 52375 
+213.248.117.61 0 37 906331 
+178.32.49.75 3 3 32799 20110531172742
+217.212.227.7 1 1 8184 20110526123650
+77.67.0.174 0 29 180797 
+80.15.236.233 0 1 831 
+64.145.88.22 0 3 7032 
+77.67.0.159 0 77 907176 
+96.17.69.176 3 3 29427 20110528184814
+64.212.198.85 0 4 6038 
+80.15.233.46 0 25 185714 
+77.67.99.59 1 1 2247 20110531235426
+77.67.99.44 3 3 30555 20110531235451
+66.249.82.1 1 1 696 20110529100803
+80.15.233.85 0 9 9251 
+77.67.0.151 0 31 454738 
+64.214.226.233 8 8 61902 20110517092443
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 15
+20110517 2381 3828 16419832 38
+20110518 253 2546 9307769 20
+20110519 527 6532 36333515 52
+20110520 272 2081 11032815 21
+20110521 43 388 3045121 13
+20110522 23 68 874169 15
+20110523 487 1436 16739706 48
+20110524 279 713 5597723 23
+20110525 16 165 2830655 14
+20110526 63 617 5385136 21
+20110527 55 380 3962982 25
+20110528 22 137 2173949 18
+20110529 83 590 4953215 23
+20110530 9 54 269682 9
+20110531 154 1597 17556087 34
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 25
+5mn-15mn 16
+15mn-30mn 14
+30s-2mn 17
+2mn-5mn 14
+0s-30s 259
+30mn-1h 29
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 87
+/chat/getxml.php 2081 174743 0 1
+/style.php 305 22089249 2 11
+/admin.php 278 1308024 38 27
+/adm/index.php 252 4135759 4 5
+/ 251 910820 107 71
+/index.php 179 1576285 32 25
+/js/timthumb.php 170 1260628 26 45
+/admin/includes/rte/editor/filemanager/connectors/php/connector.php 139 27880 1 3
+/ucp.php 87 869718 3 17
+/cron.php 69 2967 1 6
+/test-category/cat_11.html 1 3803 1 0
+/chat/sounds/ta_da.mp3 3 23174 0 0
+/hotfix-rhinestones/4mm-16ss-/144-1gs-4mm-clear-hotfix-rhinestones/prod_8.html 2 8810 0 1
+/forum/ 37 137161 35 31
+/chat/settings.php 3 169374 0 0
+/chat/sounds/air_swoosh_2.mp3 3 4864 0 0
+/forum/viewforum.php 4 59060 3 2
+/chat/index.php 1 10890 0 0
+/welcome.php 39 435398 0 1
+/stats/ 1 549 0 0
+/chat/sounds/aol_receive_message.mp3 6 18884 0 0
+/admin/includes/rte/editor/dialog/fck_link.html 1 3128 0 0
+/chat/admin/index.php 1 5020 0 0
+/admin/includes/rte/editor/fckeditor.html 58 194418 2 7
+/admin/includes/rte/editor/filemanager/browser/default/browser.html 32 35451 1 0
+/stats/awstats/cgi-bin/awstats.pl 4 171187 0 0
+/rhinestone-size-chart/info_9.html 2 7207 0 1
+/hotfix-rhinestones/4mm-16ss-/cat_6.html 4 13235 1 0
+/chat/sounds/mouse_over_2.mp3 3 8212 0 0
+/chat/sounds/_default.mp3 3 5280 0 0
+/rules.php 9 160979 3 0
+/admin/includes/rte/editor/filemanager/browser/default/frmcreatefolder.html 32 22074 2 0
+/silverback-crystals/4mm-16ss-/100-4mm-pink-silverback-rhinestones/crystals/prod_16.html 14 71622 1 0
+/chat/sounds/mouse_over_1.mp3 3 4866 0 0
+/setup/install.php 14 26756 4 4
+/setup/index.php 4 5400 3 1
+/chat/sounds/activate_button.mp3 3 5280 0 0
+/chat/sounds/harp_cord.mp3 3 31908 0 0
+/saleitems/cat_saleItems.html 2 7378 0 0
+/portal.php 4 51904 0 0
+/chat/sounds/high_low_chord.mp3 3 19844 0 0
+/chat/sounds/three_notes.mp3 3 11940 0 0
+/forum/memberlist.php 5 54089 5 2
+/silverback-crystals/4mm-ab-16ss-/100-4mm-pink-ab-silverback-rhinestones/crystals/prod_15.html 1 4377 0 0
+/viewforum.php 33 538680 1 1
+/chat/flashchat.php 6 8445 0 0
+/silverback-crystals/4mm-16ss-/cat_8.html 10 42190 0 0
+/silverback-crystals/cat_3.html 1 4199 0 0
+/posting.php 21 392488 0 5
+/chat/sounds/aol_send_message.mp3 3 11522 0 0
+/forum/posting.php 8 83256 1 4
+/feed.php 35 162219 2 4
+/chat/sounds/jetsons.mp3 3 43142 0 0
+/chat/admin/cnf_config.php 5 233460 0 0
+/chat/sounds/chime.mp3 3 12354 0 0
+/admin/includes/rte/editor/dialog/fck_image/fck_image_preview.html 3 5511 0 0
+/chat/js.php 4 12972 0 0
+/chat/install.php 36 394053 0 0
+/silverback-crystals/4mm-ab-16ss-/100-4mm-violet-ab-silverback-rhinestones/crystals/prod_7.html 3 13065 0 1
+/forum/feed.php 11 60418 7 10
+/admin/includes/rte/editor/filemanager/browser/default/frmresourceslist.html 32 30264 1 0
+/memberlist.php 4 46222 0 0
+/hair-accessories/cat_10.html 2 7889 0 0
+/forum/ucp.php 67 606092 56 56
+/chat/admin/cnf_view.php 1 184 0 0
+/install/index.php 20 115575 1 1
+/chat/ajax_logout.php 3 3 0 0
+/admin/includes/rte/editor/filemanager/browser/default/frmactualfolder.html 32 19552 0 0
+/admin/includes/rte/editor/filemanager/browser/default/frmfolders.html 32 31239 2 1
+/viewtopic.php 10 132921 0 0
+/hotfix-rhinestones/4mm-ab-16ss-/cat_7.html 3 12183 0 1
+/chat/sounds/door_shut.mp3 3 8192 0 0
+/privacy.php 3 54386 0 0
+/admin/includes/rte/editor/fckdialog.html 4 29064 0 0
+/chat/preloader_settings.php 3 1011 0 0
+/forum/cron.php 2 86 0 0
+/hotfix-rhinestones/4mm-16ss-/144-1gs-4mm-siam-ruby-hotfix-rhinestones/prod_11.html 1 4396 0 0
+/silverback-crystals/4mm-ab-16ss-/100-4mm-lemon-ab-silverback-rhinestones/crystals/prod_5.html 15 66255 0 1
+/hotfix-rhinestones/cat_2.html 4 18282 1 0
+/admin/includes/rte/editor/dialog/fck_image.html 3 8166 0 0
+/admin/includes/rte/editor/filemanager/browser/default/frmresourcetype.html 32 17563 0 0
+/admin/includes/rte/editor/filemanager/browser/default/frmupload.html 32 25467 2 0
+/forum/index.php 35 403787 24 26
+/forum/style.php 3 217986 0 1
+/chat/sounds/tin_can.mp3 3 10692 0 0
+/chat/sounds/mouse_over_6.mp3 3 4034 0 0
+/silverback-crystals/4mm-ab-16ss-/cat_9.html 11 48742 1 1
+END_SIDER

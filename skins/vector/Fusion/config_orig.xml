@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+	<!-- ================== -->
+	<!-- = Settings Panel = -->
+	<!-- ================== -->
+	<panel name="settings" title="Settings" icon="ui-icon-wrench">
+		<tab name="general_settings" title="General Settings">
+			<section title="License Key">
+				<setting name="licensekey" title="License Key" module="textbox" description="License key for the theme" />
+			</section>
+			<section title="Navigation" description="">
+				<setting name="breadcrumbs" title="Breadcrumbs" module="multiselect" description="Show breadcrumb navigation on selected pages">
+					<option name="default" title="Default" />
+					<option name="home" title="Homepage" />
+					<option name="product" title="Product Pages" />
+					<option name="category" title="Category pages" />
+					<option name="saleitems" title="Sale items page" />
+					<option name="document" title="Site document pages" />
+					<option name="login" title="login page" />
+					<option name="register" title="Register page" />
+					<option name="order" title="Order pages" />
+					<option name="account" title="Account page" />
+					<option name="download" title="Download pages" />
+					<option name="giftcertificate" title="Gift certificate page" />
+					<option name="download" title="Download pages" />
+					<option name="gateway" title="Gateway page" />
+					<option name="checkout" title="Checkout pages" />
+				</setting>
+			</section>
+		</tab>
+		<tab name="image_settings" title="Image Settings">
+			<section title="Lightbox">
+				<setting name="lightbox_animation_effect" title="Display animation effect" module="select" description="Effect used to transition in and out the lightbox">
+					<option name="none" title="None" />
+					<option name="elastic" title="Elastic" default="true" />
+					<option name="fade" title="Fade" />
+				</setting>
+				<setting name="lightbox_animation_speed" title="Transition speed" module="select" description="Speed of the transition effect">
+					<option name="slow" title="Slow" />
+					<option name="normal" title="Normal" />
+					<option name="fast" title="Fast" default="true" />
+				</setting>
+				<setting name="lightbox_overlay_opacity" title="Overlay Opacity" module="textbox" default="0.85" description="Opacity for the lightbox overlay" />
+			</section>
+			<section title="Magnification">
+				<setting name="image_magnification" title="Product image magnification" module="single_switch" description="Magnifiy product image on click" default="true" />
+			</section>
+		</tab>
+		<tab name="image_slider" title="Image Sliders">
+			<section title="Settings">
+				<setting name="image_slider_animation_effect" title="Transition animation effect" module="select" description="Effect used to transition between slides">
+					<option name="slide" title="Slide" />
+					<option name="fade" title="Fade" default="true" />
+				</setting>
+				<setting name="image_slider_animation_direction" title="Slide animation direction" module="select" description="Direction to slide frames when using the slide animation">
+					<option name="horizontal" title="Horizontal" default="true" />
+					<option name="vertical" title="Vertical" />
+				</setting>				
+				<setting name="image_slider_animation_speed" title="Transition speed" module="select" description="Speed of the transition between frames">
+					<option name="slow" title="Slow" />
+					<option name="normal" title="Normal" default="true" />
+					<option name="fast" title="Fast" />
+				</setting>
+				<setting name="image_slider_frame_duration" title="Frame duration" module="textbox" default="7000" description="Time to wait before automatically transitioning to the next frame" />
+				<setting name="image_slider_autostart" title="Start automatically" module="single_switch" description="Start sliding automatically" default="true" />
+				<setting name="image_slider_pause_on_hover" title="Pause on hover" module="single_switch" description="Pause the slider on hover" default="true" />
+				<setting name="image_slider_pause_on_action" title="Pause on action" module="single_switch" description="Pause the slider when interacting with control elements" default="true" />
+				<setting name="image_slider_randomize" title="Randomize slide order" module="single_switch" description="Randomize the order in which the slides are displayed" default="false" />
+				<setting name="image_slider_loop" title="Infinite looping" module="single_switch" description="Loop when the slider reaches the final frame" default="true" />
+			</section>
+			<section title="Sliders">
+				<setting name="image_slider_home" title="Homepage Image Slider" module="image_slider" />
+				<setting name="image_slider_global" title="Global Image Slider" module="image_slider" />
+			</section>
+		</tab>
+		<tab name="tagline_slider" title="Tagline Sliders">
+			<section title="Settings">
+				<setting name="tagline_slider_animation_effect" title="Transition animation effect" module="select" description="Effect used to transition between slides">
+					<option name="none" title="None" />
+					<option name="fade" title="Fade" default="true" />
+				</setting>
+				<setting name="tagline_slider_animation_speed" title="Transition speed" module="select" description="Speed of the transition in effect">
+					<option name="slow" title="Slow" />
+					<option name="normal" title="Normal" default="true" />
+					<option name="fast" title="Fast" />
+				</setting>
+				<setting name="tagline_slider_frame_duration" title="Frame duration" module="textbox" default="3000" description="Time to wait before automatically transitioning to the next frame" />
+				<setting name="tagline_slider_pause_on_hover" title="Pause on hover" module="single_switch" description="Pause when hovering over slider, then resume when no longer hovering" default="true" />
+			</section>
+			<section title="Sliders">
+				<setting name="tagline_slider_global" title="Global Tagline Slider" module="content_slider" />
+			</section>
+		</tab>
+	</panel><!-- /settings -->
+	<!-- ================ -->
+	<!-- = Layout Panel = -->
+	<!-- ================ -->
+	<panel name="layout" title="Layout" icon="ui-icon-newwin">
+		<tab name="widgets" title="Widgets">
+			<section title="Default">
+				<setting name="page_layout_default" title="Default" module="page_layout" default="true">
+					<template name="two_column" title="Two Column">
+						<region name="header_upper" image="images/two_column_header_upper.png" title="Upper Header">
+							<widget name="topnav" title="Session" />
+						</region>
+						<region name="header_lower" image="images/two_column_header_lower.png" title="Lower Header">
+							<widget name="categories" title="Categories" />
+							<widget name="site_docs" title="Site Documents" />
+						</region>
+						<region name="sidebar_left" image="images/two_column_sidebar_left.png" title="Left Sidebar">
+							<widget name="categories" title="Categories" />
+							<widget name="random_prod" title="Featured Product" />
+							<widget name="site_docs" title="Site Documents" />
+							<widget name="mail_list" title="Mailing List" />
+							<widget name="popular_products" title="Popular Products" />
+							<widget name="sale_items" title="Sale Items" />
+							<widget name="search_form" title="Search" />
+							<widget name="session" title="Session" />
+							<widget name="shopping_cart" title="Shopping Cart" />
+							<widget name="skin_select" title="Skin Selector" />
+							<widget name="regional" title="Language &amp; Currency" />
+							<widget name="account" title="Account Navigation" />
+						</region>
+						<region name="footer" image="images/two_column_footer.png" title="Footer">
+							<widget name="categories" title="Categories" />
+							<widget name="site_docs" title="Site Documents" />
+							<widget name="mail_list" title="Mailing List" />
+							<widget name="search_form" title="Search" />
+							<widget name="session" title="Session" />
+							<widget name="skin_select" title="Skin Selector" />
+							<widget name="regional" title="Language &amp; Currency" />
+							<widget name="account" title="Account Navigation" />
+						</region>
+					</template>
+					<template name="one_column" title="One Column">
+						<region name="header_upper" image="images/one_column_header_upper.png" title="Upper Header">
+							<widget name="topnav" title="Session" />
+						</region>
+						<region name="header_lower" image="images/one_column_header_lower.png" title="Lower Header">
+							<widget name="categories" title="Categories" />
+							<widget name="site_docs" title="Site Documents" />
+						</region>
+						<region name="footer" image="images/one_column_footer.png" title="Footer">
+							<widget name="categories" title="Categories" />
+							<widget name="site_docs" title="Site Documents" />
+							<widget name="mail_list" title="Mailing List" />
+							<widget name="search_form" title="Search" />
+							<widget name="session" title="Session" />
+							<widget name="skin_select" title="Skin Selector" />
+							<widget name="regional" title="Language &amp; Currency" />
+							<widget name="account" title="Account Navigation" />
+						</region>
+					</template>
+				</setting>
+			</section>
+			<section title="Homepage">
+				<setting name="page_layout_home" title="Homepage" module="page_layout" clone="page_layout_default" usedefault="true" />
+			</section>
+			<section title="Product Pages">
+				<setting name="page_layout_product" title="Product Pages" module="page_layout" clone="page_layout_default" usedefault="true" />
+			</section>
+			<section title="Category Pages">
+				<setting name="page_layout_category" title="Category Pages" module="page_layout" clone="page_layout_default" usedefault="true" />
+			</section>
+			<section title="Site Documents">
+				<setting name="page_layout_document" title="Site Documents" module="page_layout" clone="page_layout_default" usedefault="true" />
+			</section>
+			<section title="Sale Items Page">
+				<setting name="page_layout_saleitems" title="Sale Items Page" module="page_layout" clone="page_layout_default" usedefault="true" />
+			</section>
+			<section title="Login / Registration Page">
+				<setting name="page_layout_register" title="Registration Page" module="page_layout" clone="page_layout_default" usedefault="true" />
+			</section>
+			<section title="Order Pages">
+				<setting name="page_layout_order" title="Order Pages" module="page_layout" clone="page_layout_default" usedefault="true" />
+			</section>
+			<section title="Account Page">
+				<setting name="page_layout_account" title="Account Page" module="page_layout" clone="page_layout_default" usedefault="true" />
+			</section>
+			<section title="Download Page">
+				<setting name="page_layout_download" title="Downloads Page" module="page_layout" clone="page_layout_default" usedefault="true" />
+			</section>
+			<section title="Gift Certificate Page">
+				<setting name="page_layout_giftcertificate" title="Gift Certificate Page" module="page_layout" clone="page_layout_default" usedefault="true" />
+			</section>
+			<section title="Checkout">
+				<setting name="page_layout_checkout" title="Checkout" module="page_layout" clone="page_layout_default" usedefault="true" />
+			</section>
+			<section title="Gateway">
+				<setting name="page_layout_gateway" title="Gateway" module="page_layout" clone="page_layout_default" usedefault="true" />
+			</section>
+		</tab><!-- /Page Structure -->
+		<tab name="product_listings" title="Product Listings">
+			<section title="Products Per Row">
+				<setting name="category_products_per_row" title="Category listings" module="number" min="1" max="4" default="3" description="Number of products to display per row on category pages" />
+				<setting name="latest_products_per_row" title="Latest products" module="number" min="1" max="4" default="3" description="Number of latest products to display per row" />
+				<setting name="related_products_per_row" title="Related Products" module="number" min="1" max="4" default="3" description="Number of related products to display per row" />
+			</section>
+			<section title="Product Listings Alignment">
+				<setting name="align_product_actions" title="Align add to cart buttons" module="single_switch" description="Align add to cart buttons in each row of product listings" default="true" />
+			</section>
+			<section title="Featured Products">
+				<setting name="featured_products_add_to_cart" title="Featured products add to cart button" module="single_switch" default="true" description="Display add to cart buttons in featured products widget" />
+			</section>
+			<section title="Sale Items">
+				<setting name="sale_products_add_to_cart" title="Sale items add to cart buttons" module="single_switch" default="true" description="Display add to cart buttons in sale items widget" />
+			</section>
+			<section title="Popular Products">
+				<setting name="sale_products_add_to_cart" title="Popular products add to cart buttons" module="single_switch" default="true" description="Display add to cart buttons in popular products widget" />
+			</section>
+		</tab><!-- /Product Listings -->
+	</panel><!-- /layout -->
+	<!-- =============== -->
+	<!-- = Style Panel = -->
+	<!-- =============== -->
+	<panel name="style" title="Style" icon="ui-icon-image">
+		<tab name="colors" title="Colors">
+			<section title="Status">
+				<setting name="custom_colors" title="Custom colors" module="single_switch" default="false" description="Enable custom colors defined below" />
+			</section>
+			<section title="Standard Text">
+				<setting name="lessvar_textColor" title="Default text color" module="color" default="#333333" description="Default color to use for ordinary text" />
+				<setting name="lessvar_linkColor" title="Default link color" module="color" default="#0088CC" description="Default color to use for ordinary links" />
+				<setting name="lessvar_linkColorHover" title="Default link hover color" module="color" default="#005580" description="Default color to use when hovering over ordinary links" />
+			</section>
+			<section title="Page Background">
+				<setting name="lessvar_bodyBackground" title="Page background color" module="color" default="#F2F2F2" description="Background color for page" />
+				<setting name="lessvar_bodyBackgroundImage" title="Page background image" module="image_select" directory="skins/{SKIN}/images/backgrounds" default="" description="Background image for the page" />
+				<setting name="lessvar_bodyBackgroundRepeat" title="Page background repeat" module="select" default="" description="Background image tiling for the page">
+					<option name="no-repeat" title="None" />
+					<option name="repeat" title="Tile" default="true" />
+					<option name="repeat-x" title="Repeat Horizontally" />
+					<option name="repeat-y" title="Repeat Vertically" />
+				</setting>
+				<setting name="lessvar_bodyBackgroundPosition" title="Page background position" module="select" default="" description="Background image position for the page">
+					<option name="left top" title="Top Left" default="true" />
+					<option name="left center" title="Center Left" />
+					<option name="left bottom" title="Bottom Left" />
+					<option name="right top" title="Top Right" />
+					<option name="right center" title="Center Right" />
+					<option name="right bottom" title="Bottom Right" />
+					<option name="center top" title="Top Center" />
+					<option name="center center" title="Center" />
+					<option name="center bottom" title="Bottom Center" />
+				</setting>
+				<setting name="lessvar_pageShadowOpacity" title="Page shadow opacity" module="textbox" default="0.3" description="Opacity for the surrounding page shadow" />
+				<setting name="lessvar_pageShadowBlur" title="Page shadow blur distance" module="textbox" default="12px" description="Blur distance for the surrounding page shadow" />
+			</section>
+			<section title="Upper Header">
+				<setting name="lessvar_headertopBackground" title="Upper header background color" module="color" default="#4B4F53" description="Background color for the upper page header" />
+				<setting name="lessvar_headertopOpacity" title="Upper header background opacity" module="textbox" default="1" description="Opacity for the upper page header background" />
+				<setting name="lessvar_headertopColor" title="Upper header text color" module="color" default="#FFFFFF" description="Text color upper page header" />
+			</section>
+			<section title="Lower Header">
+				<setting name="lessvar_headerbottomBackground" title="Lower header background color" module="color" default="#FFFFFF" description="Background color for the lower page header" />
+				<setting name="lessvar_headerbottomColor" title="Lower header text color" module="color" default="#798289" description="Text color for lower header" />
+			</section>
+			<section title="Upper Footer">
+				<setting name="lessvar_footertopBackground" title="Upper footer background color" module="color" default="#F2F2F2" description="Background color for the upper page footer" />
+				<setting name="lessvar_footertopColor" title="Upper footer text color" module="color" default="#666666" description="Text color for the upper page footer" />
+			</section>
+			<section title="Lower Footer">
+				<setting name="lessvar_footerbottomBackground" title="Lower footer background color" module="color" default="#FFFFFF" description="Background color for the lower page footer" />
+				<setting name="lessvar_footerbottomColor" title="Lower footer text color" module="color" default="#666666" description="Text color for the lower page footer" />
+			</section>
+			<section title="Content Headings">
+				<setting name="lessvar_contentheaderBackground" title="Content heading background color" module="color" default="#F5F5F5" description="Background color for content headings" />
+				<setting name="lessvar_contentheaderColor" title="Content heading text color" module="color" default="#33383F" description="Text color for content headings" />
+			</section>
+			<section title="Subcategory Bar">
+				<setting name="lessvar_subcatBackground" title="Subcategory bar background color" module="color" default="#EFf6FC" description="Background color for subcategory bar" />
+				<setting name="lessvar_subcatColor" title="Subcategory bar link color" module="color" default="#0088CC" description="Link color for subcategory bar" />
+				<setting name="lessvar_subcatColorHover" title="Subcategory bar link hover color" module="color" default="#005580" description="Hover link color for subcategory bar" />
+			</section>
+			<section title="Buttons">
+				<setting name="lessvar_btnBackground" title="Standard button background color" module="color" default="#FFFFFF" description="Background color for standard buttons" />
+				<setting name="lessvar_btnPrimaryBackground" title="Primary button background color" module="color" default="#0088CC" description="Background color for primary buttons" />
+				<setting name="lessvar_btnInfoBackground" title="Information button background color" module="color" default="#5BC0DDE" description="Background color for information buttons" />
+				<setting name="lessvar_btnSuccessBackground" title="Success button background color" module="color" default="#62C462" description="Background color for success buttons" />
+				<setting name="lessvar_btnWarningBackground" title="Warning button background color" module="color" default="#FAA732" description="Background color for warning buttons" />
+				<setting name="lessvar_btnDangerBackground" title="Danger button background color" module="color" default="#EE5F5B" description="Background color for danger buttons" />
+				<setting name="lessvar_btnInverseBackground" title="Inverse button background color" module="color" default="#555555" description="Background color for inverse buttons" />
+			</section>
+			<section title="Sale Badge">
+				<setting name="lessvar_saleBadgeBackground" title="Sale badge background color" module="color" default="#9D261D" description="Background color for sale badges" />
+				<setting name="lessvar_saleBadgeColor" title="Sale badge text color" module="color" default="#FFFFFF" description="Text color for sale badges" />
+			</section>
+			<section title="CubeCart Credits">
+				<setting name="lessvar_cubecartCreditsColor" title="CubeCart credits text color" module="color" default="#999999" description="Color to use for CubeCart credits text" />
+			</section>
+		</tab>
+		<tab name="dimensions" title="Dimensions">
+			<section title="Page Dimensions" description="">
+				<setting name="page_max_width" title="Maximum page width" module="textbox" default="1200px" description="Maximum fluid page width" />
+				<setting name="page_min_width" title="Minimum page width" module="textbox" default="940px" description="Minimum fluid page width (excludes small-screen devices such as tables and smartphones)" />
+			</section>
+		</tab>
+	</panel><!-- /style -->
+	<!-- ================== -->
+	<!-- = Transfer Panel = -->
+	<!-- ================== -->
+	<panel name="transfer" title="Transfer" icon="ui-icon-transferthick-e-w">
+		<tab name="import_export_settings" title="Import / Export">
+			<section title="Import">
+				<setting name="import_settings" title="Import settings for this theme" module="import_settings" description="Import settings for this theme.  All existing settings for this theme will be erased." />
+			</section>
+			<section title="Export">
+				<setting name="export_settings" title="Export settings for this theme" module="export_settings" description="Export all settings configured by Fusion for this skin.  Particularly useful for quickly transfering settings." />
+			</section>
+		</tab>
+	</panel>
+</config>

@@ -1,0 +1,27 @@
+# Begin default subdomain redirect #
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^pnpdance.com
+RewriteRule ^(.*)$ http://forum.pnpdance.com/$1 [R=permanent,L]
+
+RewriteCond %{HTTP_HOST} ^yousaveuk.org
+RewriteRule ^(.*)$ http://www.yousaveuk.org/$1 [R=permanent,L]
+
+
+# End default subdomain redirect #
+ErrorDocument 400 /index.php?_a=error&code=400
+ErrorDocument 401 /index.php?_a=error&code=401
+ErrorDocument 403 /index.php?_a=error&code=403
+ErrorDocument 404 /index.php?_a=error&code=404
+ErrorDocument 500 /index.php?_a=error&code=503
+ErrorDocument 501 /index.php?_a=error&code=501
+ErrorDocument 502 /index.php?_a=error&code=502
+
+## File Security
+<FilesMatch "\.(htaccess)$">
+ Order Allow,Deny
+ Deny from all
+</FilesMatch>
+
+#### Apache directory listing rules ####
+DirectoryIndex index.php index.htm index.html
+IndexIgnore *

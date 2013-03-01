@@ -1,0 +1,450 @@
+/*
+Theme Name: Cherry Dreams
+Description: A cute and vibrant theme by <a href="http://www.arlain.net">Arlain</a>
+Version: 0.3
+Author: Carolina Canchila
+Author URI: http://www.arlain.net/
+Tags: fixed-width, two-columns, pink, fixed-width, right-sidebar 
+*/
+
+* {
+ padding:0;
+ margin:0;
+}
+
+/* ----------- WordPress Basics ----------- */
+
+.aligncenter { 
+	margin-left: auto; 
+	margin-right: auto; 
+}
+.alignleft { 
+	float: left; 
+	margin: 5px 15px 10px 0; 
+}
+.alignright { 
+	float: right; 
+	margin: 5px 0 10px 15px; 
+}
+.wp-caption {
+   border: 1px solid #F6E5ED;
+   text-align: center;
+   background-color: #F6E5ED;
+   padding-top: 4px;
+   margin: 10px;
+   -moz-border-radius: 3px;
+   -khtml-border-radius: 3px;
+   -webkit-border-radius: 3px;
+   border-radius: 3px;
+}
+.wp-caption img {
+   margin: 0;
+   padding: 0;
+   border: 0 none;
+}
+.wp-caption p.wp-caption-text {
+   font-size: 11px;
+   line-height: 17px;
+   padding: 0 4px 5px;
+   margin: 0;
+   color:#333;
+}
+.acronym, abbr {
+	border-bottom: 1px dotted #5B1E00;
+}
+acronym, abbr, span.caps {
+	cursor: help;
+	letter-spacing: 10px;
+}
+code {
+	font-size: 1em;
+	font-style: italic;
+}
+blockquote {
+	margin: 10px 15px 5px 35px;
+	padding: 0 0 0 25px;
+	background: #F6E5ED;
+	font-size: 0.8em;	
+	}
+cite {
+	font-size: 0.8em;
+	font-style: normal;
+}
+br {
+	padding: 0;
+	margin: 0;
+}
+pre, code {
+	width: 100%;
+	overflow: auto;
+	font-size: 1em;
+}
+
+/* ----------- Links ----------- */
+
+a {
+	color:#C05083;
+	text-decoration:none;
+}
+a:hover {
+	color:#F6E5ED;
+}
+a img {
+	border: none;
+}
+
+/* ----------- Basics ----------- */
+
+body{
+	background:#F5E4EC url(images/background.png) repeat-x;
+	font-family: "Trebuchet MS";
+	color:#999;
+	font-size:70.5%;
+}
+#container{
+	pading:0;
+	margin:0;
+	background:url(images/cont_back.png) repeat-y;
+	width:980px;
+	margin:0 auto;
+	text-align:center;
+}
+
+/* ----------- Header ----------- */
+
+#header{
+	background:url(images/header.png) no-repeat;
+	width:980px;
+	height:220px;
+}
+#header h1{
+	text-align:left;
+	color:#AA1625;
+	font-size:6em;
+	padding:20px 0 0 160px;
+}
+#header a{
+	color:#AA1625;
+	text-decoration:none;
+}
+#header a:hover {
+	color:#fff;
+}
+#search_form{
+	text-align:left;
+	padding:15px 0 0 160px;
+}
+.description{
+	text-align:left;
+	color:#AA1625;
+	font-size:1.4em;
+	padding:0 0 0 160px;
+}
+/* ----------- Menu ----------- */
+
+#navigation {
+	margin:0;
+	padding:0;
+	list-style:none;
+	padding:30px 0 0 45px;
+	float:left;
+}
+#navigation li {
+	margin:0;
+	padding:0;
+	float:left;
+	background: url(images/dot.gif) no-repeat 0px 8px;
+}
+#navigation li a {
+	display:block;
+	padding:0 18px;
+	text-decoration:none;
+	font-size:18px;
+	font-weight: bold;
+	color:#C05083;
+	text-align: center;
+}
+#navigation li a:hover {
+	color:#F2DAE5;
+}
+.img_rss{
+	float:right;
+	position: relative;
+	top:38px; 
+	right:243px;
+}
+
+/* ----------- Content ----------- */
+
+#content{
+	width:650px;
+	float:left;
+	text-align:left;
+	padding:0 5px 0 45px;
+}
+#post{
+	margin:10px 0 0 0;
+	background:url(images/post_top.png) no-repeat right top;
+}
+#post p{
+	margin:10px 0 0 0;
+}
+#post_title h2{
+	font-size:1.8em;
+	text-align:left;
+	padding:5px 0 0 70px;
+}
+#post_title p{
+	margin:0;
+}
+.end_post{
+	background:url(images/line.png) no-repeat;
+	padding:15px 0 0 0;
+}
+.autor{
+	font-size:1.3em;
+	text-align:lefy;
+	padding:0 0 0 70px;
+}
+.info{
+	text-align:left;
+	padding:0 0 25px 70px;
+}
+.postmetadata{
+	background:url(images/tags.png) no-repeat;
+	padding:5px 5px 5px 10px;
+	margin:15px 0;
+}
+
+/* ----------- Sidebar ----------- */
+
+#sidebar{
+	margin:0 20px 0 0;
+	width:226px;
+	float:right;
+	text-align:left;
+}
+#sidebar h3{
+	margin:10px 0 0 0;
+	padding: 5px 0 0 38px;
+	height:30px;
+	font-size: 1.7em;
+	font-weight:bold;
+	background:url(images/titles.png) no-repeat;
+	color:#AA1625;
+}
+#sidebar li{
+	padding:1px 0 0 45px;
+	background: url(images/dot_side.png) no-repeat;
+	list-style:none;
+	background-position: 25px 2px;
+}
+#block{
+	width:150px;
+	text-align:left;
+}
+
+/* ----------- Calendar ----------- */
+#calendar_wrap{
+	padding:0 0 0 18px;
+}
+#calendar_wrap a {
+ }
+#calendar_wrap .pad { 
+	background: none; 
+}
+#calendar_wrap #prev {
+	text-align:left; 
+	background: none; 
+}
+#calendar_wrap #next { 
+	text-align:right;
+	background: none; 
+}
+#calendar_wrap table { 
+	width: 90%; 
+	margin: 0;
+}
+#calendar_wrap table th { 
+	width: 14.2%; 
+}
+#calendar_wrap table td { 
+	width: 14.2%; 
+	background: #F0D5E1; 
+	text-align: center; 
+}
+
+/* ----------- Search ----------- */
+
+#search{
+	border:1px solid #F6E5ED;
+	background:#F6E5ED;
+}
+#searchform{
+	padding:0;
+	margin:5px;
+}
+#searchform #s{
+	padding:2px;
+	border:1px solid #C05083;
+	color:#C05083;
+	background:#F6E5ED;
+}
+input{
+	padding:0;
+	border:1px solid #C05083;
+	color:#C05083;
+	background:#F6E5ED;
+	margin:2px 0;
+}
+textarea{
+	width:570px;
+	padding:0;
+	border:1px solid #C05083;
+	color:#C05083;
+	background:#F6E5ED;
+}
+
+/* ----------- Navigations ----------- */
+
+.navigation{
+	background:url(images/navigation.png) no-repeat;
+	height:35px;
+	font-size:1em;
+	padding:3px 0 0 0;
+	margin:0;
+}
+.navigation_single{
+	height:40px;
+	background:url(images/nav_single.png) no-repeat;
+}
+.alignleft_single { 
+	float: left; 
+	margin: 10px 15px 10px 70px; 
+}
+.alignright_single { 
+	float: right; 
+	margin: 10px 70px 10px 15px; 
+}
+
+/* ----------- Comments ----------- */
+
+.responses{
+	background:url(images/responses.png) no-repeat;
+	height:35px;
+	font-size:1.2em;
+	font-weight:bold;
+	padding:7px 0 0 15px;
+	margin:10px 0;
+}
+.commentlist{
+	background:url(images/comment_back.png) repeat-y;
+}
+.comments_top{
+	background:url(images/comment_top.png) no-repeat;
+}
+.comments_autor{
+	padding:15px 20px 0 25px;
+}
+.comments_bot{
+	background:url(images/comment_bot.png) bottom no-repeat;
+	padding:0 25px 15px 15px;
+}
+.gravatar{
+	border:1px solid #333;
+	padding:2px;
+	margin:15px 25px 0 15px;
+	float:left;
+	height:40px;
+	width:40px;
+}
+.leave{
+	padding:10px 0 0 20px;
+	font-weight:bold;
+	font-size:1.4em;
+}
+.form{
+	padding:10px 0 0 40px;
+}
+.xhtml{
+	padding:15px 0 0 30px;
+}
+
+/* ----------- Form Labels ----------- */
+
+label{
+	font-weight:bold;
+	color:#C05083;
+}
+fieldset{
+	padding:1.4em;
+	margin:0 0 1.5em 0;
+	border:1px solid #ccc;
+}
+legend{
+	font-weight:bold;
+	font-size:1.2em;
+}
+
+/* ----------- Lists ----------- */
+
+ul,ol{
+	margin:0 5px 5px 5px;
+}
+ul{
+	list-style-type:disc;
+}
+ol{
+	list-style-type:decimal;
+}
+dl{
+	margin:0 0 5px 0;
+}
+dl dt{
+	font-weight:bold;
+}
+dd{
+	margin-left:5px;
+}
+
+/* ----------- Tables ----------- */
+
+table{
+	margin-bottom:1.4em;
+	width:100%;
+}
+th{
+	font-weight:bold;
+	background:#EDCBDA;
+	color:#C05083;
+}
+th,td{
+	padding:4px 10px 4px 5px;
+}
+tr.even td{
+	background:#F6E5ED;
+}
+tfoot{
+	font-style:italic;
+}
+caption{
+	background:#E3B0C8;
+	color:#C05083;
+}
+
+/* ----------- Footer ----------- */
+
+#footer{
+	background:url(images/footer.png) no-repeat bottom;
+	height:60px;
+	padding:21px 0 0 45px;
+	text-align:left;
+}
+#footer p{
+	padding:20px 0 0 0;
+}
+
+/* ----------- Fixies ----------- */
+.clear{
+	clear:both;
+}
