@@ -809,7 +809,13 @@ class Catalogue {
 		$product['price_unformatted']		= $product['price'];
 		$product['sale_price_unformatted']	= $product['sale_price'];
 
-		$product['price']		= $GLOBALS['tax']->priceFormat($product['price']);
+		//markscarts edited to replace 0.00 with text
+         if ($product['price'] == "0.00") { 
+             $product['price'] = "POA"; 
+         } else {
+             //original line of code
+             $product['price']        = $GLOBALS['tax']->priceFormat($product['price']); 
+         }
 		$product['sale_price']	= $GLOBALS['tax']->priceFormat($product['sale_price']);
 
 		$product['ctrl_purchase'] = ($GLOBALS['session']->get('hide_prices')) ? false : true;
